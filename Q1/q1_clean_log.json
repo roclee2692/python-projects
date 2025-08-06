@@ -1,0 +1,10 @@
+{
+  "input_rows": 4083,
+  "output_rows": 4083,
+  "duplicates_removed": 0,
+  "rrr_neg_clipped": 0,
+  "rrr_upper_clipped": 0,
+  "missing_columns_not_found": [
+    "5cm_SM"
+  ]
+}

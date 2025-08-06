@@ -1,0 +1,22 @@
+{
+  "input_rows": 512,
+  "output_rows": 512,
+  "date_min": "2020-08-07",
+  "date_max": "2021-12-31",
+  "removed_date_parse_failed": 0,
+  "removed_low_obs": 0,
+  "kept_columns": [
+    "date",
+    "sm5",
+    "sm10",
+    "sm20",
+    "sm40",
+    "st5",
+    "st10",
+    "st20",
+    "st40",
+    "nodes",
+    "obs48"
+  ],
+  "missing_required_columns": []
+}

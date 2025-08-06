@@ -1,0 +1,33 @@
+{
+  "rows_total": 512,
+  "rows_trainable": 510,
+  "split_train": 408,
+  "split_test": 102,
+  "features": [
+    "T_lag1",
+    "U_lag1",
+    "Ff_lag1",
+    "VV_lag1",
+    "Td_lag1",
+    "VPD_lag1",
+    "RRR_lag1",
+    "Po_lag1",
+    "P_lag1",
+    "Pa_lag1",
+    "T_max_lag1",
+    "T_min_lag1",
+    "RRR_sum3",
+    "RRR_sum7",
+    "P_diff1_lag1",
+    "Po_diff1_lag1"
+  ],
+  "removed_full_nan": [
+    "ff10"
+  ],
+  "metrics": {
+    "MAE": 0.03250283812234816,
+    "RMSE": 0.039701298729809514,
+    "R2": 0.6490281945109979
+  },
+  "model": "LightGBM"
+}

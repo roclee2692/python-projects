@@ -1,0 +1,5 @@
+url="https://xy218x7x125x3xy2408y8738y4000y11y0y1y0y100xy.mcdn.bilivideo.cn:4483/upgcxcode/29/48/577974829/577974829-1-100027.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1741095818&gen=playurlv2&os=mcdn&oi=0&trid=000082a341872e054fccb477724841ee554dp&mid=519251443&platform=pc&og=hw&upsig=41c232983311b259b40c402084671bd0&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform,og&mcdnid=50018064&bvc=vod&nettype=0&orderid=0,3&buvid=D314E2C0-8D35-24B7-6554-B555390C786692076infoc&build=0&f=p_0_0&agrr=0&bw=359535&logo=A0020000"
+import requests
+res=requests.get(url)
+res.status_code#响应码 200 successful
+open("电影.mp4","wb").write(res.content)
