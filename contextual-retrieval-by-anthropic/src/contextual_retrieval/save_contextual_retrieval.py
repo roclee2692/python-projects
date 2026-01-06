@@ -14,6 +14,9 @@ from typing import List, Dict, Any, Optional
 from dataclasses import dataclass, asdict
 import hashlib
 
+# Constants
+MIN_CHUNK_RATIO = 0.5  # Minimum ratio of chunk size to break at sentence boundary
+
 
 @dataclass
 class DocumentChunk:
@@ -66,7 +69,7 @@ class ContextualRetrieval:
             A unique chunk ID
         """
         hash_input = f"{doc_id}_{index}_{content[:100]}"
-        return hashlib.md5(hash_input.encode()).hexdigest()
+        return hashlib.sha256(hash_input.encode()).hexdigest()
     
     def _chunk_document(self, document: str, chunk_size: int = 500, 
                        overlap: int = 50) -> List[str]:
@@ -95,17 +98,21 @@ class ContextualRetrieval:
                 last_newline = chunk.rfind('\n')
                 break_point = max(last_period, last_newline)
                 
-                if break_point > chunk_size * 0.5:  # Only break if we're past halfway
+                # Only break if we found a boundary and we're past the minimum ratio
+                if break_point > chunk_size * MIN_CHUNK_RATIO:
                     chunk = chunk[:break_point + 1]
                     end = start + break_point + 1
             
-            chunks.append(chunk.strip())
+            # Only append non-empty chunks
+            if chunk.strip():
+                chunks.append(chunk.strip())
             start = end - overlap
         
         return chunks
     
     def _generate_context(self, chunk: str, document: str, 
-                         document_title: str = "") -> str:
+                         document_title: str = "", chunk_index: int = 0,
+                         total_chunks: int = 1) -> str:
         """
         Generate contextual information for a chunk
         
@@ -116,6 +123,8 @@ class ContextualRetrieval:
             chunk: The text chunk
             document: The full document
             document_title: Optional title of the document
+            chunk_index: Index of this chunk in the document
+            total_chunks: Total number of chunks in the document
             
         Returns:
             Contextual description of the chunk
@@ -127,16 +136,17 @@ class ContextualRetrieval:
         else:
             context += "a document. "
         
-        # Find position in document
-        chunk_pos = document.find(chunk)
-        doc_length = len(document)
-        
-        if chunk_pos < doc_length * 0.3:
-            context += "This is from the beginning of the document. "
-        elif chunk_pos > doc_length * 0.7:
-            context += "This is from the end of the document. "
+        # Determine position based on chunk index rather than text search
+        if total_chunks > 1:
+            position_ratio = chunk_index / (total_chunks - 1) if total_chunks > 1 else 0
+            if position_ratio < 0.3:
+                context += "This is from the beginning of the document. "
+            elif position_ratio > 0.7:
+                context += "This is from the end of the document. "
+            else:
+                context += "This is from the middle of the document. "
         else:
-            context += "This is from the middle of the document. "
+            context += "This is the complete document. "
         
         # Add a snippet of what the chunk discusses
         first_sentence = chunk.split('.')[0] if '.' in chunk else chunk[:100]
@@ -172,7 +182,10 @@ class ContextualRetrieval:
         # Create contextual chunks
         for i, chunk_text in enumerate(chunks):
             # Generate context for this chunk
-            context = self._generate_context(chunk_text, document, document_title)
+            context = self._generate_context(
+                chunk_text, document, document_title, 
+                chunk_index=i, total_chunks=len(chunks)
+            )
             
             # Create chunk object
             chunk_id = self._generate_chunk_id(chunk_text, doc_id, i)
