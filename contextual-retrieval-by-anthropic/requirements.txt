@@ -1,0 +1,9 @@
+# No external dependencies required
+# This project uses only Python standard library
+
+# For future enhancements, consider:
+# - openai>=1.0.0  # For LLM-based context generation
+# - anthropic>=0.5.0  # For Claude integration
+# - sentence-transformers>=2.0.0  # For embedding generation
+# - chromadb>=0.4.0  # For vector database
+# - faiss-cpu>=1.7.0  # For efficient similarity search
