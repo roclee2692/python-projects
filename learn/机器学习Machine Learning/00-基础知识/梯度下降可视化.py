@@ -40,7 +40,7 @@ def example1_single_variable_animation():
     # 梯度下降
     w, b = w_init, b_init
     for i in range(n_iterations):
-        # 预测
+        learning_rate = 0.01
         y_pred = w * X + b
 
         # 损失
@@ -70,7 +70,8 @@ def example1_single_variable_animation():
     # 左图：数据拟合过程
     ax1 = axes[0]
     ax1.scatter(X, y, color='blue', s=50, alpha=0.6, label='训练数据')
-    line, = ax1.plot([], [], 'r-', linewidth=2, label='拟合直线')
+    # 设置更醒目的初始拟合线，确保第一帧即可见
+    line, = ax1.plot([], [], color='crimson', linewidth=3, zorder=5, label='拟合直线')
     text = ax1.text(0.02, 0.95, '', transform=ax1.transAxes,
                     verticalalignment='top', fontsize=12,
                     bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
@@ -80,7 +81,12 @@ def example1_single_variable_animation():
     ax1.legend()
     ax1.grid(True, alpha=0.3)
     ax1.set_xlim(0, 11)
-    ax1.set_ylim(min(y)-5, max(y)+5)
+    ax1.set_ylim(min(min(y)-5, -5), max(y)+5)
+
+    # 初始化直线位置，避免部分后端首帧不可见
+    X_line_init = np.array([0, 11])
+    y_line_init = w_history[0] * X_line_init + b_history[0]
+    line.set_data(X_line_init, y_line_init)
 
     # 右图：损失函数下降
     ax2 = axes[1]
@@ -124,7 +130,7 @@ def example1_single_variable_animation():
         return line, text, cost_line, cost_point
 
     anim = FuncAnimation(fig, animate, frames=len(w_history),
-                        interval=200, blit=True, repeat=True)
+                        interval=200, blit=False, repeat=True)
 
     plt.tight_layout()
     plt.show()
@@ -161,16 +167,15 @@ def example2_3d_loss_surface():
             y_pred = w_val * X + b_val
             J[i, j] = (1/(2*m)) * np.sum((y_pred - y)**2)
 
-    # 梯度下降路径
+    # 梯度下降路径（保证 w、b、J 的长度一致）
     w, b = 0.0, 0.0
     learning_rate = 0.1
-    path_w, path_b, path_j = [w], [b], []
+    init_pred = w * X + b
+    init_cost = (1/(2*m)) * np.sum((init_pred - y)**2)
+    path_w, path_b, path_j = [w], [b], [init_cost]
 
     for _ in range(30):
         y_pred = w * X + b
-        cost = (1/(2*m)) * np.sum((y_pred - y)**2)
-        path_j.append(cost)
-
         dw = (1/m) * np.sum((y_pred - y) * X)
         db = (1/m) * np.sum(y_pred - y)
 
@@ -179,6 +184,10 @@ def example2_3d_loss_surface():
 
         path_w.append(w)
         path_b.append(b)
+
+        y_pred_new = w * X + b
+        cost_new = (1/(2*m)) * np.sum((y_pred_new - y)**2)
+        path_j.append(cost_new)
 
     # 创建图形
     fig = plt.figure(figsize=(18, 6))
@@ -207,6 +216,7 @@ def example2_3d_loss_surface():
     ax2.set_title('损失函数等高线图')
     ax2.legend()
     ax2.grid(True, alpha=0.3)
+    
 
     # 参数变化
     ax3 = fig.add_subplot(133)
@@ -275,13 +285,13 @@ def example3_learning_rate_comparison():
         # 添加收敛信息
         if len(cost_history) > 1:
             if cost_history[-1] < 1:
-                status = "✓ 收敛"
+                status = "收敛"
                 text_color = 'green'
             elif cost_history[-1] > cost_history[0]:
-                status = "✗ 发散"
+                status = "发散"
                 text_color = 'red'
             else:
-                status = "⚠ 收敛慢"
+                status = "收敛慢"
                 text_color = 'orange'
 
             ax.text(0.7, 0.9, status, transform=ax.transAxes,
@@ -297,9 +307,9 @@ def example3_learning_rate_comparison():
 
     print("\n总结：")
     print("- 学习率太小(0.01)：收敛太慢")
-    print("- 学习率适中(0.1)：收敛快且稳定 ✓")
+    print("- 学习率适中(0.1)：收敛快且稳定")
     print("- 学习率较大(0.5)：可能震荡")
-    print("- 学习率太大(0.9)：可能发散 ✗")
+    print("- 学习率太大(0.9)：可能发散")
 
 
 # ==================== 示例4：批量 vs 随机梯度下降 ====================
@@ -362,8 +372,8 @@ def example4_batch_vs_stochastic():
 
         return w, b, cost_history
 
-    # 训练两个模型
-    w_bgd, b_bgd, cost_bgd = batch_gd(X, y, lr=0.1, n_iter=50)
+    # 训练两个模型（对当前数据尺度，0.1 容易发散）
+    w_bgd, b_bgd, cost_bgd = batch_gd(X, y, lr=0.01, n_iter=50)
     w_sgd, b_sgd, cost_sgd = stochastic_gd(X, y, lr=0.01, n_epochs=50)
 
     # 可视化
