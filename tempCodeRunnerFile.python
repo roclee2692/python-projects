@@ -1,0 +1,24 @@
+# Task 6: Implement Non-refresh Text Progress Bar and Single-line Dynamic Refresh Progress Bar
+import time
+
+print("=== Non-refresh Text Progress Bar ===")
+# 1. Non-refresh progress bar (print line by line)
+for i in range(11):
+    percent = i * 10
+    # Progress bar characters: █ represents completed, ░ represents incomplete
+    bar = "█" * i + "░" * (10 - i)
+    print(f"[{bar}]/{/}{percent}%")
+    time.sleep(0.2)  # Simulate time-consuming operation
+
+print("\n=== Single-line Dynamic Refresh Progress Bar ===")
+# 2. Single-line dynamic refresh progress bar (\r returns to line start, 
+# end="" disables newline, flush=True forces immediate output)
+start_time = time.perf_counter()  # Record start time
+for i in range(101):
+    percent = i
+    bar = "█" * (i // 5) + "░" * (20 - i // 5)
+    elapsed_time = time.perf_counter() - start_time
+    # Core technique: \r for cursor return, end="" to disable newline, flush=True for immediate output
+    print(f"\r[{bar}] {percent:3d}%  Time elapsed: {elapsed_time:.2f}s", end="", flush=True)
+    time.sleep(0.05)  # Simulate time-consuming operation
+print()  # Add newline after loop ends
