@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import (accuracy_score, precision_score, recall_score,
                              f1_score, confusion_matrix, classification_report,
                              roc_curve, roc_auc_score, precision_recall_curve)
-from sklearn.datasets import make_classification, load_breast_cancer
+from sklearn.datasets import make_classification, load_breast_cancer, load_iris
 import seaborn as sns
 import pandas as pd
 
@@ -174,15 +174,33 @@ def evaluate_classification(y_true, y_pred, y_proba=None, model_name="模型"):
 # ========== 3. 示例：二分类基础 ==========
 
 def example1_binary_classification():
-    """示例1：基础二分类"""
+    """示例1：基础二分类 - Iris真实数据"""
     print("="*60)
-    print("示例1：基础二分类")
+    print("示例1：基础二分类 - Iris花卉分类（真实数据）")
     print("="*60)
 
-    # 生成数据
-    X, y = make_classification(n_samples=500, n_features=2, n_redundant=0,
-                               n_informative=2, n_clusters_per_class=1,
-                               random_state=42)
+    # 加载真实数据：Iris
+    iris = load_iris()
+    X_full = iris.data
+    y_full = iris.target
+    feature_names = iris.target_names
+    features = iris.feature_names
+    
+    # 只取Setosa(0) vs Versicolor(1)的二分类任务
+    mask = y_full < 2
+    X = X_full[mask]
+    y = y_full[mask]
+    
+    print(f"\n📊 数据信息:")
+    print(f"样本数: {X.shape[0]}")
+    print(f"特征数: {X.shape[1]}")
+    print(f"特征名称: {list(features)}")
+    print(f"分类任务: {feature_names[0]} vs {feature_names[1]}")
+    print(f"类别分布: {feature_names[0]}={np.sum(y==0)}, {feature_names[1]}={np.sum(y==1)}")
+    print(f"\n特征含义:")
+    for i, name in enumerate(features):
+        print(f"  特征{i+1}: {name} (如：花的{name})")
+    print()
 
     # 划分数据
     X_train, X_test, y_train, y_test = train_test_split(
@@ -215,8 +233,19 @@ def example1_binary_classification():
 
     evaluate_classification(y_test, y_pred_sklearn, y_proba_sklearn, "sklearn")
 
-    # 可视化决策边界
-    plot_decision_boundary(X_test_scaled, y_test, model_sklearn, "sklearn逻辑回归决策边界")
+    # 可视化决策边界（只用前两个特征）
+    X_2d = X[:, :2]  # 只用前两个特征来画图
+    X_train_2d, X_test_2d = X_train[:, :2], X_test[:, :2]
+    
+    # 用前两个特征重新训练sklearn模型用于可视化
+    model_sklearn_2d = LogisticRegression()
+    scaler_2d = StandardScaler()
+    X_train_2d_scaled = scaler_2d.fit_transform(X_train_2d)
+    X_test_2d_scaled = scaler_2d.transform(X_test_2d)
+    model_sklearn_2d.fit(X_train_2d_scaled, y_test)
+    
+    plot_decision_boundary(X_test_2d_scaled, y_test, model_sklearn_2d, 
+                          f"sklearn逻辑回归决策边界\n({iris.feature_names[0]} vs {iris.feature_names[1]})")
 
     # 可视化评估指标
     plot_confusion_matrix(y_test, y_pred_sklearn)
@@ -530,3 +559,4 @@ if __name__ == "__main__":
     print("\n" + "="*60)
     print("✅ 所有示例运行完成！")
     print("="*60)
+''

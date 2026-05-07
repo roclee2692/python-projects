@@ -66,11 +66,11 @@ The experiment produced the following test-set metrics:
 测试集上的实验指标如下：
 
 | Metric / 指标 | Value / 数值 |
-| --- | ---: |
-| MAE | 0.5332 |
-| MSE | 0.5559 |
-| RMSE | 0.7456 |
-| R2 | 0.5758 |
+| ------------- | -----------: |
+| MAE           |       0.5332 |
+| MSE           |       0.5559 |
+| RMSE          |       0.7456 |
+| R2            |       0.5758 |
 
 English:
 Basic data checks:
@@ -78,16 +78,16 @@ Basic data checks:
 中文：
 基础数据检查：
 
-| Item / 项目 | Value / 数值 |
-| --- | ---: |
-| Dataset shape / 数据集形状 | 20640 x 8 |
-| Train shape / 训练集形状 | 16512 x 8 |
-| Test shape / 测试集形状 | 4128 x 8 |
-| Test target range / 测试目标范围 | 0.1500 to 5.0000 |
-| Prediction range / 预测范围 | -1.0138 to 11.5003 |
-| Targets capped near 5 / 约为 5 的目标值数量 | 184 |
-| Predictions below 0 / 小于 0 的预测数量 | 15 |
-| Predictions above 5 / 大于 5 的预测数量 | 39 |
+| Item / 项目                                 |       Value / 数值 |
+| ------------------------------------------- | -----------------: |
+| Dataset shape / 数据集形状                  |          20640 x 8 |
+| Train shape / 训练集形状                    |          16512 x 8 |
+| Test shape / 测试集形状                     |           4128 x 8 |
+| Test target range / 测试目标范围            |   0.1500 to 5.0000 |
+| Prediction range / 预测范围                 | -1.0138 to 11.5003 |
+| Targets capped near 5 / 约为 5 的目标值数量 |                184 |
+| Predictions below 0 / 小于 0 的预测数量     |                 15 |
+| Predictions above 5 / 大于 5 的预测数量     |                 39 |
 
 English:
 The learned feature coefficients sorted by absolute value were:
@@ -96,15 +96,15 @@ The learned feature coefficients sorted by absolute value were:
 按绝对值排序后的模型特征系数如下：
 
 | Feature / 特征 | Coefficient / 系数 |
-| --- | ---: |
-| Latitude | -0.896929 |
-| Longitude | -0.869842 |
-| MedInc | 0.854383 |
-| AveBedrms | 0.339259 |
-| AveRooms | -0.294410 |
-| HouseAge | 0.122546 |
-| AveOccup | -0.040829 |
-| Population | -0.002308 |
+| -------------- | -----------------: |
+| Latitude       |          -0.896929 |
+| Longitude      |          -0.869842 |
+| MedInc         |           0.854383 |
+| AveBedrms      |           0.339259 |
+| AveRooms       |          -0.294410 |
+| HouseAge       |           0.122546 |
+| AveOccup       |          -0.040829 |
+| Population     |          -0.002308 |
 
 ## 6. Visualization Analysis / 可视化分析
 
@@ -152,6 +152,28 @@ large prediction outlier around 11.5.
 中文：
 线性回归没有输出范围约束，因此可能预测出小于 0 或大于数据集上限的值。这解释了
 少量负预测，以及约 11.5 的极端预测值。
+
+Features / 特征:
+   MedInc  HouseAge  AveRooms  AveBedrms  Population  AveOccup  Latitude  Longitude
+
+
+**加州房价数据集**的特征：
+
+| 英文                 | 中文       | 说明                                      |
+| -------------------- | ---------- | ----------------------------------------- |
+| **MedInc**     | 中位数收入 | 该地区的中位数家庭收入（以$10,000为单位） |
+| **HouseAge**   | 房屋年龄   | 该地区房屋的中位年龄（年）                |
+| **AveRooms**   | 平均房间数 | 每户平均房间数                            |
+| **AveBedrms**  | 平均卧室数 | 每户平均卧室数                            |
+| **Population** | 人口       | 该地区的总人口                            |
+| **AveOccup**   | 平均住户数 | 每户平均人数                              |
+| **Latitude**   | 纬度       | 地理位置（纬度坐标）                      |
+| **Longitude**  | 经度       | 地理位置（经度坐标）                      |
+
+ **目标变量** ：
+
+* **MedHouseVal** = 中位房价（以$100,000为单位
+
 
 ## 8. Conclusion / 结论
 
