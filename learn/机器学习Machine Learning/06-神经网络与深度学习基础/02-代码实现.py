@@ -55,8 +55,7 @@ def sigmoid_derivative(a):
     所以你不需要再算一次 sigmoid，直接用 a 就好
     返回值的形状应该和输入 a 相同
     """
-    # raise NotImplementedError("请实现 sigmoid_derivative")
-    pass
+    return a * (1 - a)
 
 
 def relu(z):
@@ -131,9 +130,9 @@ class TinyMLP:
             b2   : (output_dim,)
         """
         # ========== 你的代码开始 ==========
-        Z1 = None  # TODO-2a
-        H = None   # TODO-2b
-        Z2 = None  # TODO-2c
+        Z1 = X @ self.W1.T + self.b1   # (B, hidden_dim)
+        H = sigmoid(Z1)                 # (B, hidden_dim)
+        Z2 = H @ self.W2.T + self.b2   # (B, output_dim)
         # ========== 你的代码结束 ==========
 
         Y_hat = Z2
@@ -188,7 +187,7 @@ class TinyMLP:
         #
         # 你应该写出形如:  dZ1 = dH * sigmoid_derivative(?)
         # ========== 你的代码开始 ==========
-        dZ1 = None  # TODO-3
+        dZ1 = dH * sigmoid_derivative(H)  # (B, hidden_dim)
         # ========== 你的代码结束 ==========
 
         # ----------------------------------------------------------------------
@@ -197,8 +196,8 @@ class TinyMLP:
         # ∂L/∂W1 = dZ1.T @ X, shape 应该是 (hidden_dim, input_dim) ← 和 W1 同形
         # ∂L/∂b1 = dZ1 沿 batch 维求和, shape: (hidden_dim,)
         # ========== 你的代码开始 ==========
-        dW1 = None  # TODO-4a
-        db1 = None  # TODO-4b
+        dW1 = dZ1.T @ X                   # (hidden_dim, input_dim)
+        db1 = np.sum(dZ1, axis=0)          # (hidden_dim,)
         # ========== 你的代码结束 ==========
 
         # 把所有梯度打包返回
@@ -214,8 +213,10 @@ class TinyMLP:
         需要更新 self.W1, self.b1, self.W2, self.b2
         """
         # ========== 你的代码开始 ==========
-        # TODO-5: 4 行赋值
-        pass
+        self.W1 -= self.lr * grads['W1']
+        self.b1 -= self.lr * grads['b1']
+        self.W2 -= self.lr * grads['W2']
+        self.b2 -= self.lr * grads['b2']
         # ========== 你的代码结束 ==========
 
     # --------------------------------------------------------------------------
