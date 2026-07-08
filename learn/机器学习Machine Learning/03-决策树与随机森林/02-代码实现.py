@@ -3,10 +3,14 @@
 包含决策树、随机森林以及超参数调优
 """
 
+import warnings
+warnings.filterwarnings('ignore')
+
 import numpy as np
 import matplotlib
-matplotlib.use('TkAgg')  # 避免 tkinter 警告
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
+import tkinter as tk
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
@@ -15,12 +19,34 @@ from sklearn.metrics import (confusion_matrix, classification_report,
                              f1_score, roc_curve, auc, roc_auc_score)
 from sklearn.datasets import load_iris, load_breast_cancer, fetch_california_housing
 import pandas as pd
-import warnings
-warnings.filterwarnings('ignore')
 
 # 设置中文显示
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
+
+
+def _silence_tkinter_del_errors():
+    """Suppress noisy Tkinter __del__ errors on interpreter shutdown."""
+    def _safe_image_del(self):
+        try:
+            self.tk.call('image', 'delete', self.name)
+        except Exception:
+            pass
+
+    def _safe_var_del(self):
+        try:
+            if self._tk.getboolean(self._tk.call('info', 'exists', self._name)):
+                self._tk.globalunsetvar(self._name)
+        except Exception:
+            pass
+
+    if hasattr(tk, 'Image'):
+        tk.Image.__del__ = _safe_image_del
+    if hasattr(tk, 'Variable'):
+        tk.Variable.__del__ = _safe_var_del
+
+
+_silence_tkinter_del_errors()
 
 
 # ========== 1. 数据生成 ==========
@@ -110,17 +136,29 @@ def example1_simple_decision_tree():
     X, y = generate_classification_data()
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # 训练决策树
-    print("\n训练决策树...")
-    dt = DecisionTreeClassifier(max_depth=5, random_state=42)
+    # 训练基线决策树（较深）
+    print("\n训练基线决策树...")
+    dt = DecisionTreeClassifier(random_state=42)
     dt.fit(X_train, y_train)
 
-    # 预测
+    # 预测与评估
     y_pred = dt.predict(X_test)
     y_proba = dt.predict_proba(X_test)[:, 1]
+    evaluate_classifier(y_test, y_pred, y_proba, "决策树 (未剪枝)")
 
-    # 评估
-    evaluate_classifier(y_test, y_pred, y_proba, "决策树 (depth=5)")
+    # 训练预剪枝决策树
+    print("\n训练预剪枝决策树...")
+    dt_pruned = DecisionTreeClassifier(
+        max_depth=5,
+        min_samples_leaf=10,
+        min_samples_split=20,
+        random_state=42
+    )
+    dt_pruned.fit(X_train, y_train)
+
+    y_pred_pruned = dt_pruned.predict(X_test)
+    y_proba_pruned = dt_pruned.predict_proba(X_test)[:, 1]
+    evaluate_classifier(y_test, y_pred_pruned, y_proba_pruned, "决策树 (预剪枝)")
 
     # 可视化树结构（只用前两个最重要的特征，便于显示）
     feature_names = ['收入中位数', '房屋年龄', '平均房间数', '平均卧室数', '人口', '平均占用率', '纬度', '经度']
@@ -131,14 +169,40 @@ def example1_simple_decision_tree():
     dt_simple = DecisionTreeClassifier(max_depth=4, random_state=42)
     dt_simple.fit(X_train_top, y_train)
 
-    plt.figure(figsize=(25, 15))
+    dt_simple_pruned = DecisionTreeClassifier(
+        max_depth=3,
+        min_samples_leaf=10,
+        min_samples_split=20,
+        random_state=42
+    )
+    dt_simple_pruned.fit(X_train_top, y_train)
+
+    fig, axes = plt.subplots(1, 2, figsize=(28, 14))
     plot_tree(dt_simple,
               feature_names=[feature_names[i] for i in top_features_idx],
               class_names=['低价', '高价'],
-              filled=True, rounded=True, fontsize=10)
-    plt.title('决策树结构（使用前两个重要特征）')
-    plt.tight_layout()
+              filled=True, rounded=True, fontsize=10, ax=axes[0])
+    axes[0].set_title('未剪枝（可视化）', pad=20)
+
+    plot_tree(dt_simple_pruned,
+              feature_names=[feature_names[i] for i in top_features_idx],
+              class_names=['低价', '高价'],
+              filled=True, rounded=True, fontsize=10, ax=axes[1])
+    axes[1].set_title('预剪枝（可视化）', pad=20)
+
+    fig.tight_layout(rect=[0, 0, 1, 0.96])
     plt.show()
+
+    # 简单判断是否有必要做后剪枝（基于代价复杂度路径）
+    path = dt.cost_complexity_pruning_path(X_train, y_train)
+    ccp_alphas = path.ccp_alphas
+    if len(ccp_alphas) > 1:
+        print("\n后剪枝提示:")
+        print("- 当前训练集中存在多个可选的 ccp_alpha。")
+        print("- 若预剪枝与未剪枝的测试差距仍大，可尝试后剪枝进一步平衡复杂度与泛化。")
+    else:
+        print("\n后剪枝提示:")
+        print("- ccp_alpha 选择空间较小，后剪枝收益可能有限，可优先使用预剪枝。")
 
     # 完整特征重要性
     print(f"\n特征重要性:")
@@ -222,29 +286,27 @@ def example3_random_forest():
 def example4_comparison():
     """示例4：决策树 vs 随机森林对比"""
     print("\n" + "="*50)
-    print("示例4：决策树 vs 随机森林对比 (Iris 3分类 - 只用前两个特征)")
+    print("示例4：决策树 vs 随机森林对比 (房价数据 - 二分类)")
     print("="*50)
 
-    # 加载Iris数据集（3分类）
-    iris_data = pd.read_csv(r"D:\DpanPython\python-projects\learn\机器学习Machine Learning\数据集\iris.csv")
-    # 只用前两个特征，增加难度
-    X = iris_data[['SepalLengthCm', 'SepalWidthCm']].values
-    y = iris_data['Species'].values
+    # 加载房价数据
+    data = fetch_california_housing(as_frame=True)
+    X = data.data.values
+    y = data.target.values
 
-    # 编码标签
-    species_map = {'Iris-setosa': 0, 'Iris-versicolour': 1, 'Iris-virginica': 2}
-    y = np.array([species_map[s] for s in y])
+    # 二分类：高于中位数为1（高价），低于中位数为0（低价）
+    y_binary = (y > np.median(y)).astype(int)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y_binary, test_size=0.2, random_state=42)
 
     # 决策树
-    dt = DecisionTreeClassifier(max_depth=5, random_state=42)
+    dt = DecisionTreeClassifier(max_depth=8, random_state=42)
     dt.fit(X_train, y_train)
     dt_pred = dt.predict(X_test)
     dt_score = accuracy_score(y_test, dt_pred)
 
     # 随机森林
-    rf = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42, n_jobs=-1)
+    rf = RandomForestClassifier(n_estimators=100, max_depth=8, random_state=42, n_jobs=-1)
     rf.fit(X_train, y_train)
     rf_pred = rf.predict(X_test)
     rf_score = accuracy_score(y_test, rf_pred)
@@ -253,10 +315,10 @@ def example4_comparison():
     print(f"随机森林准确率: {rf_score:.4f}")
 
     print(f"\n决策树分类报告:")
-    print(classification_report(y_test, dt_pred, target_names=['Setosa', 'Versicolour', 'Virginica']))
+    print(classification_report(y_test, dt_pred, target_names=['低价', '高价']))
 
     print(f"\n随机森林分类报告:")
-    print(classification_report(y_test, rf_pred, target_names=['Setosa', 'Versicolour', 'Virginica']))
+    print(classification_report(y_test, rf_pred, target_names=['低价', '高价']))
 
     # 树的数量对性能的影响（用交叉验证，更稳定）
     n_trees_list = [1, 2, 5, 10, 20, 50, 100, 150, 200]
@@ -265,7 +327,7 @@ def example4_comparison():
 
     print(f"\n评估不同树数的性能:")
     for n in n_trees_list:
-        rf_temp = RandomForestClassifier(n_estimators=n, max_depth=5, random_state=42, n_jobs=-1)
+        rf_temp = RandomForestClassifier(n_estimators=n, max_depth=8, random_state=42, n_jobs=-1)
         cv_score = cross_val_score(rf_temp, X_train, y_train, cv=5).mean()
         rf_temp.fit(X_train, y_train)
         test_score = rf_temp.score(X_test, y_test)
@@ -294,12 +356,15 @@ def example5_hyperparameter_tuning():
     print("示例5：超参数调优（GridSearchCV）")
     print("="*50)
 
-    # 加载乳腺癌数据集
-    data = load_breast_cancer()
-    X = data.data
-    y = data.target
+    # 加载房价数据集
+    data = fetch_california_housing(as_frame=True)
+    X = data.data.values
+    y = data.target.values
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    # 二分类：高于中位数为1（高价），低于中位数为0（低价）
+    y_binary = (y > np.median(y)).astype(int)
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y_binary, test_size=0.2, random_state=42)
 
     # GridSearchCV
     param_grid = {
@@ -328,16 +393,19 @@ def example5_hyperparameter_tuning():
 def example6_feature_importance():
     """示例6：特征重要性分析"""
     print("\n" + "="*50)
-    print("示例6：特征重要性分析")
+    print("示例6：特征重要性分析 (房价数据)")
     print("="*50)
 
-    # 加载虹膜数据集
-    data = load_iris()
-    X = data.data
-    y = data.target
+    # 加载房价数据集
+    data = fetch_california_housing(as_frame=True)
+    X = data.data.values
+    y = data.target.values
+
+    # 二分类：高于中位数为1
+    y_binary = (y > np.median(y)).astype(int)
     feature_names = data.feature_names
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y_binary, test_size=0.2, random_state=42)
 
     # 训练随机森林
     rf = RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)

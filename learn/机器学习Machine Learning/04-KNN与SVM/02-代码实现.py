@@ -9,9 +9,9 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
 from sklearn.preprocessing import StandardScaler
-from sklearn.datasets import load_iris, load_breast_cancer
-from sklearn.metrics import (confusion_matrix, classification_report, 
-                             accuracy_score, precision_score, recall_score, 
+from sklearn.datasets import fetch_california_housing
+from sklearn.metrics import (confusion_matrix, classification_report,
+                             accuracy_score, precision_score, recall_score,
                              f1_score, roc_curve, auc, roc_auc_score)
 import pandas as pd
 
@@ -22,11 +22,39 @@ plt.rcParams['axes.unicode_minus'] = False
 
 # ========== 1. 数据生成 ==========
 
-def generate_classification_data(n_samples=200, random_state=42):
-    """生成分类数据"""
-    np.random.seed(random_state)
-    X = np.random.randn(n_samples, 2) * 2
-    y = ((X[:, 0]**2 + X[:, 1]**2) > 2).astype(int)
+def generate_classification_data(n_samples=None, random_state=42):
+    """使用真实房价数据集 (California Housing)
+
+    将房价转换为分类问题：
+    - 0: 低房价 (低于中位数)
+    - 1: 高房价 (高于或等于中位数)
+    """
+    # 加载加州房价数据集
+    housing = fetch_california_housing()
+    X_full = housing.data
+    y_continuous = housing.target
+
+    # 使用中位数作为分类阈值
+    median_price = np.median(y_continuous)
+    y = (y_continuous >= median_price).astype(int)
+
+    # 如果指定了 n_samples，随机采样
+    if n_samples is not None and n_samples < len(X_full):
+        np.random.seed(random_state)
+        indices = np.random.choice(len(X_full), n_samples, replace=False)
+        X_full = X_full[indices]
+        y = y[indices]
+
+    # 使用全部8个特征（不再限制为2个）
+    X = X_full
+
+    print(f"数据集信息:")
+    print(f"  - 样本数: {len(X)}")
+    print(f"  - 特征数: {X.shape[1]}")
+    print(f"  - 特征: MedInc, HouseAge, AveRooms, AveBedrms, Population, AveOccup, Latitude, Longitude")
+    print(f"  - 类别: 0=低房价, 1=高房价")
+    print(f"  - 中位房价阈值: ${median_price * 100000:.2f}")
+
     return X.astype(float), y.astype(int)
 
 
@@ -59,24 +87,60 @@ def evaluate_classifier(y_true, y_pred, y_proba=None, model_name="Model"):
     }
 
 
-def plot_decision_boundary(X, y, model, title="决策边界"):
-    """绘制决策边界"""
+def plot_decision_boundary(X, y, model, title="决策边界", use_top_features=True):
+    """绘制决策边界
+
+    Args:
+        X: 特征数据
+        y: 标签
+        model: 训练好的模型
+        title: 图表标题
+        use_top_features: 是否使用最重要的2个特征（当特征数>2时）
+    """
+    # 如果特征数>2，使用最重要的2个特征（MedInc和Latitude）
+    if use_top_features and X.shape[1] > 2:
+        # 根据特征重要性，选择 MedInc（索引0）和 Latitude（索引6）
+        X_2d = X[:, [0, 6]]
+        print(f"  可视化特征: MedInc (收入) 和 Latitude (纬度)")
+    else:
+        X_2d = X
+
     h = 0.02
-    x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
-    y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+    x_min, x_max = X_2d[:, 0].min() - 1, X_2d[:, 0].max() + 1
+    y_min, y_max = X_2d[:, 1].min() - 1, X_2d[:, 1].max() + 1
     xx, yy = np.meshgrid(np.arange(x_min, x_max, h),
                          np.arange(y_min, y_max, h))
 
-    Z = model.predict(np.c_[xx.ravel(), yy.ravel()])
+    # 对于2个特征，直接用这2个特征训练一个简化模型进行预测
+    if use_top_features and X.shape[1] > 2:
+        # 用这2个特征重新训练一个简化模型用于可视化
+        from sklearn.neighbors import KNeighborsClassifier
+        from sklearn.svm import SVC
+        if hasattr(model, 'n_neighbors'):  # KNN
+            viz_model = KNeighborsClassifier(n_neighbors=model.n_neighbors)
+        else:  # SVM
+            viz_model = SVC(kernel=model.kernel, C=model.C)
+        viz_model.fit(X_2d, y)
+        Z = viz_model.predict(np.c_[xx.ravel(), yy.ravel()])
+    else:
+        Z = model.predict(np.c_[xx.ravel(), yy.ravel()])
+
     Z = Z.reshape(xx.shape)
 
     plt.figure(figsize=(10, 8))
     plt.contourf(xx, yy, Z, alpha=0.3, cmap='RdYlGn')
-    plt.scatter(X[y == 0, 0], X[y == 0, 1], c='red', marker='o', alpha=0.5)
-    plt.scatter(X[y == 1, 0], X[y == 1, 1], c='green', marker='s', alpha=0.5)
-    plt.xlabel('特征1')
-    plt.ylabel('特征2')
+    plt.scatter(X_2d[y == 0, 0], X_2d[y == 0, 1], c='red', marker='o', alpha=0.5, label='低房价')
+    plt.scatter(X_2d[y == 1, 0], X_2d[y == 1, 1], c='green', marker='s', alpha=0.5, label='高房价')
+
+    if use_top_features and X.shape[1] > 2:
+        plt.xlabel('MedInc (收入中位数)')
+        plt.ylabel('Latitude (纬度)')
+    else:
+        plt.xlabel('MedInc (收入中位数)')
+        plt.ylabel('AveRooms (平均房间数)')
+
     plt.title(title)
+    plt.legend()
     plt.grid(True, alpha=0.3)
     plt.show()
 
@@ -239,23 +303,56 @@ def example4_kernel_comparison():
                                          f"SVM决策边界 ({kernel}核)")
 
 
-def plot_decision_boundary_in_subplot(X, y, model, ax, title):
-    """在子图中绘制决策边界"""
+def plot_decision_boundary_in_subplot(X, y, model, ax, title, use_top_features=True):
+    """在子图中绘制决策边界
+
+    Args:
+        X: 特征数据
+        y: 标签
+        model: 训练好的模型
+        ax: matplotlib axes对象
+        title: 图表标题
+        use_top_features: 是否使用最重要的2个特征（当特征数>2时）
+    """
+    # 如果特征数>2，使用最重要的2个特征（MedInc和Latitude）
+    if use_top_features and X.shape[1] > 2:
+        # 根据特征重要性，选择 MedInc（索引0）和 Latitude（索引6）
+        X_2d = X[:, [0, 6]]
+    else:
+        X_2d = X
+
     h = 0.02
-    x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
-    y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+    x_min, x_max = X_2d[:, 0].min() - 1, X_2d[:, 0].max() + 1
+    y_min, y_max = X_2d[:, 1].min() - 1, X_2d[:, 1].max() + 1
     xx, yy = np.meshgrid(np.arange(x_min, x_max, h),
                          np.arange(y_min, y_max, h))
 
-    Z = model.predict(np.c_[xx.ravel(), yy.ravel()])
-    Z = Z.reshape(xx.shape)
+    # 对于2个特征，直接用这2个特征训练一个简化模型进行预测
+    if use_top_features and X.shape[1] > 2:
+        # 用这2个特征重新训练一个简化模型用于可视化
+        from sklearn.svm import SVC
+        viz_model = SVC(kernel=model.kernel, C=model.C)
+        viz_model.fit(X_2d, y)
+        Z = viz_model.predict(np.c_[xx.ravel(), yy.ravel()])
+    else:
+        Z = model.predict(np.c_[xx.ravel(), yy.ravel()])
 
+    Z = Z.reshape(xx.shape)
     ax.contourf(xx, yy, Z, alpha=0.3, cmap='RdYlGn')
-    ax.scatter(X[y == 0, 0], X[y == 0, 1], c='red', marker='o', alpha=0.5)
-    ax.scatter(X[y == 1, 0], X[y == 1, 1], c='green', marker='s', alpha=0.5)
+
+    if use_top_features and X.shape[1] > 2:
+        ax.scatter(X_2d[y == 0, 0], X_2d[y == 0, 1], c='red', marker='o', alpha=0.5, label='低房价')
+        ax.scatter(X_2d[y == 1, 0], X_2d[y == 1, 1], c='green', marker='s', alpha=0.5, label='高房价')
+        ax.set_xlabel('MedInc (收入中位数)')
+        ax.set_ylabel('Latitude (纬度)')
+    else:
+        ax.scatter(X_2d[y == 0, 0], X_2d[y == 0, 1], c='red', marker='o', alpha=0.5, label='低房价')
+        ax.scatter(X_2d[y == 1, 0], X_2d[y == 1, 1], c='green', marker='s', alpha=0.5, label='高房价')
+        ax.set_xlabel('MedInc (收入中位数)')
+        ax.set_ylabel('AveRooms (平均房间数)')
+
     ax.set_title(title)
-    ax.set_xlabel('特征1')
-    ax.set_ylabel('特征2')
+    ax.legend()
     ax.grid(True, alpha=0.3)
 
 
@@ -267,15 +364,8 @@ def example5_knn_vs_svm():
     print("示例5：KNN vs SVM对比")
     print("="*50)
 
-    # 加载虹膜数据集
-    data = load_iris()
-    X = data.data
-    y = data.target
-    
-    # 二分类
-    mask = y < 2
-    X = X[mask]
-    y = y[mask]
+    # 使用加州房价数据集
+    X, y = generate_classification_data(n_samples=500)
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
@@ -313,10 +403,8 @@ def example6_svm_tuning():
     print("示例6：SVM超参数调优")
     print("="*50)
 
-    # 加载乳腺癌数据集
-    data = load_breast_cancer()
-    X = data.data
-    y = data.target
+    # 使用加州房价数据集 (更多样本用于调优)
+    X, y = generate_classification_data(n_samples=1000)
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 

@@ -1,0 +1,142 @@
+[
+  {
+    "object": "tag",
+    "id": "bafyreianlmojy2eqg7amwozu3lgttrorldgwv6ynwrhzwyj6fymgree4ya",
+    "key": "xie_zuo",
+    "name": "写作",
+    "color": "purple"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreiavh3g45u7erb4nzsrf4ologxgkvxfshuyw4ffspnwthiyyc2623i",
+    "key": "bian_cheng",
+    "name": "编程",
+    "color": "blue"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreiawuwquql6l35aatddi4rm4zjbshqhnwc5ti7otdlg2tk6dbdwxci",
+    "key": "zi_jin_guan_li",
+    "name": "资金管理",
+    "color": "teal"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreib37lzt3tb72fnsyxqguycjw7jwe7o3btwwipf7ve4mxneqkrbgqi",
+    "key": "ting_li",
+    "name": "听力",
+    "color": "lime"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreibdeadpf2uexg5rkah6yjvtcwx3krmuhiknwi52omjqirowyktzsq",
+    "key": "ielts",
+    "name": "IELTS",
+    "color": "teal"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreic5lnm6neeguagj7ai74hkvj2c2ssaen344gcral33l6i2tdj4slm",
+    "key": "xcpc",
+    "name": "XCPC",
+    "color": "ice"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreichk7jyelwz62i26ouuzxwwinloozami22bhvamwqhkqigjlo3ijy",
+    "key": "ren_zhi",
+    "name": "认知",
+    "color": "pink"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreicikjq3szwvlduvax3nk4wg2tmvxb7op73rw7nw3ngfiox4pqclny",
+    "key": "ying_yu",
+    "name": "英语",
+    "color": "purple"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreicyrnfpdry2aypandmr46isrzn4lvn37l7vzcmzsrsfzplivpggva",
+    "key": "shi_ju",
+    "name": "诗句",
+    "color": "ice"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreiczfhmhnldr4hxmcqkl63drvt5jhsbfanmq6iddacv3iguost2shi",
+    "key": "hao_ju",
+    "name": "好句",
+    "color": "ice"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreid22vzl2eqagyeux6dz7baeml56ykguzdnxavbdo2u6peeogitqkq",
+    "key": "kou_yu",
+    "name": "口语",
+    "color": "red"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreidmy6qkxxmy2ar4hvciw52oqbtfkyqa56myigjn72q3oxfarsov6u",
+    "key": "life",
+    "name": "life",
+    "color": "yellow"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreiea7fw4zdcbodjkfzzrhumdzj2qb7s4ccysoqke2gyl3an64w2nha",
+    "key": "meaning",
+    "name": "Meaning",
+    "color": "ice"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreielbj7oguyyitcfk6sim4qwcq66qwe2scpb7egnlkf3yzylbtb5j4",
+    "key": "xue_xi_fang_fa",
+    "name": "学习方法",
+    "color": "pink"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreiesnsakfp6zy2ftgio5377nmegtk3arxnh4oeidtk2yhbwamow6gi",
+    "key": "ai",
+    "name": "AI",
+    "color": "lime"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreifartvw5e7tis24f3ohq2cuybg3nlu6b4laegbcdklu7hp6cgmeia",
+    "key": "tou_zi",
+    "name": "投资",
+    "color": "grey"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreifpjompryxtpbwlk4uw4hhfya4pnzv3ryuu5d4ba53ppt6ep6iqse",
+    "key": "qi_ta",
+    "name": "其他",
+    "color": "pink"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreigazmvcl5ushgoceahqmwoccbqe7jbg55aoowu37cnbx25sz267zu",
+    "key": "shu_ji",
+    "name": "书籍",
+    "color": "blue"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreignsgarrapgia4pqcgr2fgsrmbxo37yub4b4dbfbt62rvmfhmfjoy",
+    "key": "jin_rong",
+    "name": "金融",
+    "color": "blue"
+  },
+  {
+    "object": "tag",
+    "id": "bafyreihjehc54vqbmqekuvmnrhxhlbyfqwtkakforkh3lwt7siggra6nwq",
+    "key": "de_guo",
+    "name": "德国🇩🇪",
+    "color": "red"
+  }
+]

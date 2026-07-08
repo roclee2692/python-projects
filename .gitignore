@@ -1,1 +1,13 @@
 nul
+
+# Junk / trash folders (Chinese "Recycle Bin")
+回收站/
+.回收站/
+**/回收站/
+**/.回收站/
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+**/__pycache__/
+*.pyc

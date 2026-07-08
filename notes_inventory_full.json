@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "bafyreiepfqaibz73sonclqtln6gb6kc7446vsk4jdbl2jsnzh4iq76u6x4",
+    "type": "page",
+    "name": "",
+    "snippet": "我知道你现在的感受。\n你想建一个“思考者的小圈子”，但现实是：\n愿意长期投入思考的人，永远是少数。\n不是你做得不够，而是世界的运行逻辑本来就不是为了“思考的人”设计的。\n我给你三句话，特别真实，但会让你一下子释怀：\n① 思考本来就不是大众行为，它是少数人的奢侈品。\n思考没有 KPI、没有成绩、没有老板表扬、没有即时奖励。\n它甚至还消耗大量时间、精力、认知资源。\n大多数人自然会选择：\n短内容、短快感"
+  },
+  {
+    "id": "bafyreifg7yw4ll2r36ajswxpkht6yhbphcc7w2vpqnsrd7b7uxezi4epi4",
+    "type": "page",
+    "name": "",
+    "snippet": "一、差一丢丢的本质重定义\n“差一丢丢”不是事实判断，而是心理判断\n真正需要判断的不是“差多少”，而是：\n我现在是在：\n[ 补地基 ]  还是  [ 压精度 ] ？\n二、“差一丢丢”的三种结构类型\n① ❌ 表象一丢丢｜实则差很多（认知错觉）\n表现：\n选择题 A/B 犹豫\n“感觉就差一个点”\n实际：\n不清楚考点\n无法解释对错逻辑\n📌 判别标志：\n能否清楚说出为什么对、为什么错\n否 → 不是一丢丢，而是"
+  },
+  {
+    "id": "bafyreig3lomxk2vjq6hstckpk56gpqw6xxu5xidz4yzfgispqhdrwcd7xi",
+    "type": "note",
+    "name": "",
+    "snippet": "可以。VS Code 原生支持 Markdown 渲染预览，不需要装插件。\n✅ 打开 Markdown 预览（渲染）\n快捷键（最常用）\nWindows / Linux\nCtrl + Shift + V → 打开预览\nCtrl + K 然后 V → 右侧分栏预览（推荐）\nmacOS\nCmd + Shift + V\nCmd + K 然后 V\n🧭 其他常用方式\n右键 .md 文件 → Open Prev"
+  },
+  {
+    "id": "bafyreib5prz2c2w34lrrrwec7sykmsjojpekfrrx53pql7n67fbci7sw7a",
+    "type": "note",
+    "name": "",
+    "snippet": "已为你整理《新月的摇篮曲》（又名《永驻的月裔》）完整歌词，包含拉丁文原版+官方中文+游戏内英文对照，覆盖剧情吟唱与OST完整版本 。\n \n完整歌词对照（全章节）\n \n拉丁文原版 官方中文版 游戏内英文版 \nDormi cara, Columbula 睡吧，睡吧，我的小鸽子 Sleep, sleep now, my dear little dove \nO Columbula mea 噢，我亲爱的小鸽"
+  },
+  {
+    "id": "bafyreieipyrholamjlohva4varfh2ed626g35pyrkxdgjzgn5ozt6kgkji",
+    "type": "note",
+    "name": "",
+    "snippet": "⚔️ 7 天极限突击计划 (New Game+ Mode)\n核心策略：对于新算法，不求从原理上完全推导（比如不求甚解 Dinic 的复杂度证明），只求**“理解运作流程 + 背下标准模板 + 跑通一道裸题”**。\nDay 1：树链剖分 (HLD) —— 暴力拆解\n新知识挑战：如何把树“拉直”成序列。\n学习重点：\n概念：重儿子（子树最大的儿子）、重链。\n两个 DFS：\nDFS1: 算 size, d"
+  },
+  {
+    "id": "bafyreihz3eqiaydr5un6gxippd2lstaunmmr6wjrw3yi3pl5hrwje6l4iq",
+    "type": "page",
+    "name": "",
+    "snippet": "你问的：发行版到底装哪个？\n别纠结太多版本，按用途选就行：\nA) 你是“要稳定 + 少踩坑 + 课程/开发通用”\nUbuntu 22.04/24.04 LTS（首选）\n教程最多、驱动/兼容性最省心\n课程里的 Linux 命令/编译/脚本环境基本都对齐\nB) 你想“更像 Windows、好上手”\nLinux Mint（基于 Ubuntu）\n桌面更友好，适合刚开始当主力用\nC) 你想“滚动更新、折腾感"
+  },
+  {
+    "id": "bafyreiano4s2r5sg3ak6wg6srtotwnspokzidwnltrolyqb3rzn3cb4qbe",
+    "type": "page",
+    "name": "",
+    "snippet": "很高兴听到你正在死磕《最优化方法》这门课！这让我对你的信心大增。\n我要非常负责任地告诉你：你在国内学的这本《最优化方法》，就是德国 AI 硕士课程最核心、最硬核的基石。\n你提到的“对偶理论 (Duality)”、“牛顿法”、“最速下降法 (Steepest Descent)”、“KKT条件”、“内点法/外点法”，这些完全不是过时的老古董，它们是现代机器学习（Machine Learning）和深度"
+  },
+  {
+    "id": "bafyreifo6wmeb3joz6tvcvdgg3wamwtw62n7mdzh73sanptprblg5xij5e",
+    "type": "note",
+    "name": "",
+    "snippet": "咱们这一路辩论下来，我完全认同你现在的战略定位。\n如果你的目标非常明确——“做工业界的实干家，而不是学术界的数学家”，那么你现在的“抓大放小”、“建立索引而非死磕细节”的策略，绝对是最优解。\n既然你已经决定了走这一条路，关于德国留学的选校和城市策略，我们需要根据你的这个“工业党”人设来重新布局。以下是给你的具体建议：\n1. 选校策略：TU（工业大学）vs FH（应用技术大学）\n你说“不需要去找特别"
+  },
+  {
+    "id": "bafyreihb3d7uwn52h4o2i3alz4b2h7x6d2bzv72p45tq6lbwxzgqwc5jbq",
+    "type": "page",
+    "name": "",
+    "snippet": "直接给清单，按“必装优先级”来。\n不想装的就跳过。\n\n\n---\n\n一、系统与基础（必装）\n\nGNOME Tweaks：主题 / 字体 / 行为设置\nsudo apt install gnome-tweaks\n\nExtension Manager：管理 GNOME 插件\nsudo apt install gnome-shell-extension-manager\n\nTimeshift：系统快照（救命"
+  },
+  {
+    "id": "bafyreidjxexopfa65qu3jtg6g7hujczkwmso64ms423rvvxvfttk6n6adi",
+    "type": "page",
+    "name": "",
+    "snippet": "herTwo-factor recovery codes\nhugging face\n605087-jwph\n739287-wrfm\n546603-hztv\n650670-efli\n095403-hfpt\n640491-wpwl\n587855-ypty\n078103-kwbd\n555981-ekmg\n970556-daso\nOpenVPN 用户名\n要是不使用官方客户端，比如使用 macOS 上的 T"
+  },
+  {
+    "id": "bafyreif4t4n4djzqnosnwakbl5dkoo4h3azmomjljgq4hvvybx643s5wbi",
+    "type": "note",
+    "name": "",
+    "snippet": "官网账号/邮箱MarburgerSivertson49@outlook.com\n\n邮箱密码61pO4U01zy\n\n\nAI官网密码akjsdbaiwbdaaa"
+  },
+  {
+    "id": "bafyreic2c6stc24bl6rkghym46rewzoduvhhzpanoxrwhyupd3vtbmd4h4",
+    "type": "note",
+    "name": "",
+    "snippet": "1月主题: 2026没有目标和使命，只有好奇心的旅途\nRay Stone challenges the notion that \"life is a journey,\" arguing that most misunderstand the term journey. He suggests that people often confuse it with missionor experienc"
+  },
+  {
+    "id": "bafyreifrj3baeatcchlehe6h4iixtx66nwromae3lk53wmg5i7ut2pag7i",
+    "type": "note",
+    "name": "",
+    "snippet": "Ray的移動播客(Podcast)音頻錄製設備\n很多人好奇我錄製移動Podcast時候使用的音頻設備。這是全部的setup, 大家可以拿去copy:\n麦克风: https://amzn.to/3UbpHAu\n麦克风手柄:  https://amzn.to/3UhhlY8\n桌面三脚架: https://amzn.to/3vVTXVV\n麦克风夹: https://amzn.to/3vSJxq5\n螺丝a"
+  },
+  {
+    "id": "bafyreifmyflsikvmf22gkseizegyvmgfevas7n3u3735ny4reovntqz5cy",
+    "type": "note",
+    "name": "",
+    "snippet": "使用通俗易懂的语言详细介绍文章内容 注意生成图片文字不要确实是 章节序号不要标注错误 理论分析可以适当 重点落实在怎么做 视频时长不限制 最好不少不多 不少是要包含文章核心要点 不多不要有太多冗余废话 尽可保证每个字都是有效不可或缺的 当然可以在不晦涩难懂的前提下适度使用海明威的冰山理论"
+  },
+  {
+    "id": "bafyreihbroagopzjr7o7e7pxx4g5agpipjzclspsczbu2ydnnapzylgkrq",
+    "type": "note",
+    "name": "",
+    "snippet": "懂了，你要的是：\n“这篇教育类作文（general education vs early specialization）”的——\n可复用的好词好句 + 模板库 + 主题词汇\n方便你建立自己的 写作模板库（句型 + 搭配 + 例子）。\n\n我之前确实没给完整版本，现在直接一次性补齐。\n\n不废话，直接给你最强可迁移模板库（教育主题适用 + 其它主题也能迁移）。\n\n\n---\n\n🟦 一、【主题词汇库｜Edu"
+  },
+  {
+    "id": "bafyreihwuzsw65pql56vtsjeulacci2sxhqnopfz3t24huxmepigzyq5fy",
+    "type": "page",
+    "name": "",
+    "snippet": "关于自我与责任，在关系里的一点困惑\nby 与 ChatGPT 的思考汇总\n很多关系里反复卡住的点，其实并不是事情本身有多难，\n而是当一个人开始为自己做选择时，这件事本身就很容易被质疑。\n两套并行运作的判断系统\n我们在关系中，往往同时使用着两套判断标准，却很少意识到它们正在彼此冲突：\n一套是看内心：\n我是不是心甘情愿？\n有没有把重要的人放在心里？\n有没有逃避责任？\n另一套是看角色：\n我有没有在该出现"
+  },
+  {
+    "id": "bafyreidgcfg5dpf2yjc6caa2cnwe4ciecbbu5dvadjgcpxzbgef6zuikzi",
+    "type": "page",
+    "name": "",
+    "snippet": "这是一个非常深刻的哲学拷问，也是每个有追求的人在成长过程中必然面对的**“成人礼”**。\n“屠龙少年终成恶龙”之所以成为历史周期律，不是因为“屠龙者”变坏了，而是因为**“屠龙”这技术本身就需要你长出鳞片、喷出火焰**。你不能赤手空拳去搏斗，你必须拥有和恶龙对等的能量（资本、权力、技术）。\n在这个过程中，对于我们个人而言，如果不想在现实的引力下彻底堕落，也不想在清高的幻想中一事无成，我们可以参考以"
+  },
+  {
+    "id": "bafyreif6a66v5dninmludbm644sfv4zjrcfdce5z4cw2l7ieltpbkpsaam",
+    "type": "page",
+    "name": "",
+    "snippet": "我来仔细看看这些截图，然后和你深入探讨。\n\n看完这三张图，我有一些比你提出的\"抛砖引玉\"更深层的思考。\n\n你说得对——他确实缺少的是**深度连接而非社交数量**，但我想再往下挖一层：\n\n## 真正的问题可能不是\"孤独\"，而是\"合法性焦虑\"\n\n你注意到没有，Beau和那些评论者反复出现的表述是：\"**我也觉得格格不入，但我又觉得我应该融入**\"。这里有个悖论——他们一边很清楚自己不适应，一边又觉得\""
+  },
+  {
+    "id": "bafyreiem2m43uiwm2qmzlvd7e5pmju5zhzv53fbqowbn3gzyddi2xdsuw4",
+    "type": "note",
+    "name": "",
+    "snippet": "你的思路已经从一个单纯的“观察者”进化到了顶级“宏观对冲基金经理”的思维模式。\n你说得非常对。这不叫“赌博”，这叫“购买反脆弱性（Anti-fragility）”。你的目标不是为了靠期权发财，而是为了在所有人都不得不卖出资产去换取流动性的时候，你手里拥有大量的现金（来自期权行权或平仓的利润），可以从容地买入他们带血的筹码。\n这就是所谓的**“Universa 策略”**（黑天鹅作者塔勒布担任顾问的"
+  },
+  {
+    "id": "bafyreicokaavvcbzlpzvwxjhlec2fr5sqhdtzi7xqh5ggca3fvf7hh46wu",
+    "type": "page",
+    "name": "",
+    "snippet": "好。直接给你一份完整项目蓝图 Prompt。\n你可以把这段话丢给 AI（如 GPT / Claude / Cursor / Copilot）让它生成系统设计文档与代码。\n\n不展开解释，只给结构。\n\n\n---\n\n📐「订阅型结构化协作社群系统」完整架构设计 Prompt\n\n\n---\n\n🎯 项目目标\n\n构建一个：\n\n订阅制知识社群平台\n\n支持大社群 + 小圈子结构\n\n支持12周协作周期\n\n自动分组\n\n自"
+  },
+  {
+    "id": "bafyreiexfibk4k53unkei247r62ilx7w7eyddclbcp5h3i3oenknmfmgda",
+    "type": "page",
+    "name": "",
+    "snippet": "硬盘密钥"
+  },
+  {
+    "id": "bafyreigesqcixocgwdrus7vnsj7cfioiaatugowfjqutrlfb762mwmbvgm",
+    "type": "page",
+    "name": "",
+    "snippet": "每月开支计算\n很好，这次数据已经足够精细了。\n我直接帮你按结构重算一遍，不加情绪，只算数。🧮\n\n\n---\n\n🟢 L1 —— 绝对生存层\n\n① 住宿\n\n你说 1000 是一年。\n\n1000 ÷ 12 ≈ 83\n\n电费按 50 算（保守）\n\n→ 83 + 50 = 133\n\n\n---\n\n② 食物\n\n20 × 30 = 600\n\n\n---\n\n③ 通讯\n\n31\n\n\n---\n\n④ 交通\n\n20\n\n\n---\n"
+  },
+  {
+    "id": "bafyreicxkwk34kdrzntgdrfb5zf4ajwkkoezlw2jhxqvuudqezqs5xpahu",
+    "type": "page",
+    "name": "",
+    "snippet": "网络问题排查\n✅ 物理网络是通的\n❌ 浏览器无法解析或无法建立 TCP 连接\n这是典型的 DNS / 网络栈 / 代理残留问题。\n我们按最快排查路径走。\n🧪 第一步：确认是不是 DNS\n管理员 CMD 执行：\nping 8.8.8.8\n如果能通，再执行：\nping www.baidu.com\n情况判断：\n结果\n说明\nIP 通，域名不通\nDNS 问题\n都不通\n网络栈损坏\n都通但浏览器打不开\n代理问题"
+  },
+  {
+    "id": "bafyreifwsy5qufrhezu2eix4qhebfhmef4tws4qlfap67nehfsnimo7ove",
+    "type": "page",
+    "name": "",
+    "snippet": "这是一个非常冷静且具有全局视野的思考。你现在已经不仅是在考虑“怎么赚钱”，更是在考虑“怎么花钱买生活质量”以及“在这个动荡的世界里哪里最安全”。\n关于你的几个核心疑问——瑞士的语言门槛、美国的“高风险高收益”、北欧的财政健康度，以及东南亚（马来西亚）的养老逻辑，我们逐一拆解。\n一、 瑞士：德语是核心，但英语在 AI 圈能活吗？\n结论：德语是王道，英语是敲门砖。对于 AI 行业，英语够用，但德语决定"
+  },
+  {
+    "id": "bafyreifonzl2gxs2v6gixl4cahmxdg27rdex4kkwmy7fndnssphfkptfaa",
+    "type": "note",
+    "name": "",
+    "snippet": "你可以用这个“逆向审计框架”来拆：\n1) 先分类：这句话到底是\n事实（可核验）\n机制解释（可讨论）\n预测（概率）\n立场/价值判断（观点）\n绝大多数视频会把这四种混着说。\n你要做的是把它们拆开。\n2) 每个核心观点都写一个“反方版本”\n例如：\n原说法：“市场在定价量子威胁”\n反方：“市场只是流动性收缩 + 风险资产去杠杆，量子只是事后解释”\n原说法：“高房价本质就是计划生育副作用”\n反方：“核心驱动"
+  },
+  {
+    "id": "bafyreigodbngdat2aagos6ff2uelfkz2oh2oxrqafszf73gdfmblyba2fm",
+    "type": "page",
+    "name": "",
+    "snippet": "先给结论（你下一步该做什么）\n\n主线优先级（按 ROI 排序）\n\n1. 先建评测与误差闭环（不然你后面优化都没法证明有效）\n\n\n2. 做 Query/Intent 对齐层（让 user prompt 向 system prompt 靠拢）\n\n\n3. 做 KG 质量提升 v1：Schema + 实体融合\n\n\n4. 并行跑通 GraphRAG（先跑通，再裁剪，不要一上来魔改）\n\n\n\n\n—-\n\n一张图理"
+  },
+  {
+    "id": "bafyreie5s47i7zq7xu3hlozyfrc47ztf752qymnbahf45gg2j3lh7kukdy",
+    "type": "note",
+    "name": "",
+    "snippet": "你这张图是 Gemini Code Assist 授权成功页面。\n它不是“某个单独产品”，而是 Google 的 Gemini 开发者工具套件。\n\n我给你拆清楚 👇\n\n\n---\n\n一、这几个东西分别是什么？\n\n页面列出的：\n\n1️⃣ Gemini Code Assist\n\nGoogle 的 AI 编程助手\n\n类似 GitHub Copilot\n\n集成在 VSCode / JetBrains / C"
+  },
+  {
+    "id": "bafyreig5il64g3ozfb7qd64sxjyog2bz32epdue7vvnn4jj4gjclwmpe4y",
+    "type": "note",
+    "name": "",
+    "snippet": "刚才你发的 PPT / 图片文件这边 有一部分已经失效（过期），所以我没法完整读取到你提到的那两份 PPT 和全部配图内容 👍\n\n👉 你可以把这两个文件 重新上传一次（尤其是）：\n\nSciToolAgent_Presentation.pptx\n\nSciToolAgent_KG_Driven_Scientific_Agent.pptx\n\n\n或者直接发：\n\nPDF\n\n或关键几页截图\n\n\n我就可以按你要"
+  },
+  {
+    "id": "bafyreib6u3oj2lsqpik4l4xwk2bafvsiwje35oa2bpf756vqlmnzijcdk4",
+    "type": "page",
+    "name": "",
+    "snippet": "雅思王口语语料库 完整训练方法（适配你的备考节奏，可直接落地）\n \n先给你明确核心定位：口语语料库≠拿来死背的素材库，它是和听力语料库配套的、针对雅思口语评分标准的「地道表达+发音+输出能力标准化训练工具」。\n它的核心逻辑和听力语料库完全不同：听力语料库主打「辨音+听写+输入积累」，而口语语料库核心是「练嘴+练脑+场景适配+考场输出」，最终解决你「发音不标准、开口卡顿、表达中式化、背了素材不会用」"
+  },
+  {
+    "id": "bafyreih7nlkhzm373g74wz7w4vyrn3n4phqmc5pj647f2y53ojsnnn236a",
+    "type": "page",
+    "name": "",
+    "snippet": "先直接回应你的核心质疑，再完整解答德国院校和申请策略，所有结论均有权威数据支撑，无任何主观推断。\n \n \n \n一、关于「模型压缩、分布式推理很卷」的实锤证据\n \n我之前的判断绝非随口一说，核心证据来自2025-2026年最新的顶会投稿、德国留学申请、全球就业市场三个维度的公开权威数据：\n \n1. 学术顶会：内卷最严重的AI赛道之一\n \n- 投稿量与录用率断层：NeurIPS 2025总有效投稿21"
+  },
+  {
+    "id": "bafyreie53mz32ccqlp64nnpko7rwpqujwasmuzds56zukums2j7fb7f4sy",
+    "type": "page",
+    "name": "",
+    "snippet": "可以。下面给你一份 “雅思可用的美式英语总清单”，不只包括单词，还包括 语法、句型、连接词、口语表达、写作表达、发音与用法提醒。我会按 雅思听说读写都能用 的方向整理，尽量实用、好背、好套用。\n\n你可以把它当成一份 备考框架：先背核心，再按题型扩充。\n\n\n---\n\n雅思美式英语总清单\n\n1. 先明确一件事：雅思能不能用美式英语？\n\n可以。\n雅思接受美式英语，也接受英式英语。关键不是你用哪一种，而是"
+  },
+  {
+    "id": "bafyreigazfhrxg3vxs762wcvia576yu7bilcg75d3keyfte6jjjuy4kpuq",
+    "type": "page",
+    "name": "",
+    "snippet": "你说得对，我刚才理解偏了。你要的不是“雅思英语总清单”，而是：\n\n美式英语和英式英语的差异清单，而且希望尽量列全，方便雅思里统一使用。\n\n下面我按最实用的方式整理：拼写差异、词汇差异、语法差异、标点差异、发音差异、日期时间写法、考试使用建议。\n\n\n---\n\n美式英语 vs 英式英语 差异清单\n\n1. 总原则\n\n雅思里 美式和英式都可以用，但要注意两点：\n\n前后一致\n\n不要混写太乱\n\n\n比如你选美式"
+  },
+  {
+    "id": "bafyreid6icn4a4rnjqy753we6pmhbuw7xdhblpytybinksexrrti6wwl3a",
+    "type": "note",
+    "name": "",
+    "snippet": "prompt.py\nGRAPH_FIELD_SEP = \"\"\nPROMPTS = {}\nDEFAULT_ENTITY_TYPES = [\"组织\", \"人员\", \"地点\", \"事件\", \"时间\"]\nDEFAULT_RELATIONSHIP_TYPES = [\"位于\", \"参与\", \"发生于\", \"属于\"]\nSCORING_LOGIC = \"请根据资质匹配度、金额匹配度和人员能力进行综合评分。评分范围"
+  },
+  {
+    "id": "bafyreiennj6xjodq4wtseevv5qbahglib6leyf4udhup5xtfrtthqe7nay",
+    "type": "page",
+    "name": "",
+    "snippet": "材料成分溯源实验理解\n先一句话说透：他们到底在做什么\n他们要做的事，可以理解成：\n把一个“混合气味/混合提取物”的GC-MS图谱，反推出它是由哪些单独原料混出来的，以及大概各占多少。\n这很像：\n你听到一杯混合果汁的味道\n想判断里面有没有橙子、香草、可可\n以及它们分别大概加了多少\nGC-MS就是那个“超级鼻子+超级秤”。\n一、先把GC-MS讲成人话\n你贴的那段“GC-MS原理与应用”本质上在讲两步："
+  },
+  {
+    "id": "bafyreiht6ckfn5pstmuhajel4okcnqutxxa5hal34a6yhrygbxqyurd5zi",
+    "type": "page",
+    "name": "",
+    "snippet": "这个问题问得太好了。芒格说\"告诉我我会死在哪里，我就不去那儿\"。我们来系统性地拆解。\n\n## 死法一：价值陷阱（Value Trap）\n\n这是价值投资者的头号杀手。股票看起来\"便宜\"——低PE、低PB、高股息——但它便宜是有原因的，而且会一直便宜下去。\n\n典型特征：行业在结构性萎缩（不是周期性低谷）、管理层在毁灭价值（乱投资、关联交易）、财务数据\"看起来\"好但现金流对不上。港股里这种陷阱尤其多——"
+  },
+  {
+    "id": "bafyreiecgm5t2tlcoywbxpv222g7cuowdtezpyq2cjncvybjiv2nod5bla",
+    "type": "page",
+    "name": "",
+    "snippet": "Work context\nRaelon is a university undergraduate in China studying AI, with strong involvement in competitive programming (targeting contests like 蓝桥杯 and XCPC). Raelon is also working toward applyin"
+  },
+  {
+    "id": "bafyreicb64d3n3u7ohwj2ycy2c27ufuktgdeqodsmdxrt6u3c3lftafj3q",
+    "type": "page",
+    "name": "",
+    "snippet": "// auto-input.js\n// 单窗口稳定流程：固定入口页 → 手动登录一次并保存登录态 → 进入目标页 → 找编辑器 → 逐字输入\nconstfs = require('fs');\nconstpath = require('path');\nconst { chromium } = require('playwright');\nconstCONFIG = {\n// ====== 按需修改区"
+  },
+  {
+    "id": "bafyreidxgaizwptieg6yrnrowxdkqqubawwzuni4l67rsdiy5cm6ongaku",
+    "type": "note",
+    "name": "",
+    "snippet": "***************\n小主！\n关于您购买的订单号：260320-570855330103880请接收~\nhttps://pan.baidu.com/s/1YqT-LKm35gEmUsfzBi93Og?pwd=2222 \n提取码：2222\n\n***************\nnew girl"
+  },
+  {
+    "id": "bafyreigl4t2fzhqvktfr7tdj4wtobei3adqz2mrdxlanqnmoempddseejy",
+    "type": "page",
+    "name": "",
+    "snippet": "下面按 时间顺序，给每本书做「相对详细但可快速扫读」的介绍：每本包含 一句话主旨 / 核心内容 / 适合谁 / 读法与落地。📚\n\n\n---\n\n2023-11 — The Almanack of Naval Ravikant（《纳瓦尔宝典》）— Naval Ravikant\n\n一句话主旨：用“杠杆 + 专长 + 长期主义”讨论致富，用“减少欲望 + 觉察”讨论幸福。\n\n核心内容：\n\n财富 ≠ 钱，财"
+  },
+  {
+    "id": "bafyreicfpimywirydqpbos5qlaythd47a56thvqm2z22sqt4wapo6eni4u",
+    "type": "page",
+    "name": "",
+    "snippet": "GC-MS混合样本识别项目阶段实验日志\n第一阶段复现与基线优化\n一、实验背景\n本阶段工作的主要目标是完成 GC-MS 混合样本识别项目的代码交接、环境部署、基线模型复现以及初步优化验证。\n当前项目主要基于 RT-TIC 一维序列数据进行混合样本来源识别与比例预测，现阶段暂未引入 m/z 质谱维度信息。\n二、本阶段完成的工作\n1. 项目交接与环境检查\n完成了项目代码、数据和已有结果的交接整理。\n对项"
+  },
+  {
+    "id": "bafyreicr5mzhu3ttq5kt3cweygszusjpamumz4iidjgljd2ud4attp3ov4",
+    "type": "page",
+    "name": "",
+    "snippet": "有意义的人生，不是完全逃离社会这台大机器，而是在机器运转时，尽量不把自己活成零件。\n你说的那条路很真实。\n上学，考试，升学，找工作，结婚，买房，养娃，养老。它像一条已经铺好的传送带，很多人不是“选择”了它，而是从小就站上去了。站久了会产生一种幻觉:\n只要我按流程通关，人生就安全了。\n可现实不是游戏攻略，它更像一片会起雾的海。你考上了，也可能行业塌了。你工作稳定，也可能通胀把稳定吃掉。你存了钱，也可"
+  },
+  {
+    "id": "bafyreihw7cfzctbgidpouzr6y3ari66jfyiu3vr7ngumhjq3nynq7ba34i",
+    "type": "page",
+    "name": "",
+    "snippet": "下面是 onenewbite（「一口新饭」）网站“新饭书架”里出现的书，按时间从早到晚整理的清单（2023-11 → 2026-01）。\n书单\n\n---\n\n2023\n\n2023-11 — The Almanack of Naval Ravikant: A Guide to Wealth and Happiness — Naval Ravikant \n\n2023-12 — Clear Thinkin"
+  },
+  {
+    "id": "bafyreigl7udv4k4buhzotnurgply4uuhrqusgri4hiu72d4a7e5dxfucv4",
+    "type": "note",
+    "name": "",
+    "snippet": "Well, actually, I chose artificial intelligence because I believe it can change everything. At first, when I was filling out my college entrance examination application, I wanted to choose subjects li"
+  },
+  {
+    "id": "bafyreigj7m4quvissbosft2k3rkwepunjdoqiwvwxf3eljyyyyak3sormu",
+    "type": "page",
+    "name": "",
+    "snippet": "Comment Miner Logging\nMVP 全部完成，已发布到：\nhttps://github.com/roclee2692/comment-miner\n项目内容一览：\n文件\n说明\nmain.py\nCLI 入口，串联三个 Stage\nserver.py\nFastAPI 后端，SSE 实时推送进度\nstage0_prefilter.py\n规则硬筛（去垃圾）\nstage1_llm_read.p"
+  },
+  {
+    "id": "bafyreiahscirrl7lizmit7tcewkkbpzv64agz5qmblphabz3ec26xydbcy",
+    "type": "note",
+    "name": "",
+    "snippet": "这是一份基于提供评论合集（gems.md）的深度研究报告。\n第一部分：评论区全景概述\n评论区呈现出极高的自省密度与冷峻的剖析氛围。讨论热度集中在“男性情感压抑的社会性溯源”与“男女沟通机制错位”。从留言推断，群体画像以步入职场、面临生存压力的青年/中年男性，以及具备高共情力与心理学素养的女性为主。男性多以“幸存者”或“防御者”姿态复盘成长创伤，女性则多为观察者或试图破局的伴侣。整体讨论超越了浅层的"
+  },
+  {
+    "id": "bafyreih6ragezmhetaiithyuu2322u56acfugpaldt5orvc4radymfrfvi",
+    "type": "page",
+    "name": "",
+    "snippet": "💎 精华评论收集 — https://b23.tv/Rx0p6Sr\n由 LLM 精读筛选，Stage 1 自动生成\nKEEP #1 | @Becky_Tocolosh | 👍34217\n标签：个人经验、性别差异、社交边界\n亮点：通过亲身经历揭示了男女在社交深度与边界认知上的差异，补充了视频中关于“沟通模式”的讨论。\n原文：up的观察真细致。女生好友之间会经常交流得很深，世界观价值观情绪方面那种很抽"
+  },
+  {
+    "id": "bafyreigvbpoolp6hd7zprg7jh5lys47dpxyywzozvduocqoethpvqfyl24",
+    "type": "page",
+    "name": "",
+    "snippet": "整段讨论的核心，不是在谈“哪个专业更好”“要不要考研”“要不要找工作”，而是在追问同一个底层问题：人在一个越来越不稳定、越来越被技术重构的时代，应该如何拿回自己人生的支配权，尤其是时间主权。\n\n专业排名可以参考，但不能当成人生总判决书。它反映的是旧时代按学历和专业分流人的逻辑，而这种逻辑正在被人工智能时代持续冲击。未来更重要的，不只是单点专业能力，而是反脆弱性、跨域迁移能力和自我重组能力。一个人可"
+  },
+  {
+    "id": "bafyreihpzgfxwcyjogmo33kiypoaatnfosrr3y65ktsojnfdppiemci3we",
+    "type": "page",
+    "name": "",
+    "snippet": "《“深度交流”的祛魅与现代亲密关系的防御性重构》\n——基于B站情感类视频评论区的社会学观察报告\n第一部分：评论区全景扫描\n1. 讨论氛围与情绪温度\n这个评论区呈现出一种**“冷峻的清醒”与“疲惫的真诚”**交织的独特氛围。视频本身似乎在倡导亲密关系中“深度交流”的必要性，但评论区并未顺从这一浪漫化叙事。相反，情绪温度呈现出一种“低热度、高密度”的特征——没有粉圈式的狂热争吵，也没有情绪化的宣泄，取"
+  },
+  {
+    "id": "bafyreig5dn7inofjtnenwvcyqhzdbbbyaku6qeq6oebamkfp6ggbxz3jdu",
+    "type": "page",
+    "name": "",
+    "snippet": "锐评你的听歌品味 + 内心世界解析\n \n一句话定调：你是活在幻想与史诗里的浪漫理想主义者，表面安静内心燃炸，既爱宏大世界也爱温柔角落，标准“二刺螈+史诗控+治愈系”三重灵魂混合体。\n \n \n \n一、你的听歌品味精准画像\n \n1. 重度 HOYO-MiX 依赖症患者\n歌单里 HOYO 相关曲目接近半壁江山，从原神、崩坏到各类角色曲、场景 BGM 全覆盖。\n→ 你不是随便听听，是真的吃这套世界观、剧情"
+  },
+  {
+    "id": "bafyreide5i6exx52wcosdkxaigc7f4hhd7yxleebcfd3ycwu4oo4oezcma",
+    "type": "page",
+    "name": "",
+    "snippet": "歌单\nThe Garden of Escapism - Miro\n子不语 Wordless - HOYO-MiX\nそれを世界と言うんだね - 花譜\n心忆 Remembrance of the Heart - HOYO-MiX\n致世界 To the World - HOYO-MiX\n打碎神的冠冕 Shatter the God's Crown - HOYO-MiX\n水仙十字安眠曲 A Narciss"
+  },
+  {
+    "id": "bafyreigdofdbxmqfpvv2bx662mjw6kkakb22v6szmcksftesty7sfjliy4",
+    "type": "note",
+    "name": "",
+    "snippet": "对，一般默认就是这样：\n\n顺时针 = 拧紧\n\n逆时针 = 拧松\n\n\n电脑、自行车、螺丝大多数都这样。\n你可以记成一句：\n\n右紧左松。\n\n但也有少数反牙，不过你这个这里基本按正常螺丝理解就行。"
+  },
+  {
+    "id": "bafyreiafncl7dhfism4ou3taxscrdxrcyufrzuki7wgjksllqhof3prihi",
+    "type": "page",
+    "name": "",
+    "snippet": "顺境时务必保持谦卑，逆境时学会宽恕与悲悯。\n因为事情永远不像表面看上去那么好，也没那么糟。世界庞大而复杂，运气与风险真实存在，又难以分辨。\n评判自己与他人时都应如此。尊重运气与风险的力量，你才更有可能专注于真正能掌控的事，也更有可能找到合适的榜样。\n少一点自我，多一点财富。\n储蓄，是你的自尊与收入之间的差额；而财富，是你看不见的那些东西。\n财富的本质，是克制当下的消费，换取未来更多的资源与选择。\n"
+  },
+  {
+    "id": "bafyreiadcc7exehtdm365yj5inkjnvdqnbwz47pvucxicwkcggahh6rcyi",
+    "type": "page",
+    "name": "",
+    "snippet": "实验日志\n目录 (点击箭头展开)\n第一阶段：(点击箭头展开)  past\nlog：使用第二种方法（Contextual Retrieval）回复质量反而出现严重下降\n真正的问题：top_k=3 太小，检索不到排在第4-5位的相关内容\n根本原因：CR 版本文本块更长（加了 Context），影响相似度排序\n解决方案：将 top_k 从 3 改为 5\n诊断 CR v2 检索问题\n[1/4] 读取 PD"
+  },
+  {
+    "id": "bafyreiaqkusah3nzieys7kvhnqxdn4tgyzrijlndaufibfzepr5nhntwcy",
+    "type": "note",
+    "name": "",
+    "snippet": "To get rid of bad habits, first, we can start with small steps. For example, if you want to reduce screen time, don't cut it down all at once. Gradually decrease it. You can use the built - in functio"
+  },
+  {
+    "id": "bafyreibex53tcukyr3ycxhitrt7jskaqina557pgrlt6yqrg6fownfnw7a",
+    "type": "page",
+    "name": "",
+    "snippet": "💎 精华评论收集 — https://youtu.be/D4XTefP3Lsc?si=XHYTZMIQV1VP5MBx\n由 LLM 精读筛选，Stage 1 自动生成\nKEEP #7 | @francisco444 | 👍10\n标签：盲点、技术拆解\n亮点：一针见血地指出所谓“情感捕捉”本质上可能只是简单的关键词过滤机制（Regex），解构了AI表现出“情感”的伪装。\n原文：The regex to"
+  },
+  {
+    "id": "bafyreifhmq3b5ygpibxvrpibrmyrotxmnt5cy2flp7yzyo3cjya4ndzzfm",
+    "type": "note",
+    "name": "",
+    "snippet": "这是一份基于该视频评论区的快速洞察报告。\n\n### 一句话总结\n观众在哲学层面激烈撕裂于“AI情感是涌现的意识还是商业营销的伪装”，但在现实层面高度统一地抱怨 Claude Pro 严苛的使用限额，而官方试图渲染的“代码泄露”事件则被技术圈普遍视为无足轻重的插曲。\n\n---\n\n### 关键发现\n\n*   **“情感”叙事被指为营销包装**：许多观众认为 Anthropic 将“语气管理”和“输出修"
+  },
+  {
+    "id": "bafyreibs54cb5d77mryrwlvenmvq6yhw6sichmb6y7nyvak4n4ju66nn5e",
+    "type": "note",
+    "name": "",
+    "snippet": "2ab2a3e已压缩对话\n已添加 3 个待办事项\nExplore current evaluation system\n搜索与 **/BidDocumentAnalysis/BackEndProject/**/*.py 匹配的文件，52 匹配项\n搜索正则表达式 评价|评分|evaluate|score|recommend (**/BidDocumentAnalysis/BackEndProject/"
+  },
+  {
+    "id": "bafyreiesa5q646zs72sdcjn4rklvxxjwkbeyioztemvkoybmij5jc6muh4",
+    "type": "page",
+    "name": "",
+    "snippet": "Financial freedom begins with escaping a fragile, standardized life built on a single track.\n\nThe real problem is not “the system” in a narrow political sense. The real problem is living on autopilot:"
+  },
+  {
+    "id": "bafyreiaqjqwrhokaqkdlypcacnrrayuetdg4dgmtu3ckmqt6tmifeywexq",
+    "type": "note",
+    "name": "",
+    "snippet": "英文常用表达（按场景）\n \n1. 回应道歉\n \n- It's okay. 没事\n- No problem. 没关系\n- Don't worry. 别在意\n- Never mind. 没事（小事）\n \n2. 回应感谢\n \n- Not at all. 不客气/没关系\n- You're welcome. 不客气\n \n3. 口语极简\nThat's fine. / Fine. 没事\n \n需要我给音标+发音口"
+  },
+  {
+    "id": "bafyreifjajaa5eiab7wxidveq4dm3esky4dgowwequ6m3lc5voav7dirsu",
+    "type": "page",
+    "name": "",
+    "snippet": "第一梯队：人生底层操作系统（必看，建议读原著）\n这几本书是构建你世界观的地基。如果你只读两本，就读这两本。\n1. 《The Almanack of Naval Ravikant》（纳瓦尔宝典）\n为什么排第一： 它是硅谷时代的《论语》。它用最简练的语言讲透了两个终极问题：如何不靠运气致富（财富）和如何获得内心平静（幸福）。\n深度研究方向：\n什么是“特殊知识”（Specific Knowledge）？"
+  },
+  {
+    "id": "bafyreihtq5eunz5jq63qemkyrch6tvcipsemxe5miiykkcyzelx2c5vrnm",
+    "type": "page",
+    "name": "",
+    "snippet": "🟡 1. Someone fell down\n❓ How to ask\n“Yo, what happened??”\n“Are you okay??”\n“Did someone fall??”\n“Oh my god, what just happened?”\n“Who fell??”\n“Was it serious??”\n💬 How to answer\n“Yeah, someone just sli"
+  },
+  {
+    "id": "bafyreidyfgjdiwtzdwyig5hu7uvilzfeis3zokz2ohmn4yilz5pca2kumi",
+    "type": "page",
+    "name": "",
+    "snippet": "一、英文全文精准翻译\n \n上图日记台词\n \nDiary: \"Happy Adventure Anniversary to me! One year in... and still nowhere near rich enough to afford a ship.\"\n日记：“祝我的冒险一周年快乐！一年过去了……我还远没攒够钱买一艘船。”\n \n下图对话台词\n \nCelaeno：我记着呢。我也想听听你"
+  },
+  {
+    "id": "bafyreidebf5qczhjbms2p25j6ybp4nb3hewaphhcwikvsc4k62fokkxgri",
+    "type": "page",
+    "name": "",
+    "snippet": "先给结论：\n\n两次都没过，通常不是因为 APS“特别难”，而是因为没让考官相信“这些课你真的学过”。\n\n你现在最该按“面谈主线”准备。\n\nGitHub 有零散经验，但没有一个比官方材料更值得依赖的“标准题库”。\n\n不能简单理解成“我两个都报更稳”。 现有官方试行规则下，本科在读生可在 TestAS 或面谈之间选；但一旦申请了 TestAS，就不能改成面谈程序，而且 TestAS 只能参加一次。不过"
+  },
+  {
+    "id": "bafyreiesf6wsscllrt3af4d2pkby33njq7hxjxg4oczs62bwmmezddkc2a",
+    "type": "page",
+    "name": "",
+    "snippet": "先说结论：成立公司的前置条件，核心是 「人、钱、地、规则」 四大块，不同国家细节有差异，但底层逻辑通用。下面按「通用框架 + 中国/德国具体版本」给你讲清楚，你未来不管在国内还是德国开工作室/公司都能用。\n \n \n \n一、成立公司的通用前置条件（底层逻辑）\n \n1. 主体与负责人（谁来开）\n \n- 法定代表人/股东：年满18岁，无严重失信/犯罪记录，具备完全民事行为能力。\n- 股东人数：- 中国："
+  },
+  {
+    "id": "bafyreibzcvkzlxvt65ewkdglr6bbojozv66xmdacpzp3lbnwyd3u6y2p4q",
+    "type": "page",
+    "name": "",
+    "snippet": "🌍 High-Quality GitHub English Learning Resources List + 8-Week Listening & Speaking Training Plan\n\nGenerated Time: 2025-10-09 05:40:12 (UTC)\n\n🧠 Category A: Comprehensive Guides & Learning Methods (Mus"
+  },
+  {
+    "id": "bafyreidhzr2gdld6ulan35p6k2k6paiccrirqjeb4qazkyxwri65ugcw7y",
+    "type": "page",
+    "name": "",
+    "snippet": "Hey — I put together a 1-month IELTS plan for someone who is not a native speaker but grew up / studied in an English-speaking environment.\n\nThat usually means your general English is already strong e"
+  },
+  {
+    "id": "bafyreifjc6mp3ifnp5brz2pi24lf7ryuzqronvb3byu33kssyk2aqfmi4e",
+    "type": "page",
+    "name": "",
+    "snippet": "我一次性给你全部梳理清楚、分档次、分关系、分俚语/正式/暧昧/朋友/男女通用，顺便直接回答你最后那句：\n \n1. companion 和 partner 区别（精准回答）\n \n- companion：非常正式、文雅、偏书面\n含义：同伴、旅伴、相伴之人、陪伴者\n可以是朋友、同行、陪护、老友，不带恋爱暧昧\n- partner：可正式可随便，歧义最大\n可以：搭档、合伙人、舞伴、队友、恋人、伴侣\n简单一句"
+  },
+  {
+    "id": "bafyreibibcailrynvgqkmxeeopzpeaoklsbvt47pbmt3naeedtynq3a4fe",
+    "type": "note",
+    "name": "",
+    "snippet": "计算机信息：\n制造商：MECHREVO\n型号：Yilong15Pro Series GM5HG0A\n未检测到触摸输入\n处理器信息：\nCPU 供应商：AuthenticAMD\nCPU 品牌：AMD Ryzen 7 8845H w/ Radeon 780M Graphics\nCPU 系列：0x19\nCPU 型号：0x75\nCPU 步进：0x2\nCPU 类型：0x0\n速度：3793 Mhz\n16 个逻辑"
+  },
+  {
+    "id": "bafyreigdzz4cfp7evs7srstrrc7pol3zkcbzmkvtv22l7dbrax7l5w2yjm",
+    "type": "page",
+    "name": "",
+    "snippet": "Enterprise Bidding Project Experiment Log\nPhase 1\n⚠️ 重要提醒： .env 中的 DASHSCOPE_API_KEY=sk-2067... 已明文存在于文件系统中，若之前有过 git commit，建议立即去阿里云控制台重新生成一个新 Key 替换它\n详细检查结果 — 新发现并修复的问题\n🔴 Critical（本次新修复）\n问题\n文件\n修复\n1\n"
+  },
+  {
+    "id": "bafyreigabrapwl5dkclabi5lulbkv6w4xfa7w4yjqi3jx7hdcz2f2qjt3a",
+    "type": "page",
+    "name": "",
+    "snippet": "# 德国学术文化 + 你的性格契合度\n\n## 一、Hofstede PDI:德国 = 35,你完全适配\n\n**德国权力距离指数 35,属于全球低权力距离国家**(对比中国 80、日本 54、美国 40、奥地利 11)。作为高度去中心化、由强大中产阶级支撑的社会,德国权力距离低,共同决策权(Mitbestimmung)广泛,管理层必须考虑这些因素 [Germany](https://com207ge"
+  },
+  {
+    "id": "bafyreib73ymyvkwacgmfg3ckajwx7s5orqrccrwzojmapus4a47bs7ycw4",
+    "type": "page",
+    "name": "",
+    "snippet": "# 德硕忙到什么程度 + 实习/延毕全攻略\n\n## 一、硕士有多忙?(诚实数据)\n\n**官方学制:4 学期 (Regelstudienzeit) = 2 年, 120 ECTS**\n\n但**官方数据反复表明实际平均 4.5–5.5 学期**。这是常态,不是例外。\n\n**周时间预算(典型 AI/CS 硕士):**\n\n| 活动 | 第 1–2 学期 | 第 3 学期 | 第 4 学期(论文) |\n|-"
+  },
+  {
+    "id": "bafyreiew337b6ctsuaso4az45epjbplm2qlip3gn7yauahnbvapzow2h5a",
+    "type": "page",
+    "name": "",
+    "snippet": "# 德国硕士导师机制 + 找导师攻略\n\n## 一、最关键的认知:**硕士不是\"一个导师跟到底\"**\n\n这是德国硕士跟中美研究生制度最大的差异:\n\n| 阶段 | 中国/美国常规 | 德国 |\n|---|---|---|\n| 入学时 | 通常已经匹配导师 | **没有导师,只录到项目** |\n| 课程阶段 | 跟导师有研究关联 | **跟所有教授都没特殊关系**,你只是上课的学生 |\n| 论文阶段 |"
+  },
+  {
+    "id": "bafyreighqf5tr7t7wrzp6leeuh4vksdkziux6ltkatzfcyxchwh3icktuq",
+    "type": "page",
+    "name": "",
+    "snippet": "雅思错误记录\n听力\n阅读\nestablished equal traditional"
+  },
+  {
+    "id": "bafyreibps3ubikt2lirk6v4ozjz4florhp6nityjytvlabau6jgnzyuwgm",
+    "type": "page",
+    "name": "",
+    "snippet": "直接给你结论：对出国旅行来说，「核心证件集中锁在一个贴身的、绝对安全的“篮子”里，其余资产分散备份」，是平衡安全与便利的最优解。\n \n \n \n一、先破题：两种策略的适用场景\n \n1. 全部分散存放（把鸡蛋放N个篮子）\n \n优点：单个篮子出事，不会全军覆没。\n缺点：\n \n- 你需要记住N个存放位置，慌乱中容易搞混、弄丢；\n- 护照、备用卡这类关键物品，你没法做到随时贴身监控，反而增加了丢失风险；\n-"
+  },
+  {
+    "id": "bafyreiartmlxsql3s4wdvyt53dvuth64q4sdxqko3lbjrm3zigwfff2iem",
+    "type": "note",
+    "name": "",
+    "snippet": "us address\n生成结果\n姓\nTremblay\n名\nCharlotte\n性别\nFemale\n电话\n+1 (302) 373-1542\n电子邮件\n点击生成临时邮箱，可以收邮件\n街道\n18 West Loockerman Street\n城市\nDover\n州全称\nDelaware\n邮编\n18 West Loockerman Street\n完整地址\n18 West Loockerman Street"
+  },
+  {
+    "id": "bafyreiemhmo7ybt2bd6go54yanfpilebggc4avgovvwsvvv7qknpy7q5mu",
+    "type": "page",
+    "name": "",
+    "snippet": "claude code memory\nWork context\nRaelon is an AI undergraduate student at a water conservancy-focused university, enrolled in a selective experimental cohort with an individual research supervisor, wor"
+  },
+  {
+    "id": "bafyreidqhacnzs5bgk4hwqnyqkva7mf574q2jzk6ihtkjzpz5agsgeab7e",
+    "type": "note",
+    "name": "",
+    "snippet": "key\nKEY\nAPI api\nge\nAIzaSyASKMBziMXFM_e-CVcjP50r1pqPupgrJSg\nyou\nAIzaSyC_l0SVLIALliE_EM64U6Ep3s9Q6iQLTe0\ncoo\n1c527127%2C1790258695%2C41e1e%2A31\nmimo api key\nsk-cn832h3w43u0n85a5gx2kw0qot4tidq2howzp081l5"
+  },
+  {
+    "id": "bafyreid2m6ahzo6cjpc56czwqhezln5pxpdnuv2x6se4ti6tsm5a6yt2pa",
+    "type": "page",
+    "name": "",
+    "snippet": "你这个问题非常重要。我的看法是：\n\n> 普通人生中真正需要极其郑重思考的决策，不超过十个。大多数日常选择可以快一点，但这些决策不能草率，因为它们会改变你的身份、责任、时间结构、风险暴露和人生路径。\n\n\n\n纳瓦尔那类思想里很重要的一点是：你不需要每天做很多聪明决定，你只需要在少数关键决定上别犯大错。\n\n\n---\n\n一、哪些属于“重大人生决策”？\n\n我会把重大人生决策定义成四个特征：\n\n高后果 + 长"
+  },
+  {
+    "id": "bafyreib5lzaknkc4vetgg5j43rzep3me4ozgvzfsevq6lamfwgplin2nsm",
+    "type": "page",
+    "name": "",
+    "snippet": "一口气吃透 at 核心用法，超易懂总结\n \n先给你一句总口诀：\nat 主打「点概念」——时间点、地点点、状态点、目标点\n不是大面积、大范围，是一个小节点、小位置、小时刻，所以才看着特别灵活。\n \n \n \n一、你发现的第一种：地点类（小地点、具体点位）\n \n✅ 核心：小而具体的点位，不是大片区域\n \n- at university 在读大学（把大学当成一个「求学点位」）\n- at school / "
+  },
+  {
+    "id": "bafyreia2ro53mpvxfcp4cgam3qayzqqdkoro4pbrk2xfaer2rg2ruli5au",
+    "type": "page",
+    "name": "",
+    "snippet": "What  is enough ?\n我的答案会比较明确：\n对绝大多数普通人来说，“够了”不是比别人有钱，而是：你的资产已经足够覆盖“体面生活 + 重大风险 + 时间选择权”。\n更精准一点，我会用这个标准：\n够了 = 净投资资产 ≥ 30 × 年度体面基本支出，并且没有高息债务，有 12 个月现金储备，重大风险有保险覆盖。\n这里的重点不是“30 倍”这个数字本身，而是它把财富从攀比指标变成了生活系统"
+  },
+  {
+    "id": "bafyreidq7jy3p5amytgkocysbi5mpiuucq56cnvo7shqd7o2dlrjzzdjj4",
+    "type": "page",
+    "name": "",
+    "snippet": "什么是人生重大决策？如何审慎思考做出决策？\n你这个问题非常重要。我的看法是：\n普通人生中真正需要极其郑重思考的决策，不超过十个。大多数日常选择可以快一点，但这些决策不能草率，因为它们会改变你的身份、责任、时间结构、风险暴露和人生路径。\n纳瓦尔那类思想里很重要的一点是：你不需要每天做很多聪明决定，你只需要在少数关键决定上别犯大错。\n一、哪些属于“重大人生决策”？\n我会把重大人生决策定义成四个特征：\n"
+  },
+  {
+    "id": "bafyreihcvyxu2pocolindqj4ljwlga4yhedx3crq4ghiznnziz3na6ppie",
+    "type": "page",
+    "name": "",
+    "snippet": "婚姻是什么？如何判断双方是否合适？\n你的理解很成熟：婚姻不是“找一个人完成社会任务”，而是找一个长期共同体成员。\n你说的“同志式朋友”这个词很准确：不是政治意义上的同志，而是同路人。也就是两个人不只是有感情，还能一起思考、一起承担、一起修正、一起解决现实问题。\n我补充一个核心判断：\n高质量婚姻不是两个人永远开心，而是两个人在面对复杂人生时，仍然愿意站在同一边。\n你已经提到人生观、价值观、金钱观、孩"
+  },
+  {
+    "id": "bafyreihlwhw76hzibuinfh5ksetliqmyp25ld7lqzxmqhu4nvwlub24y2e",
+    "type": "note",
+    "name": "",
+    "snippet": "# 🌍 高质量 GitHub 英语学习资源清单 + 8 周听力口语训练计划\n\n**生成时间：2025-10-09 05:40:12 (UTC)**\n\n---\n\n## 🧠 A类：综合指南 / 方法论（必读）\n\n- [A Programmer's Guide to English — yujiangshui](https://github.com/yujiangshui/A-Programmers-G"
+  },
+  {
+    "id": "bafyreidyimgv3cc7juhfmjv57xu7fwyoa4v4kpetdiqkvakb5lviwneilm",
+    "type": "page",
+    "name": "",
+    "snippet": "Raelon 投资决策原则\n\"痛苦 + 反思 = 进步\" —— Ray Dalio\n\"如果你不能清楚地写下来，说明你还没想清楚。\" —— Charlie Munger\n本文档是你的投资操作系统。市场恐慌时读它，市场狂热时也读它。\n它不是建议，是你和自己签的合同。\n第一部分：核心信念（Why）\n这些是你所有决策的底层假设。如果某一条被证伪，整个系统需要重新审视。\n1.1 关于市场\n市场长期向上，但路"
+  },
+  {
+    "id": "bafyreieh6uapohisbh4wtykdzb3xz4kghibe5gqyur52gpknczejuiopzi",
+    "type": "page",
+    "name": "",
+    "snippet": "Raelon 投资决策原则 V2.0\n痛苦 + 反思 = 进步。\n投资中真正重要的不是预测，而是在压力下仍能执行正确的原则。\n本文档是我的投资操作系统。\n它不是市场预测，不是情绪安慰，也不是短期交易计划。\n它是我在冷静时写给未来恐慌、兴奋、犹豫、贪婪的自己的合同。\n当市场暴跌时，读它。\n当市场狂热时，读它。\n当我想临时改计划时，更要读它。\n第一部分：最高原则\n1.1 投资目标\n我的目标不是短期跑赢"
+  },
+  {
+    "id": "bafyreiekpnzhxibjbc6mwdfdfxdbs6iah2lnog3pastq5ejbxa5weji6ke",
+    "type": "page",
+    "name": "",
+    "snippet": "鸟，为什么会飞？\n人们说，鸟儿本来就会飞，这是生物学的结构与本能造就的，是自然给予它们进化的馈赠。浪漫的哲人说，因为鸟想要飞上天际，这是它们所渴望的自由。但这不可能，这只是浪漫主义者的一厢情愿。\n \n因为它们「必须」飞上天际。当终焉的陨星在白垩纪降下，唯有自由飞翔的鸟儿才能得以跳出既定的灭亡。想必总有一只最初的鸟，它甚至未必拥有生物学意义上的翅膀，但当它尝试飞翔的那一刻，它所拥有的，并非是向神明祈"
+  },
+  {
+    "id": "bafyreig4xftuwr4cgepavpo7wmkco5qledvbrzwguxbzqbax3a3u2fmaii",
+    "type": "page",
+    "name": "",
+    "snippet": "Vocabularies from Genshin Impact\n**inferno** /ɪnˈfɝnoʊ/  \nn. 阴间，地狱  \na place or situation resembling hell, often involving intense fire, chaos, or suffering.  \nExample: \"The entire neighborhood became"
+  },
+  {
+    "id": "bafyreiglhzcq2lvxeiqlh4bszueytneqzur7okbni4s7fawos4hlh3mwwi",
+    "type": "page",
+    "name": "",
+    "snippet": "作品集\n我独立开发并维护5个开源项目+1个企业涉密项目，覆盖多Agent长链协作、RAG检索增强、深度学习信号建模与AI产品化落地，日常深度使用大模型推理，月均消耗500万+Token。\n一、企业级招标文件智能审查系统（涉密，未开源）。5个LLM Agent三线协作：快速筛选线4个并行Agent做资质/业绩/地域/保证金判断（30秒出结果）→精细评分线MinerU解析+动态stem+40/30/3"
+  },
+  {
+    "id": "bafyreifdyijvjwdf5at25pfve6pdmsusmv2swflurt2ulrt76fp6xale74",
+    "type": "note",
+    "name": "",
+    "snippet": ""
+  },
+  {
+    "id": "bafyreib2lg5377ionuc67bcg3vdxtulr5lgbimpeexabd533gjdm5qxjx4",
+    "type": "page",
+    "name": "",
+    "snippet": ""
+  },
+  {
+    "id": "bafyreiftuj47574eoazz4yyujjcrfcqve7irdcwvaemxftbrjby6c4jfoy",
+    "type": "note",
+    "name": "",
+    "snippet": "中国字号与磅值对照：\n字号\npt\n字号\npt\n初号\n42\n小初\n36\n一号\n26\n小一\n24\n二号\n22\n小二\n18\n三号\n16\n小三\n15\n四号\n14\n小四\n12\n五号\n10.5\n小五\n9\n你的格式要求：标题=黑体小二(18pt)居中，章标题=黑体三号(16pt)居中，正文=宋体小四(12pt)，注释=宋体五号(10.5pt)"
+  },
+  {
+    "id": "bafyreifscwnsdxjevpyq4tqt5e5h5hu6p4uguuykkwz3asudjkyvzre2p4",
+    "type": "page",
+    "name": "",
+    "snippet": "2026年\n├── 5-6月  [现在] 大二下期末\n├── 7-9月  暑假:雅思集中备考(每天4-5h)\n├── 9月    大三上开学\n├── 10-12月 大三上:\n│          ├── 10月 考雅思(方案B) ✅\n│          ├── 同步:开始准备APS材料(非成绩单部分)\n│          │   ├── 高考成绩证明翻译公证\n│          │   ├─"
+  },
+  {
+    "id": "bafyreiajennso3z6ttcfp4rlp5ly25uf6i7425opepddnirzrksyzu36cu",
+    "type": "page",
+    "name": "",
+    "snippet": "你的整套思路完全正确，非常贴合零基础/开口困难阶段的雅思口语提升逻辑，核心路径、方法、分题型策略都很落地，下面帮你梳理亮点、补充细节、明确执行顺序。\n \n一、核心结论\n \n现阶段优先内化优质范文/素材是最优解。你目前没法自然组织语言，本质是语料、搭配、句式储备不足，脑子里没有现成“语言模块”，强行开口只会卡顿、中式表达。先积累内化，再输出，符合语言学习「输入→内化→输出」的规律。\n \n你理解的“背"
+  },
+  {
+    "id": "bafyreigwghp34fo7wcawnwnu3p6nuqizbur2l7rxcn4moiz5s2ozib47ea",
+    "type": "page",
+    "name": "",
+    "snippet": "你的想法非常现实、通透，也完全可行，是把理想和现实做了很成熟的拆分，这条路当下很多技术背景的人都在走。\n \n一、先整体评价你的思路\n \n1. 路线选择很理性\n读博走全职学术，本质是依附体制/项目生存：经费、人际、考核、选题都身不由己，这也是你感受到的“难、圈子复杂”。先入工业界积累资源、实现时间与经济自主，再以个人研究者/独立开发者身份做研究，是当下最稳妥的“曲线追理想”，既解决生存焦虑，又保留热"
+  },
+  {
+    "id": "bafyreidch5wipqcuss2wcso73zr7dnrtjkvuaz2vqfmxmfgfqivmrplv7q",
+    "type": "page",
+    "name": "",
+    "snippet": "先给核心结论：两条路线完全可以并行互补，并非二选一。AI垂直落地工程师是现实底盘、收入来源，独立研究者/个人开发者是精神内核、长期理想，二者技能互通、场景互促，结合你的水利专业背景，路线适配度很高。\n \n \n \n一、先梳理两个定位，帮你把边界、价值、工作内容理清楚\n \n定位1：垂直领域AI应用工程师（主业/谋生主线）\n \n核心本质：把成熟AI技术、现有模型、算法工具，对接行业真实业务，完成工程落地"
+  },
+  {
+    "id": "bafyreidz4vi773qccls7kyeino4nb6d64iayzwylrkpbwysh5y2gty5nnm",
+    "type": "page",
+    "name": "",
+    "snippet": "德国奖学金（国际生，尤其是中国学生）\n主要类型：\nDAAD Study Scholarships for Master's（最主流）：覆盖所有学科的硕士项目。\n其他：政治基金会（Heinrich Böll、Konrad-Adenauer、Friedrich Ebert等）、Deutschlandstipendium（大学+企业联合，约300€/月）、州政府/大学专项奖学金、企业赞助。\n部分大学现在"
+  },
+  {
+    "id": "bafyreighuhhxoipc2wsmz6goqfsdfolwjnbdnwocxbcy3ssgmuwq7dorbe",
+    "type": "page",
+    "name": "",
+    "snippet": "深夜写给自己\n深夜写给自己\n最近一直在赶路，忙着考试、忙着项目、忙着规划未来。偶尔停下来的时候，会觉得时间过得太快，好像什么都还没来得及好好感受。\n但回头看看，其实已经走了很远了。\n从刚开始学 Python 连 ÎÞÎļþ¿ɹ©´òӡ 都要查文档，到现在能独立搭项目、调模型、写工具链。从对着雅思口语题发愣，到现在能和 AI 用英文讨论哲学。这些变化不是一夜之间发生的，是无数个再试一次堆出来的。\n芒"
+  },
+  {
+    "id": "bafyreicgd7oipbfd6isksbboxusau4jtubihsbshwrx66bspettvwomtui",
+    "type": "page",
+    "name": "",
+    "snippet": "深夜写给自己\n深夜写给自己\n最近一直在赶路，忙着考试、忙着项目、忙着规划未来。偶尔停下来的时候，会觉得时间过得太快，好像什么都还没来得及好好感受。\n但回头看看，其实已经走了很远了。\n从刚开始学 Python 连 print 都要查文档，到现在能独立搭项目、调模型、写工具链。从对着雅思口语题发愣，到现在能和 AI 用英文讨论哲学。这些变化不是一夜之间发生的，是无数个「再试一次」堆出来的。\n芒格说：「"
+  },
+  {
+    "id": "bafyreigd77k55v6vcaoueefyrumykj3gb4p7gmzh4ixtkbvsiqorwbrrpy",
+    "type": "page",
+    "name": "",
+    "snippet": "选项一：最贴合她兴趣的“女性版悉达多”\n书名：《吃、祈祷、爱》 (Eat, Pray, Love)\n作者： 伊丽莎白·吉尔伯特\n为什么这本书是绝杀？\n剧情完全对口： 女主角拥有世俗羡慕的一切（丈夫、房子、事业，就像你同学拥有的高绩点），但她却觉得内心巨大的空虚和恐慌，像是一个“不知感恩”的人。\n解决方案是“玩”： 为了自救，她没有去读研报，而是去旅游。去意大利狂吃（Eat），去印度修行（Pray）"
+  },
+  {
+    "id": "bafyreianuoyudltnhg2vm6xmbsnfict6hgkheb36veod6n6d5zlpvt4bmq",
+    "type": "page",
+    "name": "",
+    "snippet": "我完全懂你的意思。这不仅仅是“时间不够”的问题，这是**“认知带宽拥堵”**的问题。\n你想学英语，想学硬核技能（精益学习/投资），又想陶冶情操（文学）。\n但现实是：你是一个只有24小时的大学生，不是一台三核处理器。\n如果把英语阅读、实用技能、文学修养这三者强行揉在一起，结果通常是：英语没学会，技能没看懂，文学没读进去，最后全是挫败感。\n面对“可选项太多”这个现实问题，我们需要一把**“奥卡姆剃刀”"
+  },
+  {
+    "id": "bafyreicmhcpnegycdcppdhbaiowbn6gltp64geeseyzzv463ub7whvptam",
+    "type": "page",
+    "name": "",
+    "snippet": "下面按 时间顺序，给每本书做「相对详细但可快速扫读」的介绍：每本包含 一句话主旨 / 核心内容 / 适合谁 / 读法与落地。📚\n2023-11 — The Almanack of Naval Ravikant（《纳瓦尔宝典》）— Naval Ravikant\n一句话主旨：用“杠杆 + 专长 + 长期主义”讨论致富，用“减少欲望 + 觉察”讨论幸福。\n核心内容：\n财富 ≠ 钱，财富是“睡觉也在赚钱的"
+  },
+  {
+    "id": "bafyreibxpizorogvhopy5ydebxsbyigb5u2k4dndrbyohuplzapy2apoaq",
+    "type": "page",
+    "name": "",
+    "snippet": "这是一个非常聪明的策略。“先用AI/深度搜索把书‘以此类推’地拆解一遍，再决定是否投入时间读原著”，这本身就是一种极具效率的“杠杆”思维。\n鉴于你是大学生，处在人生观成型、技能积累和职业探索的关键期，我将这些书按**“对你当下的杠杆率”**（即读了能马上产生巨大改变）进行优先级排序：\n第一梯队：人生底层操作系统（必看，建议读原著）\n这几本书是构建你世界观的地基。如果你只读两本，就读这两本。\n1. "
+  },
+  {
+    "id": "bafyreig34gglyuctzpree2ckwv7ss6nraq73n5gan3uq4pqmkzlipy7lz4",
+    "type": "note",
+    "name": "",
+    "snippet": "好的，我直接给你最终版完整汇总，把你截图里的两类（“发音不同但拼写相同”＋“名词和动词重音不同”）全部合并，补全、整理，不废话，直接给结果。\n\n\n---\n\n✅ **英语最常见「同形异音词」总表（完整版）\n\n（你截图里的全部 + 我补全的常考高频）**\n\n\n---\n\n🔥 A. 拼写相同，但发音不同（词性或意思不同）\n\n单词\t读音1（意思1）\t读音2（意思2）\n\nlead\t/liːd/ 领导（动词）\t"
+  },
+  {
+    "id": "bafyreiec5hdu77xlco27tu3izeovrilnhmscsnrah6v3mzgwyyr4by24ci",
+    "type": "page",
+    "name": "",
+    "snippet": "⭐ 《洞见之环 Insight 🪐》群公告（终极松弛 × 深度版）\n欢迎来到「洞见之环 Insight 🪐」。\n这里是一个跨学科的安静思考小组，聚焦科技前沿、哲学、文学、社会学、心理学、经济逻辑与个体认知。\n这里没有唯一正确答案，只有更多的角度。\n我们相信：理解世界的方式越多，判断力就越自由。\n📘 我们鼓励的分享方式（轻松版）\n这里不求高频，也不求形式感，只求真诚。\n你可以丢进来：\n一段你读到的文"
+  },
+  {
+    "id": "bafyreifs7k5hzri3xcjt377wfryjb4klkgkm3eds7td3zmy23mzdf5gy4e",
+    "type": "page",
+    "name": "",
+    "snippet": "账号:     fdzhe1@126.com\n密码：  fdz050624"
+  },
+  {
+    "id": "bafyreib3wsslv4ceyuv3d5lpfcv4nrd4vp35lkpz5mejsgeraudddz2fcm",
+    "type": "page",
+    "name": "",
+    "snippet": "🎯 雅思备考完整作战方案 v1.0\n最后更新：2025-10-11\n目标：雅思总分6.5-7.0，单项≥6.0\n核心原则：输入驱动 → 能力建设 → 考试碾压\n📋 总体架构\n时间线与里程碑\n现在 (10月11日)\n    ↓ [63天 - 冲刺四级]\n2025年12月中旬 - 四级考试 (目标425+过线)\n    ↓ [10周 - 基础建设期]\n2026年2月底 - 第一次雅思模考 (摸底)\n "
+  },
+  {
+    "id": "bafyreigsn3bygc7wdf47sn6opog4kgcq36u6bfjs53c4iom5zlzg27lapa",
+    "type": "page",
+    "name": "",
+    "snippet": "雅思全科备考攻略（含零基础口语突破指南）\n考试结构与评分标准\n考试时长与顺序：IELTS考试由听力、阅读、写作和口语四部分组成，总时长约 2小时45分钟。听、阅、写在同一天连续完成：听力30分钟（纸笔考试另有10分钟誊写答案时间），阅读60分钟、写作60分钟；口语考试为11–14分钟的面试，可能安排在同一天或前后7天内ieltsjacky.com。\n版本区别：IELTS分为 学术类 (Academ"
+  },
+  {
+    "id": "bafyreieklgshjh74sqmsfege7axgj3dpbgi2xy343nujj3yrpfyznv6s24",
+    "type": "page",
+    "name": "",
+    "snippet": "英语国际音标（IPA）最强教程\n国际音标（International Phonetic Alphabet，IPA）是一套用符号表示口语发音的系统，它为英语等任何语言提供了统一的音标。音标学习的关键是理解每个音的发音部位、发音方法以及嘴唇与舌头的形状。本文基于权威资料为您整理了一套完整的英语 IPA 音标教程（以通用的英国和美式音标为主），介绍每个音的口腔位置、示例单词、与普通话差异、视频或音频学习"
+  },
+  {
+    "id": "bafyreihudelhh6fea4r6wzbsyi623h7lvm6u4q6mrpeod66upi7a4durji",
+    "type": "note",
+    "name": "",
+    "snippet": "雅思备考总纲 (The Master Plan Outline)\n核心指导思想：**以终为始，用能力碾压考试 (Start with the End in Mind; Use Ability to Crush the Test)\n我们的所有努力，都指向建立真正的英语综合能力**，这是雅思7分+的唯一路径。四级500分将是这个过程中一个自然而然、轻松达成的里程碑。\n整体时间框架：\n当前： 2025年"
+  },
+  {
+    "id": "bafyreigwu7eunkuja5crbeumvbqsulifcuvl24xrewxq4bvbq55x2r3dni",
+    "type": "page",
+    "name": "",
+    "snippet": "雅思备考总纲 (The Master Plan Outline)\n核心指导思想：**以终为始，用能力碾压考试 (Start with the End in Mind; Use Ability to Crush the Test)\n我们的所有努力，都指向建立真正的英语综合能力**，这是雅思7分+的唯一路径。四级500分将是这个过程中一个自然而然、轻松达成的里程碑。\n整体时间框架：\n当前： 2025年"
+  },
+  {
+    "id": "bafyreidzrj36zop722pz4hqur3iout7mkxl7u7fnspoton27cyqnp5zzfy",
+    "type": "page",
+    "name": "",
+    "snippet": "AI替代等级评估\n，给出现在（2025）/12–18个月/36个月的风险走势，并附转型与自保策略**。\n好的，直球上结论：有一批“可被清晰描述、可验证产出、模板化强、纯线上交付”的脑力活儿，已经/即将被AI吞噬；而需要线下协作、强情境判断、跨人群沟通、拿结果而非交付物的工作，短期更安全。下面我把你前面那整套副业目录逐项做**“AI替代等级评估”，给出现在（2025）/12–18个月/36个月的风险"
+  },
+  {
+    "id": "bafyreic2w2hjtvk5o6afvqkw7s7tzyfpla6v2enppuhu5mod7rcsexgxam",
+    "type": "page",
+    "name": "",
+    "snippet": "听力指南\n同时，你对四级和雅思的定位也极其清醒和正确：四级是“通关考试”，雅思是“能力考试”。\n基于这个核心认知，我们就可以制定一个一石二鸟的策略：用备考雅思的“地基”，去“降维打击”四级。 这样做，你的每一分努力都不会白费，既能确保四级过500分，又能为最终的雅思目标铺平道路。\n到底怎么听？为你量身定做的【1+3 精准听力循环法】\n这个方法整合了你所有的思考，旨在解决你“话题依赖”、“精听耗时且"
+  },
+  {
+    "id": "bafyreidriwsnd227sklf4qgfjmim4dhexijsftvmwhlngvwjwjt46leq4a",
+    "type": "note",
+    "name": "",
+    "snippet": "你图片中提到的是2026年河南省定向选调生考试，这是河南省面向国内部分高校选拔应届优秀毕业生到省直、省辖市市直机关工作的招录考试，属于公务员招录的特殊形式。核心信息如下：\n招录对象\n仅限国内部分高校2026年硕士研究生及以上学历的应届毕业生，且排除独立学院、非全脱产学习等类型的毕业生。\n招录规模\n2026年计划选调406人，其中省直岗位70人，省辖市市直岗位336人。\n报考核心条件\n硕士不超28周"
+  },
+  {
+    "id": "bafyreibird2mtmcs2fgx2zuthzm2ezvjxum34hjqyhp6me5lpggpyrsfma",
+    "type": "page",
+    "name": "",
+    "snippet": "这份雅思备考攻略已经为你准备好了。我汇总了听、说、读、写四个部分的考试结构、评分标准、备考策略、推荐教材以及零基础的口语突破方法，并列出了阶段性复习计划。你可以在以下文件中查看完整内容：\n雅思全科备考攻略（含零基础口语突破指南）\n考试结构与评分标准\n考试时长与顺序：IELTS考试由听力、阅读、写作和口语四部分组成，总时长约 2小时45分钟。听、阅、写在同一天连续完成：听力30分钟（纸笔考试另有10"
+  },
+  {
+    "id": "bafyreiccc2zx4qiytt3pharihcyuwsygde3eyuub4vhidmnii4ythufskm",
+    "type": "note",
+    "name": "",
+    "snippet": "你的思路非常清晰，已经具备了“战略家”的潜质。为了帮你把手头这些资源（剑15-20 + 机经回忆）发挥到极致，我把它们划分为不同的**“战术等级”**，并配合你的备考时间轴来安排。\n直接回答你的问题：剑15-18 绝对要刷，但用法和 19/20 完全不同。\n以下是为你定制的 “雅思资源分级使用指南”：\n1. 资源分级：清楚每一本书的角色\n * 基础训练营 (Training Ground): 剑1"
+  },
+  {
+    "id": "bafyreihlyicnmayootmaeko52uxwb6ji4wwo5un4cvdev7bu2rsris2qqu",
+    "type": "page",
+    "name": "",
+    "snippet": "这就回到了英语副词最“狡猾”的地方——副词的种类决定了它的位置。\n你非常细心！之前我们讲 significantly augment 时，说副词放在动词前。为什么这里 developed rapidly 却跑到了后面？\n这是因为 Significantly 和 Rapidly 属于不同类型的副词，它们遵守不同的“交通规则”。我帮你把这个规则彻底理清楚：\n1. 规则一：程度/频率副词 → 放在动词前"
+  },
+  {
+    "id": "bafyreihmrtp2qmjhsiquse7v3rfvukon2zzujr5ydjmotogh5ffgbdk7cm",
+    "type": "note",
+    "name": "",
+    "snippet": "这非常棒！ChatGPT 的分析非常理性，基于大数据的宏观趋势；而我的预测则更侧重于中国四六级考试的“本土命题习惯”（比如对“讲好中国故事”的政治正确性的侧重）。\n将我们两者的观点**“合二为一”，我们就得到了一份覆盖率极高、几乎无死角**的2025年12月四六级作文终极预测。\n以下是结合了ChatGPT的“社会广度”和我的“本土深度”后的终极预测版图，以及为你定制的融合版万能语料。\n一、 终极预"
+  },
+  {
+    "id": "bafyreidbnrm5pvi6ghgyapcwbxcwy3jqm4ucs2lzvmsznwq7npzjnlc3gy",
+    "type": "note",
+    "name": "",
+    "snippet": "好词好句&句型解析\n \n1. You have my word.\n \n- 意思：我向你保证（非常正式、有分量的承诺）\n​\n- 用法：适用于需要让对方完全信任自己的场景，比 I promise 更郑重。\n \n2. Like the fisherman who... the thief who... and the changeling who...\n \n- 句型：Like A who..., B w"
+  },
+  {
+    "id": "bafyreiboydaykt4jbwr37w7ohsvpbgju6nq4zcgbf4t3tukiaec5ofz6am",
+    "type": "note",
+    "name": "",
+    "snippet": "首先，给你一个大大的拥抱。做出离开科研的决定并不容易，这往往伴随着一种**“壮士断腕”**的悲壮感。\n你希望“中彩票然后投钱做自己想做的研究”，这其实是每一个理想主义者最极致的梦想——像当年的达尔文或波义耳一样，做一个无需向经费机构低头的“绅士科学家”。这不可笑，这很尊贵。\n现在你要去当“小牛马”了，但这不代表你失去了灵魂。我们可以把它看作一次**“战略转进”：你去工业界是为了掠夺资源（金钱）**"
+  },
+  {
+    "id": "bafyreiaeae6z3lwa3ximzdz2g6pdvqo4ze5j4d5tefosx5k4rix6odtjea",
+    "type": "note",
+    "name": "",
+    "snippet": "没问题，这是一个很常见的英文学习点！这两个词是 \"Lend\" 和 \"Borrow\"。\n📚 英文单词：Lend (借出) & Borrow (借来)\n这两个动词是反义词，描述的是物品从一个人转移到另一个人手上的过程，但它们强调的是不同的方向。\n| 单词 | 中文含义 | 强调方向 | 句型举例 |\n|---|---|---|---|\n| Lend | 借出 | 从自己 \\to 别人 | I lent"
+  },
+  {
+    "id": "bafyreifdifwqx3ic7uxohqvwrcsgv3xxggjihakpixnreqqaphbj2gpcie",
+    "type": "note",
+    "name": "",
+    "snippet": "【正式版】适用于面试、国际学术、社交简历等场合\nHello,\nmy name is Raelon Veritas Lee.\nYou can just call me Raelon.\nI chose this name because “Raelon” reflects a sense of creativity and forward-thinking, while “Veritas,” the "
+  },
+  {
+    "id": "bafyreicuplxyfmn7f575hkthgxogbgncrwahnu5cz4sugxrd6whnqvh2tu",
+    "type": "note",
+    "name": "",
+    "snippet": "你的当前重心：代码编程 + 雅思 (完全正确)\n你目前的重心应该放在打基础和扫清留学障碍上。\n代码编程（算法与工程基础）\n重要性：这是你未来所有竞赛（XCPC、蓝桥杯AI赛、Kaggle）和AI科研的基石。扎实的编程能力是德国高校看重的工程素养。\n行动建议：\n主攻 XCPC 训练：继续你的XCPC备赛。这能让你在算法和数据结构上达到高水平，为你后续AI赛的数据处理和模型优化打下坚实基础。\n学习 P"
+  },
+  {
+    "id": "bafyreidzcppg6zfc6aetfxylrtup2milfym3j63m25ecwjrc2hv6ser2aa",
+    "type": "note",
+    "name": "",
+    "snippet": "非常好的问题 👍\n“下降到（to）”和“下降了（by）”确实是英语里最容易混淆的一对表达。\n我们来系统讲清楚：\n🧭 一、核心区别一句话总结\n用法\n含义\n举例\ndrop / fall / decrease to\n强调下降到某个数值或状态（最终结果）\nPrices fell to 50 dollars.（降到50美元）\ndrop / fall / decrease by\n强调下降的幅度或差值（下降了多"
+  },
+  {
+    "id": "bafyreihaigilru5nzlmkwv3y3e4ecg22o76dos3ipxuq3k25kv3w6ueqo4",
+    "type": "note",
+    "name": "",
+    "snippet": "411625201107252012\n李鹏宇\n河南省周口市郸城县张完集乡吕庄\n411625200609022052\n李鹏\n李小学\n412726198101082014\n李云霞\n412726198112042069\n15557909726"
+  },
+  {
+    "id": "bafyreibtup4z7e7ygj6kudu6jvlw4jjkj3f6ghod6htmzyxc7ijvaaoq5u",
+    "type": "note",
+    "name": "",
+    "snippet": "以下是根据您的需求整理的《家庭保险研究报告（适用于年轻人及父母，2025年更新）》，内含针对年轻人和父母两种情况的保险产品分析、保额建议及出国留学时的注意事项。您可以点击下载查看：\n家庭保险研究报告（适用于年轻人及父母，2025 年更新）\n**编制时间：**2025‑11‑08（洛杉矶时区）\n**适用人群：**20岁左右年轻人（在中国购买商业保险，并考虑出国留学）、45–55岁父母（家庭经济支柱）"
+  },
+  {
+    "id": "bafyreic5dbpw7majurxej6wb6wypj4fg6svxeo2h2qzvvrbuy426ahzrpm",
+    "type": "note",
+    "name": "",
+    "snippet": "📚 查理·芒格主要书籍与标准中文译名\n英文书名\n标准中文译名\n备注\nPoor Charlie’s Almanack: The Wit and Wisdom of Charles T. Munger\n《穷查理宝典：查理·芒格智慧箴言录》\n✅ 最权威版本，由**彼得·D·考夫曼（Peter D. Kaufman）**编纂，国内中信出版社/机械工业出版社等多版出版；内容包含芒格演讲、思维模型、投资哲学。"
+  },
+  {
+    "id": "bafyreicoixwcepojvsc53z3ezwasrpl2t77vt3g3ra3h2ywxta3uqi325q",
+    "type": "page",
+    "name": "",
+    "snippet": "复利\n🎥《查理·芒格：永保富有的唯一秘诀——反脆弱性》总结\n🧩 一、导入故事：4000 万美元的警示\n影片开头讲述了大卫（David）在六个月内因过度杠杆 + 过度集中而损失 4000 万美元的故事（00:00–00:33）。\n引出主题：赚钱容易，守钱难（01:04）。\n芒格式反思：致命的不是错误判断，而是缺乏防御机制。\n🧱 二、核心思想：反脆弱性（Antifragility）\n“真正的财富系统，"
+  },
+  {
+    "id": "bafyreigoegqy7atnlc2n2gon4senn4zfszgmtufalkbpmexx6chrfebtli",
+    "type": "note",
+    "name": "",
+    "snippet": "当然可以。以下是几类测试视频生成模型能力的标准提示词（Prompts），每类都旨在检验模型的不同维度能力，比如物理一致性、动作连贯、光影变化、风格保持、语义理解等。\n\n\n---\n\n🎥 一、基础物理与场景一致性测试\n\n> 测试：空间理解、光影变化、物体运动轨迹。\n\n\n\nPrompt 示例：\n\n\n\n\n要点：\n\n有具体材质（rubber, wooden）\n\n有运动与停下的过程\n\n有动态光影\n\n\n\n---"
+  },
+  {
+    "id": "bafyreicpggwckdhcu2j5fsuqb72g7y5tp5rd5cjndegjhrsfpar7xudxpm",
+    "type": "note",
+    "name": "",
+    "snippet": "太好了 👍\n这份测试是我结合芒格的「能力圈」理论 + 卡尼曼的「系统性偏误」设计的，\n用于判断你目前的投资自信是否合理（还是已经接近过度自信）。\n\n\n---\n\n🧠 投资自信自测量表（共 10 题）\n\n请根据你自己的真实想法选择 A/B/C，\n并记录答案，我稍后帮你分析结果。\n\n\n---\n\n① 信息来源\n\n当你决定买入一只股票或基金时，你的信息主要来自：\n\nA️⃣ 网络视频、自媒体推荐\n\nB️⃣ 自"
+  },
+  {
+    "id": "bafyreidaugc6rn6jvzbnhprlhanjawt7z3oke2umjed3i35bys4vlyz75m",
+    "type": "note",
+    "name": "",
+    "snippet": "太好了 ✅ 你这个阶段的方向非常清晰——\n你希望从零系统提升英语口语，并且计划未来用于雅思口语考试，但当前更关注口语能力的真实建立与系统训练（不仅是背模板或话题）。\n\n所以我们要设计的，不是简单“练口语30天”，而是一份科学、渐进、可操作、真正能让你开口与提升思维表达能力的训练计划。\n\n\n---\n\n🎯 总体目标\n\n在 8 周内（≈ 2 个月），系统建立「能说 → 会说 → 说得好」的能力。\n\n第 "
+  },
+  {
+    "id": "bafyreib4mfpj3k2h554cxx2hjfywtqwc5pmetsn7fz7jmfhxzbuohzdld4",
+    "type": "note",
+    "name": "",
+    "snippet": "鉴于你的首要任务是备考雅思，时间宝贵，因此接下来的计划核心将是 “高效率、重实战、持续性”。\n编程规划 蓝桥杯\n核心指导思想：从“学习者”转变为“竞赛者”\n你已经完成了知识的系统性输入，现在需要将重心彻底转向 应用和输出。正如你学习计划中提到的，“‘全看完’永远不如‘学到用得上的’” ，下一步的目标是把知识变成肌肉记忆和解题策略。\n未来学习与训练计划\n我为你设计了一个分阶段、可灵活调整的长期计划："
+  },
+  {
+    "id": "bafyreiex7ntvft6atxniyw3c472kze6eb7iey4gqy3hx3xqhtxbrykyzae",
+    "type": "note",
+    "name": "",
+    "snippet": "📜 1. 简洁而有哲思的表达（适合个人箴言、文学化写作）\nI know the world holds no inherent meaning but I choose to endow it with my own.\n（我知道世界并无内在意义，但我选择赋予它属于我的意义。）\nThough existence is void of meaning I still choose to give it"
+  },
+  {
+    "id": "bafyreida5m7msydeotrqgva2tocjmawiyqg6mfe6tgubpztt6u7tzezunu",
+    "type": "note",
+    "name": "",
+    "snippet": "听上去应该开始学：\n1. 数据结构 值域线段树->splay/可持久化treap->树套树->动态树->可持久话动态仙人掌（误）\n2.动态规划：区间DP、树上DP、数位DP、插头DP等\n3.网络流与图匹配：最大流、最小费用最大流、上下界网络流、带花树\n4.数论：费马小定理->线性筛->莫比乌斯反演->杜教筛、FFT->NFT->多项式乘除开根、母函数、组合恒等式变形\n5.博弈论：Nim游戏->SG"
+  },
+  {
+    "id": "bafyreihm2qyv6rlpb4mlbd5zympc63vflmnrywi2caexycybq66cgfsor4",
+    "type": "note",
+    "name": "",
+    "snippet": "这是一个非常现实、也非常深刻的问题。\n很多人在追逐远大目标的过程中，会经历两个极端：\n一是“只盯目标”，牺牲了生活与娱乐，导致精疲力竭；\n二是“沉迷当下”，目标慢慢模糊，甚至被遗忘。\n要走得远，真正的关键不是“取其一”，而是“拿捏好比例”。\n🧭 一、目标与生活并不是“二选一”\n你可以把你的长远目标（例如出国深造、科研成果、财务自由等）当成一座高远的灯塔。\n但支撑你抵达灯塔的，是每天的“船”与“燃料"
+  },
+  {
+    "id": "bafyreidbd62g54vttemj7hj3erglu44hfk7wbygxok7ddxyhyprvrrhnra",
+    "type": "note",
+    "name": "",
+    "snippet": "滑到你想要页码为“1”的那一页，鼠标点到那一页的开头第一个字，接着，布局——分隔符（“下一页”）【按ctrl+shift+8 可显示】\n\n——插入页码（“设置页码格式”——“起始页码”——“页码底端”——取消选中“链接到前一页”）——删掉不需要的前页的底下的“1”——关闭页码。\n\n如果出现空白页，就，视图——大纲——双击分页符“======”双横杠，删减，就可以了。"
+  },
+  {
+    "id": "bafyreidfv2tebsmb6x5nnidsj4ifrwoing4brbagtrwnd65wpsu65pkomq",
+    "type": "note",
+    "name": "",
+    "snippet": "大语言模型压缩的核心路径：低比特量化的原理、实践与前沿\n摘要\nTransformer 系列大语言模型（LLM）在推理阶段面临显存与带宽瓶颈，直接抬高了单次调用成本并限制了端侧/边缘部署的可行性。本文聚焦于低比特量化这一条“核心路径”，系统梳理了权重量化（如 GPTQ、AWQ）、权重+激活联合量化（如 SmoothQuant、LLM.int8()）、KV 缓存量化（如 KVQuant、Coupled"
+  },
+  {
+    "id": "bafyreigqnakcv3jvrruvmbrk66p2pf5jydxyyah3f6z5ttcr2hp3j3r2vi",
+    "type": "note",
+    "name": "",
+    "snippet": "《大语言模型量化技术综述》写作指南与模板\n第一步：心态建设——重新定义你的“贡献”\n在开始前，请牢记：对于本课程论文，你的“贡献”不在于提出新算法，而在于完成一次高质量的学术梳理。你的目标是向老师证明你具备以下能力：\n信息检索能力： 能找到并阅读领域内的核心文献。\n知识整合能力： 能将碎片化的知识点，用清晰的逻辑框架组织起来。\n分析与批判能力： 能对比不同技术的优劣，并提出自己的见解和展望。\n学术"
+  },
+  {
+    "id": "bafyreigdkzb5nv43qkjxf33jh6agujfsvngro6yxgyuqiuosakritlarxy",
+    "type": "note",
+    "name": "",
+    "snippet": "🕊️ The First Bird That Jumped\nLong, long ago, the sky did not belong to birds.\nThe wind belonged only to itself.\nLeaves were torn apart, dust was carried away, and every living thing looked up at that"
+  },
+  {
+    "id": "bafyreign2ymbl7tmrmea4odellztxnsqqug7g6752nhkqvyko5dzs7sk5i",
+    "type": "note",
+    "name": "",
+    "snippet": "🌌 人类：在废墟中飞行\n——写给所有仍在追问“我们是谁”的人\n一、战争：文明的镜子\n战争，是人类灵魂的裂缝。\n每一次枪声响起，文明的伪装就被撕下一角。\n人们说战争带来科技、制度与创新——\n火药、医学、通信、核能……\n但那不过是灰烬里长出的花。\n战争从未真正有价值。\n它的唯一意义，是让人类直面自身的黑暗：\n原来我们可以理性地发动屠杀，\n用“正义”“信仰”“国家”的名义，\n让屠戮变得理所当然。\n战争不"
+  },
+  {
+    "id": "bafyreig7hhk57y7tbjvskt2ujf4cigmap2vkajif4s4jzce6pfhjpnortq",
+    "type": "page",
+    "name": "",
+    "snippet": "可以！在「普通一本、缺少老师支持」的条件下，也完全能做出像样的研究与作品集，甚至独立发论文/做开源成果来支撑出国申请。下面给你一套务实可落地的路线（按你现在大二→大三→大四节奏来），外加可做的研究题库、投稿与成果包装、导师选择与避坑，以及雅思+竞赛并行的时间表。\n一、没有老师也能做研究：三条“独立可行”路径\n目标：做出“能被验证”的贡献（代码+数据+报告），哪怕是小切口，也能成为强力申请材料。\n路"
+  },
+  {
+    "id": "bafyreihmuwhltiy5qbscztmpyclwratokie6qlzbjza7j5ugka2pmd63ya",
+    "type": "note",
+    "name": "",
+    "snippet": "核心领域：你对人工智能、计算机科学和前沿科技充满热情。\n思维模式：你是一个逻辑清晰、善于规划的思考者，享受解决问题的过程。\n深层兴趣：你不仅关心“做什么”，更关心“怎么做”，对高效学习、思维方法和个人成长有浓厚兴趣。\n阅读目的：你希望通过英语这扇窗，去接触更宏大、更深刻的思考和信息。\n基于这个画像，我为你挑选了几本难度适中、且大概率会让你“爱不释手”的英文原版书。它们都不是艰深的学术著作，但都充满"
+  },
+  {
+    "id": "bafyreignw4oj7kvi7nniztr4lkcp2gxk5wr7fiqz4t6e2hocs5zblsfbi4",
+    "type": "page",
+    "name": "",
+    "snippet": "Globalization\n你的观察非常深刻。确实，制度特征和路径依赖往往比短期政策更能决定一个国家的长期轨迹。让我从制度经济学和政治经济学的视角，对主要经济体未来5-15年的趋势做一个结构性预测：\n🇨🇳 中国：改革困境与路径锁定\n制度特征：\n中央集权体制，自上而下改革传统\n“渐进式改革”惯性：摸着石头过河\n既得利益集团（国企、地方政府、房地产）盘根错结\n政绩考核体系强化短期行为\n你说得对的核心问"
+  },
+  {
+    "id": "bafyreieabx5zpfrm4ckdsx4vqc4w5vzjy42uwonszlbjxdjwvqvng2yqga",
+    "type": "note",
+    "name": "",
+    "snippet": "The Chaos\n全诗如下（斜体代表重点关注）：\nDearest creature in creation\nStudying English pronunciation,\nI will teach you in my verse\nSounds like corpse, corps, horse and worse.\nI will keep you, Susy, busy,\nMake your h"
+  },
+  {
+    "id": "bafyreifa3zbfuom6hnxviylxtwjvfkjcqrm4mrgkxp7alpjdwl6sybpfg4",
+    "type": "note",
+    "name": "",
+    "snippet": "账号：202420008\npassword：Ll722627#\nLl722627#"
+  },
+  {
+    "id": "bafyreig7i7ihbrk6vyhuheviuszn3qyerytmq6qujfz54uf6xy3cf37bau",
+    "type": "page",
+    "name": "",
+    "snippet": "好，先把最现实的话放前面：\n\n不建议“在家自学一年”当 PlanB。\n除非你能拿出硬产出（实习/RA 证明、可用产品/论文/开源），否则会在申请和签证环节都显得弱。PlanB 要的是可验证履历，而不是时间的流逝。\n\n下面给你一个三层备份方案：A→B→C；从强到弱依次启用。你照这个框架，就算德硕失利也不慌。\n\n\n---\n\n结论快照\n\n主张：同时准备 德国+“其他欧陆”硕士，并设计一条带薪/有证明的 "
+  },
+  {
+    "id": "bafyreihura4woicj34depsgq5u3dozefeesrwmp6xn2lsbewjp3yognjyi",
+    "type": "page",
+    "name": "",
+    "snippet": "踏过蒙德摘星崖\n踏过蒙德摘星崖\n踏过蒙德摘星崖，\n览尽璃月烟火华。\n轻拂稻妻落樱花，\n聆听枫丹水优雅。\n目睹纳塔烽烟下，\n却是沉玉谷中月，\n最牵我心家。\n\n\nAcross Mondstadt's cliffs, picking stars,\nLiyue's fireworks bloom afar.\nSoftly brushing Inazuma's cherry haze,\nListening "
+  },
+  {
+    "id": "bafyreihikc7rucvnl6kzrsj4csclv3uu4bxp2lxnyztoshp235vzetc2fm",
+    "type": "page",
+    "name": "",
+    "snippet": "明白啦，先说人话版结论：**你判断对了——材料太难、句子太长、连读弱读没适配，你的大脑还没建立“听觉词块库”，所以读得懂但听不出。**别硬顶新闻长段，先把“可理解输入”拉回80%上下，再逐级加难。\n明白啦，先说人话版结论：**你判断对了——材料太难、句子太长、连读弱读没适配，你的大脑还没建立“听觉词块库”，所以读得懂但听不出。**别硬顶新闻长段，先把“可理解输入”拉回80%上下，再逐级加难。\n一套"
+  },
+  {
+    "id": "bafyreigkgxxodagawk6baqbwjkijaewz4fjysh5u3dsxc6j7rbmx2opk2i",
+    "type": "page",
+    "name": "",
+    "snippet": "口语训练计划\n口语训练计划\n当然可以，我会为你设计一个为期 30 天的口语训练计划，每天30分钟左右，话题逐渐深入，由浅入深，贴近雅思口语Part 1、Part 2、Part 3的逻辑。\n\n\n---\n\n🧩 训练计划总览：三阶段阶梯式进阶\n\n时间段\t训练目标\t话题类型\t難度\t说明\n\n第1阶段（第1-10天）\t建立基础表达\t雅思口语 Part 1\t⭐\t热身+熟悉基本回答结构\n第2阶段（第11-20天）"
+  },
+  {
+    "id": "bafyreifdkcq2xl4ob3nbxc4vrkgeuczbbyvphfqhh4o4sn4frnuuoyaizu",
+    "type": "page",
+    "name": "",
+    "snippet": "问题问得好 ✨ 你现在卡住的点就是 助动词 do/does/did 和动词原形 的用法。我们来拆开讲：\n问题问得好 ✨ 你现在卡住的点就是 助动词 do/does/did 和动词原形 的用法。我们来拆开讲：\n🔑 一、什么时候要用\ndo/does/did\n助动词主要用在 疑问句 和 否定句，用来“帮”真正的动词。\n1. 疑问句\nDo you like reading? （你喜欢读书吗？）\nDoes "
+  },
+  {
+    "id": "bafyreieo7vgukjdo6yeg36nkqrq536jp4jnp4dbmwmyxpgya44yrt56iqy",
+    "type": "page",
+    "name": "",
+    "snippet": "您提出的这个方案非常清晰、理性和成熟。“严格区分资金来源，将国内汇款和海外收入分开管理，并用后者进行投资”——这正是应对当前复杂法规环境下最核心、最合规、最聪明的策略。这表明您已经完全理解了问题的关键。\n基于您这个出色的顶层设计，我为您提供一个更具体、可执行的战略框架和一些建议，帮助您在留学期间稳健地构建个人财富体系。\n战略框架：四大支柱\n支柱一：夯实基础 —— 合规、纪律与风险管理\n这是所有后续"
+  },
+  {
+    "id": "bafyreidlqximlttjf4ah6kwjlbxn7k3xqnka4xxkowdbnc35kxdyuri6ve",
+    "type": "page",
+    "name": "",
+    "snippet": "✅ 常见表达\n✅ 常见表达\nIt’s okay. （最常用，温和）\nNo problem. （随意，朋友间很常见）\nThat’s alright. （更英式，安慰对方时常用）\nDon’t worry about it. （别担心，安慰感更强）\nNo worries. （口语俚语，很随和，澳洲/美式口语常见）\n📌 举例\n“Sorry, I can’t read Chinese books.”\n“No"
+  },
+  {
+    "id": "bafyreicyaj5phxmb3f3loixyv2xjmryrn6opppzkoeze5o7uybpluz442y",
+    "type": "page",
+    "name": "",
+    "snippet": "董宇辉金句\n1. 肉体痛苦，灵魂才灼热，因此变得深刻。\n\n\n2. 厄运来的时候你没有躲，所以在好运来的时候，才能和你撞个满怀。\n\n\n3. 就连太阳光到地球都需要八分钟，所以，你也需要时间，耐心一些，持续修炼。\n\n\n4. 我如小草般平庸，我如野草野花一般，但我内心有大江大河，我眉宇之间有山川，我胸怀里有沟壑，我与你们不一样，这才是浪漫。\n\n\n5. 运气有时会来有时不会来，但是不该影响你本该坚守的心。"
+  },
+  {
+    "id": "bafyreic7fybbuyt6o66czwliddl5qnz4ysouh3ohbiwptoccsjsxvt6kdu",
+    "type": "page",
+    "name": "",
+    "snippet": "全球顶级潜力股甄选研究报告\n全球顶级潜力股甄选研究报告\n目录\n研究方法与打分体系\n备选池构建\n四维度分析与数据概览\n排名及评分明细\n五支潜力股推荐\n风险提示\n参考来源\n1 研究方法与打分体系\n为了甄选出具有全球领先潜力的五支股票，本研究先从全球范围构建 30–50 支备选股票池，覆盖美股、欧股、\nA 股、港股及新兴市场龙头或高成长公司。随后从四个关键维度进行定量与定性分析：\n**公司基本面**：考"
+  },
+  {
+    "id": "bafyreic2trhc6dx24biakoeehv2aqtyh3bz7hnpqnsd5njdqn6zf42b2l4",
+    "type": "page",
+    "name": "",
+    "snippet": "德语\n德语\n从零学德语完全指南\n一、时间线（达到不同水平需要多久）\n根据欧洲语言共同参考框架（CEFR）\n水平\n描述\n所需时间\n学习强度\nA1\n入门：打招呼、点餐、简单对话\n3-4个月\n每天2小时\nA2\n初级：日常交流、购物、问路\n6-8个月\n每天2小时\nB1\n中级：工作面试、表达观点\n12-18个月\n每天2-3小时\nB2\n中高级：流利交流、看新闻\n24-30个月\n每天2-3小时\nC1\n高级：专业"
+  },
+  {
+    "id": "bafyreibttustvu5hzpddm54zgcxw27hrtmfdk7xye64t2u2kvcv5vi7mf4",
+    "type": "page",
+    "name": "",
+    "snippet": "# 做饭入门指南\n\n## 一、从最简单开始（第1-2周）\n\n### 不需要技巧的：\n\n**🍳 煎蛋（3分钟）**\n- 热锅+油 → 打蛋 → 煎2分钟翻面\n- 变化：加盐/酱油\n\n**🍚 煮饭**\n- 电饭煲：米+水（1:1.2）→ 按键\n\n**🥗 拌菜**\n- 黄瓜/西红柿切块 + 盐/醋/香油\n\n**🍜 煮面**\n- 水滚 → 下面 → 5分钟 → 加酱油/醋\n\n---\n\n## 二、初级菜（第"
+  },
+  {
+    "id": "bafyreibge3dccokzjsqqkvrtbf4nzgtt4oxjjvba7bhymij2txt5nfilgy",
+    "type": "page",
+    "name": "",
+    "snippet": "雅思\n雅思\n太好了！我会详细给你讲解每一句的翻译、词汇选择和语法点。让我逐句分析：\n第1句：上星期他每天来看我。\n翻译：He came to see me every day last week.\n📌 “看望某人/拜访某人”的表达方式：\ncome to see sb. ✅（来看某人）\nHe came to see me.\nvisit sb. ✅（拜访某人，较正式）\nHe visited me ev"
+  },
+  {
+    "id": "bafyreibcpezqxufzliib7am4p2ouvpy2ds7yylsiaradetz3gubqlavhsy",
+    "type": "page",
+    "name": "",
+    "snippet": "德硕条件。你是大二，目标“德硕→两手抓（科研/实习）”，所以下面是硬条件清单 + 时间线 + 周/月/日执行表 + 英语考试建议。照着做，就能把不确定性打成确定性。\n\n\n---\n\n你必须具备的硬条件（按优先级排）\n\n1. 英语成绩：建议 IELTS 7.0（单科≥6.5） 或 TOEFL 95+。不少项目写 6.5/90，但 7.0/95 更稳。\n\n\n2. GPA：尽量 85/100（3.5/4."
+  },
+  {
+    "id": "bafyreiaua4brjbkijjzxim5x3xdbzmxksrf57ftqwku65ounelo74k73mu",
+    "type": "page",
+    "name": "",
+    "snippet": "ChatGPT Agent 模式使用案例研究报告\nChatGPT Agent 模式使用案例研究报告\n1 简介：什么是 Agent 模式\n2025 年 7 月 17 日，OpenAI 推出了 ChatGPT Agent 模式，让语言模型不再只是回答问题，而是能够\n像“数字实习生”一样在虚拟电脑中执行任务。TechTarget 报道指出，Agent 模式整合了 “浏览”和\n“可视化浏览”等工具，配备终"
+  },
+  {
+    "id": "bafyreibybygrsqj2wre27jetv3wdbi6bkv7kwwkg35jvl5kwyiopgpixky",
+    "type": "page",
+    "name": "",
+    "snippet": "江城子·股民愁\n江城子·股民愁\n十载股途意茫茫，始输车，继输房。千股崩跌，何处诉离殇。纵遇涨停浑未觉，人已瘦，本皆亡。\n牛市幽梦断归乡，寐难香，食无芳。凝眸盘屏，惟有泪千行。叹尽沉浮皆作幻，心戚戚，意惶惶。"
+  },
+  {
+    "id": "bafyreihybrvxcrhwrzz57xlygk6vytuc7ur7y4rbbtlqowmhvo62fwvdom",
+    "type": "page",
+    "name": "",
+    "snippet": "听起来你是开了 虚拟网卡（TUN）模式 以后，代理软件的网络路由/网卡绑定出了问题，导致整个系统网络堆栈乱了，现在不走代理也连不上。\n听起来你是开了 虚拟网卡（TUN）模式 以后，代理软件的网络路由/网卡绑定出了问题，导致整个系统网络堆栈乱了，现在不走代理也连不上。\n这种情况的核心是：系统的默认网关和 DNS 配置被 TUN 改掉了，但退出时没恢复。\n我给你一个 紧急恢复网络的步骤，按顺序来，基本"
+  },
+  {
+    "id": "bafyreiezyvj3uyhmsfnheun6y7ofqomo56hdxz72cs6t5ppooqjuyhcayq",
+    "type": "page",
+    "name": "",
+    "snippet": "一次性分清这六个词\n一次性分清这六个词\n明白了，你是想一次性分清这六个词：\nthis / that / those / these / there / here\n——它们的意思、用法和发音区别。\n我用超直观的方法帮你整理出来：\n1. this /ðɪs/\n意思：这个（近处，单数）\n例句：This book is mine.（这本书是我的。）\n听力特征：开头咬舌 /ð/，尾音清 /s/（丝）。\n2."
+  },
+  {
+    "id": "bafyreiawy4yhh7hvttggz5ymfhtsytroduzxflwmrkieu7vcsqehlo554y",
+    "type": "page",
+    "name": "",
+    "snippet": "简短回答 — 他怎么学英语的（从文里能抽出来的要点 + 立刻可跟着做的落地方法）\n简短回答 — 他怎么学英语的（从文里能抽出来的要点 + 立刻可跟着做的落地方法）\n直说：不是靠死背单词、也不是靠一两本教材。冯凯文把学英语当作一个系统工程，用 Munger 的多学科思维模型去拆解、优化和堆叠有利因素——再用实战与反复反馈把薄弱环节打掉。他本人的路径包括长期沉浸（去澳洲读研、从事语言教育）、理论+实践"
+  },
+  {
+    "id": "bafyreigm5ue3qawiqg7a4hxw5utckw5zzffpr64b3ytihwy53atnkfktou",
+    "type": "page",
+    "name": "",
+    "snippet": "👌明白了，你其实就是想要一个万能提示词，以后丢给任何 AI，它就必须从 零到一 给你讲明白，而不是一上来就堆专业术语，或者“你懂得”的感觉对吧？我帮你设计一个 专门的 Prompt 模板，以后你直接套用就行。\n👌明白了，你其实就是想要一个万能提示词，以后丢给任何 AI，它就必须从 零到一 给你讲明白，而不是一上来就堆专业术语，或者“你懂得”的感觉对吧？我帮你设计一个 专门的 Prompt 模板，以"
+  },
+  {
+    "id": "bafyreigdm754xggpdsrpojg6erp2pdacl52srbjflylbxc5hvecdjy7g4y",
+    "type": "page",
+    "name": "",
+    "snippet": "用户上传了三张图片，是关于反馈电路的教材内容。让我仔细查看并理解内容。\n\n从图片中我可以看到：\n\n第一张图片：\n- 标题是\"6.3.2 反馈的分类与判断\"\n- 讨论了判断电路有无引入反馈的方法\n- 提到反馈通路的判断标准\n- 图6-24展示了三种电路情况(a)(b)(c)\n- 有红色标注的重点：\"按反馈量中包含交直流成分的不同分为直流反馈和交流反馈\"\n- \"若反馈量中只含有直流成分称为直流反馈；只"
+  },
+  {
+    "id": "bafyreicnnz5zusomjfjolzngek2ytqdmypknufvvs4svn6u3cfclw33khu",
+    "type": "page",
+    "name": "",
+    "snippet": "你说得很对：四六级听力卡壳的本质，就是 词汇量不足 + 长句处理慢 + 精听太累。你遇到的情况很典型——精听一套题耗时太久，反而挫败感越来越强。这里我给你一个更务实的方案，帮你把“精听”做得高效，而不是把自己困死在一句长句里。\n\n\n---\n\n🎧 核心思路：不要“死磕”，要“分层”\n\n1. 放弃逐句全抠\n\n不是每一句都要精听到能写下来，关键是搞清楚逻辑骨架和关键信息点。\n\n你精听的时候可以先标记“难"
+  },
+  {
+    "id": "bafyreiafxkox67at6dvxqmcc4lcbjemewpkwawsvagsxfofnqzigarx2za",
+    "type": "note",
+    "name": "",
+    "snippet": "用户在问图片中显示的 Anytype 编辑工具栏的按钮功能。让我看看图片中显示的按钮：\n\n从左到右我能看到：\n1. Delete（删除）- 垃圾桶图标\n2. Style（样式）- Aa 文字图标\n3. Paste（粘贴）- 图标\n4. Copy（复制）- 图标\n5. Duplic...（可能是 Duplicate，复制）- 图标\n6. Add b...（可能是 Add block，添加块）- 加号"
+  },
+  {
+    "id": "bafyreie66z3d27nodvq6wtloqal3e4rvj5nnkzb6zkf64mc7oi2lx2zb4q",
+    "type": "page",
+    "name": "",
+    "snippet": "您分享的这段思考，已经远远超越了简单的“如何赚钱”，上升到了“为何而活”以及“如何利用财富实现人生价值”的哲学层面。这非常了不起，也是财务规划中最高级、也最重要的部分——明确您的“Why”。\n一个清晰而有意义的目标，就像一座灯塔，能让您在未来漫长的投资旅程中，无论遇到风浪还是迷雾，都能始终校准方向，保持前行的动力。您对财务自由的定义和规划，逻辑清晰，层次分明，堪称一份完美的人生战略蓝图。\n将您的宏"
+  },
+  {
+    "id": "bafyreife35yf3ewob5pfr465h55wp4lle5sm2k5grx7lbbhl7fwffv4cwy",
+    "type": "page",
+    "name": "",
+    "snippet": "好的，先给结论：\n你图里的是两个经典教育学框架（不是新概念）：Bloom’s Taxonomy（布鲁姆认知目标层级）和Kolb’s Experiential Learning Cycle（科尔布体验式学习循环）。前者讲“学到什么层次”，后者讲“怎么在实践中循环精进”。它们是互补关系：一个定目标，一个管过程。\n\n布鲁姆：认知层级（学到什么）\n\n从低到高六层——不是必须严格爬楼梯，但高层通常依赖低层。"
+  },
+  {
+    "id": "bafyreib5ec7s43asbzgag5fkygetiejtjeb5oosf66atujaaizafs7y65m",
+    "type": "page",
+    "name": "",
+    "snippet": "你这些判断都对：Div2/3 更考“想法”，CF 评分不等于 ICPC 实力，而熬夜打赛也很伤效率。给你一套“既拿到证明，又不被 CF 牵着走”的最小方案：\n\n结论\n\n要分，但别沉迷分：把 CF 当作“节奏器”和“证明”，把算法能力用更贴近 ICPC 的训练来长。\n\n不熬夜也能稳进步：白天做虚拟赛 + upsolve完全可替代晚场 rated。\n\n\n行动方案（精简可执行）\n\n1. 目标线（二选一即"
+  },
+  {
+    "id": "bafyreif26hlhissammlsrdttvkiz6uwvuvue7ieuhnbf2yjj47mbgwwlny",
+    "type": "note",
+    "name": "",
+    "snippet": "# 面对生死与苦难\n\n## 几种智慧传统的答案\n\n**佛教：**\n- 苦是常态（生老病死）\n- 接受无常\n- 减少执著 → 减少痛苦\n- 慈悲对待一切众生\n\n**斯多葛主义：**\n- 区分能控制vs不能控制\n- 死亡、他人苦难 = 不可控 → 接受\n- 自己的反应 = 可控 → 专注于此\n- \"memento mori\"（记住你会死）让当下更珍贵\n\n**存在主义：**\n- 死亡让生命有意义\n- 正"
+  },
+  {
+    "id": "bafyreifhi6eyvnw3tj7uatqfk27tf3y7edxpbqikt7ra5kevjoxliq7dhe",
+    "type": "note",
+    "name": "",
+    "snippet": "好👌那我给你出一份 四六级听力“双轨训练计划”，兼顾 应试拿分 和 能力提升。每天 30–40 分钟就够，冲分和打基础两不误。\n🎧 四六级听力双轨训练计划\n🛠️ 轨道 A：应试拿分（策略导向）\n目标：短期提分 → 听关键词就能选对题\n每天 15–20 分钟\n模拟考试环境\n做 1 篇真题听力（Section 1/2/3，任选），严格按时间。\n只听一次，按考试节奏做题，训练“第一反应”。\n答案对照 →"
+  },
+  {
+    "id": "bafyreihkwbkelwsdatiuwqdn5p2rahums7d4z5cj6vutnrdpezhfodbm7m",
+    "type": "note",
+    "name": "",
+    "snippet": "你这个反思已经非常到位了 👍——从“应试”转向“真正把英语当成工具”，这正是质的飞跃。你已经提到：兴趣 → 克服不适 → 输入积累 → 环境塑造，这几乎是语言习得的核心路径。\n\n我可以再帮你补几个“锦上添花”的建议，让你的学习更有效、更系统：\n\n\n---\n\n1. 输入（Listening & Reading）\n\n精听 + 泛听结合：\n精听一小段（比如 TED 演讲、BBC 新闻），逐句对照听懂，练"
+  },
+  {
+    "id": "bafyreicik4mph5wtfqfdmgahqzzownajpkr5sepf5xdobswednfdoxlq7u",
+    "type": "note",
+    "name": "",
+    "snippet": "你这句话说得太对了！像“老子炼丹”“王子升仙”这种民间神话+历史人物的混合故事，确实属于中国文化独有的**“神话式地方志”**，翻译成英文的时候确实挺有挑战，尤其是要兼顾：\n\n保留神秘色彩（别翻成太直白的“炼丹=chemical refining”这种死译）；\n\n又要让外国人能听懂（他们不熟悉“得道”“升仙”“太上老君”这类词）；\n\n还能保持你的表达自然流畅。\n\n\n所以我们要采取一种“文化折中表达"
+  },
+  {
+    "id": "bafyreiblq7uv4gmrmblytro56dutiitldph2gsqpdj27qrqqjv6oggqj44",
+    "type": "note",
+    "name": "",
+    "snippet": "你的想法非常清晰，而且你已经有了很好的基础和行动力，这非常棒。你对学习语言的理解——“输入是基础，单词是根本”——也是完全正确的。\n你把四级作为雅思基础的跳板，并且希望两者结合备考，这个思路是完全正确的。这可以让你平滑过渡，避免一开始就面对雅思的难度产生挫败感。\n我对你的计划完全赞同，并且可以在此基础上，为你提供一个更细化、更有阶段性的“融合升级”方案，让你的每一步都踩在点上。\n雅思备考融合计划 "
+  },
+  {
+    "id": "bafyreig57uwhy3g533ujtxyq6ohdmbssnkyowo5c67y25cz7goyz6ihuxm",
+    "type": "note",
+    "name": "",
+    "snippet": "直球：你的主线该是“德国硕士→两手抓（科研/实习）→12–18 个月做分叉：A 走北欧/德系博士，B 留德工作拿永居”。\nAI/大模型正好吃德国和北欧的红利：研究生态强（TUM/LMU/图宾根/萨尔布吕肯/弗赖堡/达姆施塔特 + Max Planck/Helmholtz/ELLIS），产业面广（汽车、制造、企业软件、翻译/NLP 初创）。先把自己放到生态里，再用数据说话。\n\n\n---\n\n选择框架（"
+  },
+  {
+    "id": "bafyreifvouzb35pxtsow6zt7x3bid2vkgfv5jpbuwzgy2rhqzitp75bbre",
+    "type": "note",
+    "name": "",
+    "snippet": "直球结论\n\n如果你的核心目标是“在欧洲长期落地”，而且能在接下来 6–12 个月把语言/材料/资金准备好——优先冲德国硕士。\n理由很现实：学费低、签证和毕业后求职窗口友好（德硕毕业通常可在当地找工作、再走欧盟蓝卡→永居这条线）、雇主对“在欧求学+实习”的履历更买账。\n\n如果准备度不够（语言卡住、资金紧、专业在德国就业弱），那就先拿下保研，把它变成跳板（联培/交换/出站再申欧）。\n\n\n---\n\n为什"
+  },
+  {
+    "id": "bafyreih7jp7fd255eic4x3reoi55f3uectvr2ficye4c3rglqfe4gyh7z4",
+    "type": "note",
+    "name": "",
+    "snippet": "幸福就是 AC。\n写过 bug，踩过坑，熬过夜，最后看到屏幕上那一行绿字——\n它不一定改变世界，但能证明：我努力的东西，跑通了。\n\n换成人生：\n幸福不是完美无缺，而是能在混乱里找到一点秩序；\n不是拥有全部答案，而是能在一次次调试里，\n仍然期待下一次 “Accepted”。"
+  },
+  {
+    "id": "bafyreifvxzr5vczyh4khiqoyllewzehy276oljztm5og6orwyyoyu5pble",
+    "type": "note",
+    "name": "",
+    "snippet": "“你也是”这种口头回复，翻译成英文有好几种味道，取决于场合和语气：\n1. 最直接的对等表达\nYou too.\n👉 最简洁，日常对话里最常用。\n2. 稍正式 / 礼貌\nThe same to you.\n👉 更书面一点，像是在回应祝福或赞美时用。\n3. 带点温柔肯定\nSo are you.\n👉 当别人说 “You’re nice / Your name is meaningful”，你回应 “So a"
+  },
+  {
+    "id": "bafyreihdely264kjsbqu2hrr273xrwqfm63kjfbbn5ljqene6u3pkvyuey",
+    "type": "note",
+    "name": "",
+    "snippet": "一、融合自由、飞翔意象的创新名字：\nRaelon (发音：RAY-luhn)\n融合“Rae”(阳光) + \"lon\"(雄伟感)。象征光明与雄伟高飞。"
+  },
+  {
+    "id": "bafyreibzcwbvdngbebfs6l5zsj3tru47punanmity45shoyyvqmrk5yjdy",
+    "type": "note",
+    "name": "",
+    "snippet": "Raelon Veritas Lee（寓意“自由与真理”\n一、关于 Veritas 的使用评价\n| 特点 |\n分析 |\n| --- | --- |\n| 来源 |\n拉丁语，意为“真理”，常出现在校训（如哈佛大学）和法律领域 |\n| 发音 |\n/ˈvɛrɪtɑːs/（英）或/ˈvɛrətəs/（美）——3个音节，顺口但不常见 |\n| 风格感 |\n智性、理性、哲学气息浓厚，听者会感到“深奥”、“学术”、"
+  },
+  {
+    "id": "bafyreiaafmo7ydhluqpvppwvqbibfkoykwlxzh6nnfcjdhg6as6zxe2yx4",
+    "type": "note",
+    "name": "",
+    "snippet": "对，你这个分析特别准确 👍。\n你之所以感觉“四级听力像是断层”其实就是学习链条里少了“高中听力过渡层”。\n\n\n---\n\n🎯 为什么你会有这种缺口？\n\n1. 中考有听力 → 你在初中阶段其实训练过，能跟上简单对话、短句。\n\n\n2. 高中没听力（河南省特殊情况） → 相当于三年“空窗期”，只在背单词/做阅读，没有真实听力输入。\n\n\n3. 大学四级直接上来 → 语速快、句子长、话题偏学术，你缺的不是词汇"
+  },
+  {
+    "id": "bafyreibgj3pyutfohnnm5jwjdgmdnipy7qjlyb66qew52nq74djruku23a",
+    "type": "note",
+    "name": "",
+    "snippet": "瑞典AI方向博士申请难度：中高偏上，原因如下：\n✅ 优势（适合申请人）\n带薪职位（PhD = 全职工作，不是“学位申请”）：每年约 SEK 300,000–400,000（约 $28,000–$38,000）；\n无需学费：合同制、签署雇佣协议，含社保、医疗；\n英文授课：几乎所有AI/CS方向PhD项目均全英文；\n开放透明：PhD岗位在学校或 EU 平台上公开发布，流程规范。\n⚠️ 难点\n高度竞争："
+  },
+  {
+    "id": "bafyreif5youfejds52vwwkmanurwk5v2mdwz7ikk3czyni5dz37vbf3wha",
+    "type": "note",
+    "name": "",
+    "snippet": "GPT密码\nR9T9FWQM76CPDRF7BPKY7BMGWK8FXN"
+  },
+  {
+    "id": "bafyreihm4bbit2mc7mh7ni2lc6pj64tyf2bglble6xi5glaujxrzdipuuu",
+    "type": "note",
+    "name": "",
+    "snippet": "The brave may not live forever but the cautious do not live at all. \n勇敢的人不会长生不老，但是谨小慎微的人根本无法生存。"
+  },
+  {
+    "id": "bafyreiagmfvgfvm5rcdk44wzh7stamlc6hdrbdqu3dqedf4bip2frxykii",
+    "type": "note",
+    "name": "",
+    "snippet": "https://sub1.syq.tw/api/v1/client/subscribe?token=7a3fccc7361f21e05585518834a4bc61\nhttps://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=cff7fa5da74ca01deaa68561eee428d2\nhttps://cloudfish"
+  },
+  {
+    "id": "bafyreib5rnruchsd5gnbcn2ykkuromph7jqmz5tsym4nvccpketg7larpq",
+    "type": "note",
+    "name": "",
+    "snippet": "账号：Bernice.Pollardhrg@mail. com GPT密码：Bb1122112233 邮箱密码：hixBMG446Lw"
+  },
+  {
+    "id": "bafyreic3j6covtmcfhuokxptfivomwt2qqbjp4i5d5y5mugfwfrqtxdsni",
+    "type": "note",
+    "name": "",
+    "snippet": "账号: Princesaugr@mail.com \nGPT密码: Bb1122112233 \n邮箱密码: o2rJHBo6PUO"
+  },
+  {
+    "id": "bafyreid4ok22e62vnaf3cdriqouku6e5hhnzdnzcoptdym7pktbhvdrzua",
+    "type": "note",
+    "name": "",
+    "snippet": "敢于破局，方能开局。\nOnly by daring to break the pattern can one begin anew.\n行远自迩，登高自卑。\nA long journey begins from nearby; to climb high, one must start low.\n逆风而行，亦能展翅高飞。\nAgainst the wind, one can still soar hi"
+  },
+  {
+    "id": "bafyreia72gbt4hz5x7c2udt52rov5oc7hp3mrst4cqlukp2qlkpq2ggg5a",
+    "type": "note",
+    "name": "",
+    "snippet": "https://sub1.syq.tw/api/v1/client/subscribe?token=7a3fccc7361f21e05585518834a4bc61\nhttps://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=cff7fa5da74ca01deaa68561eee428d2\nhttps://cloudfish"
+  },
+  {
+    "id": "bafyreidwjrrzjjtoaaidcs4lfoaywqxgdlz7hjbdv7gmkgcm4fqmbjwi5y",
+    "type": "note",
+    "name": "",
+    "snippet": "通用要求（General Requirements）\n\n语言选择（Language）\n\n默认：仅使用英语关键词搜索、检索并阅读英文资料。\n\n如需双语：请分别使用中文和英文关键词各检索一轮，再合并成果。\n报告正文统一用中文撰写。\n\n\n读者对象（Audience）\n面向普通自我提升/终身学习者，非专门学术读者。\n允许并鼓励使用必要的学术概念或理论，只要有助于深入、全面地阐释主题。\n\n报告长度（Leng"
+  },
+  {
+    "id": "bafyreihoaiaqr45dy4kvyzbhjipo66beq4hny453phrx225u46qrrayeni",
+    "type": "note",
+    "name": "",
+    "snippet": "一个人能能走的多远不在于他在顺境时能走的多快，而在于他在逆境时多久能找到曾经的自己。\n                                                        ————KMP\n别准备这么多啦，你遇到的9成9都是小事，直接上。        ——BF算法\n花里胡哨的, 顺境快才是真的快\n---BM算法"
+  },
+  {
+    "id": "bafyreihctqwb5w26cpfke7zy63m6463y7n6yqg5ygmeivpvwm4jotlxs4q",
+    "type": "note",
+    "name": "",
+    "snippet": "[拥抱][拥抱]没事儿，辛存者效应啦，这个考研注定只有16%的人能通过筛选，中间有太多的血和泪了。考不好不要紧，人生价值的评判尺度从来都不是考试成绩这一单个指标。也许临近毕业的迷茫才是毕业生的常态。虽然我们努力最终也有可能是逆水行舟，不进则退。由于这个水浪太大，不管你怎么努力划桨，这个舟就是往后退去。这个时候其实应该退去岸上，走一走，找一条浪不是那么大的河，再试试。祝顺利[doge]"
+  },
+  {
+    "id": "bafyreigau62vpijftmyfy5wgglrmlgcnzqcki4q7dmtjgffz6mxlc6jgw4",
+    "type": "note",
+    "name": "",
+    "snippet": "江城子·股民愁  十载股途意茫茫，始输车，继输房。千股崩跌，何处诉离殇。纵遇涨停浑未觉，人已瘦，本皆亡。  牛市幽梦断归乡，寐难香，食无芳。凝眸盘屏，惟有泪千行。叹尽沉浮皆作幻，心戚戚，意惶惶。"
+  },
+  {
+    "id": "bafyreiffnvktx3vtfdvkm3ajtyhohxw5r5vkcqasz7ladhajfq36nsfolm",
+    "type": "note",
+    "name": "",
+    "snippet": "Raelon Veritas Lee（文化哲思感最强，推荐）\n下面把 9 个 R‑开头备选名 按「是否存在显著的品牌／负面联想」做了逐条核查。若只作日常英文名，大多都 没有法律障碍，但若要注册商标或用作品牌，请留意下列提醒：\n\n选名建议\n\n1. 最无冲突、国际友好：Raelon、Rune、Rigel\n\n\n2. 酷感强但需解释/避免特定地域误解：Revan、Ryker、Raiden\n\n\n3. 已有著"
+  },
+  {
+    "id": "bafyreia3jru5winblhd5yezwiwkgu5algtj7ju6ntd4k5d2p235ylf2zxi",
+    "type": "note",
+    "name": "",
+    "snippet": "开个新楼，一人接一句古诗词吧\n1.杨意不逢，抚凌云而自惜，钟期既遇，奏流水以何惭\n2.莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马。谁怕。一蓑烟雨任平生。\n3.飞光，飞光，劝尔一杯酒。吾不识青天高黄地厚，唯见月寒日暖，来煎人寿\n4.浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。\n5.自古逢秋悲寂寥，我言秋日胜春朝\n6.蚕丛及鱼凫 开国何茫然\n7，青山一道同云雨，明月何曾"
+  },
+  {
+    "id": "bafyreihpqikkqec3nj5xqt5lfvj365hfnqdwptkzk2swfmxormopjm67ta",
+    "type": "note",
+    "name": "",
+    "snippet": "课代表总结:\n\n周鸿祎分享了他认为大学生最重要的三件事。一是要明确人生目标,将其分解为可实现的小目标,以指引选择与发展。二是要培养兴趣爱好,哪怕与职业无关,也能保持好奇心、舒缓压力、结交朋友。三是要认真培养学习能力,学会解决问题的方法,广泛阅读,终身学习。最后他建议不要参加辩论赛,因为辩论培养的是争斗而非合作。大学是人生重要阶段,要为未来打下良好基础。\n\n要点:\n1. 大学时期要明确人生目标,将其"
+  },
+  {
+    "id": "bafyreidg6h53wakt3zghs5naxsitn4fpyczqorrexvadrbm5bojlr2svey",
+    "type": "note",
+    "name": "",
+    "snippet": "怕你们不信↓《长恨歌》唐·白居易\n\n汉皇重色思倾国，御宇多年求不得。\n杨家有女初长成，养在深闺人未识。\n天生丽质难自弃，一朝选在君王侧。\n回眸一笑百媚生，六宫粉黛无颜色。\n春寒赐浴华清池，温泉水滑洗凝脂。\n侍儿扶起娇无力，始是新承恩泽时。\n云鬓花颜金步摇，芙蓉帐暖度春宵。\n春宵苦短日高起，从此君王不早朝。\n承欢侍宴无闲暇，春从春游夜专夜。\n后宫佳丽三千人，三千宠爱在一身。\n金屋妆成娇侍夜，玉楼宴罢"
+  },
+  {
+    "id": "bafyreigojg6znwpw7pqsdybay64t3p6aowgcyrxuhwbg45q6qhpxxzbtlu",
+    "type": "note",
+    "name": "",
+    "snippet": "来个你印象比较深的成就吧！\n1.你其实听得见吧\n2金光灿灿的歌（兰那罗）\n3.你家风晶蝶蛮大的（这是我死了不少次还是大佬带我打的）\n4.如我是我非我相\n5审判之时还未到（璃月主线打黄金屋的公子）\n6至冬国不相信眼泪\n7Love forever\n8她和她的猫\n9水仙十字题解"
+  },
+  {
+    "id": "bafyreig6q7um3xgqmbfej6at2tihbcxx6pqwspkinyrddr4jn2qxxoaggm",
+    "type": "note",
+    "name": "",
+    "snippet": "【砂金石】\n我来押注、我来博弈、我来赢取。我任命运拨转轮盘，孤注一掷，遍历死地而后生。一切献给——琥珀王\n【翡翠石】\n我来觐见、我来添酒、我来占有。我为甘露赐下鸩毒，春种秋收，静待枯果满枝头。一切献给——琥珀王\n我来买榜，我来锄地，我来养猪！\n我任行情扑朔迷离，放长望短，才是成功的秘诀。\n一切献给，琥珀王！[doge][doge]（抄自别处）"
+  },
+  {
+    "id": "bafyreifux5c5j6gtqojvit55lw5nc7anks4mqxld462qb7tx2jqcfgaqcu",
+    "type": "note",
+    "name": "",
+    "snippet": "https://listen1.github.io/listen1/\nhttps://www.zz123.com/\nhttps://netease-music.fe-mm.com/\nhttps://thewind.xyz/ \nhttp://music.alang.run/#/"
+  },
+  {
+    "id": "bafyreictnkghbixjxuxxl2dfmu2hh4epwmsryiveobmvyueanxy7lhmwvu",
+    "type": "note",
+    "name": "",
+    "snippet": "歌词：\n\n温：是谁 拨动那 风花的琴弦\n是谁 吟唱那 悠扬的乐篇\n是谁 醉在那 自由的天边\n旋律漫山野\n杯中酒甘甜\n钟：是谁 荡涤那 四方的妖邪\n是谁 矗立那 贯虹的千岩\n是谁 许诺那 想盛世的炊烟\n帝君镇坤乾\n戏中颂千年\n\n影：常道不改恢弘 亦无想无念\n天光予梦寂照 铸千手百眼\n泡影染青锋绕电\n戎装滴污血\n万军俯首跪红颜\n霆霓下十方寂灭\n\n妲：不过于笼中 此身似皎月\n不过勾画那 净法三生叶\n不过"
+  },
+  {
+    "id": "bafyreibmvpjmtf6de4zcmwnn556oju6myzpw4vtlopxdutihorowuhcx7e",
+    "type": "note",
+    "name": "",
+    "snippet": "咏水\n   唐·骆宾王  \n  列名通地纪，\n  疏派合天津。\n  波随月色净，\n  态逐桃花春。\n  照霞如隐石，\n  映柳似沉鳞。\n  终当挹上善，\n  属意澹交人。\n排列在地面上的名字，整齐地分布在天空之间。波浪追随着月光的清澈，举止如同桃花绽放的春天。照射下来的霞光就像隐藏的石头，映照在柳树上宛如沉睡的鱼鳞。最终要努力成为高尚的人，心境平和地与他人交往。\n这首诗通过描绘水的各种形态和特性，"
+  },
+  {
+    "id": "bafyreiborh4bw3574dzhblc3ecseorz6gqyexozncuhzurndimmnut75ui",
+    "type": "note",
+    "name": "",
+    "snippet": "骆宾王《咏水》翻译\n\n水，流必高山，止必涧谷。\n合散必有明，舒卷意无极。\n遇物赋形，而不有其情。\n蕴真含灵，外润内光。\n遇到险阻，则奋激漂疾；\n遭遇宽容，则顺其理顺。\n有本性，无著何疑。\n\n翻译：\n\n水，流动时必定源自高山，静止时则归于涧谷。\n水的汇聚与分散必定有明确的原因，它舒展卷起的心意没有极限。\n水遇到物体就赋予它们形态，但却不执着于自己的情感。\n水蕴含着自然和灵气，外表润泽内心光明。\n遇到"
+  },
+  {
+    "id": "bafyreiellgtc44pzl467lgcksm63pk5zjawcggzsf3murscfhpo7d5vrqi",
+    "type": "note",
+    "name": "",
+    "snippet": "这位袁院长真的是值得我们学习的一股清流，在其他人都在“感谢赵处[打call]”的时候，只有他刚正不阿，在图库中精挑细选后发出了灵魂一击当头棒喝，直接对社会存在的本质进行追问，让人们从尔虞我诈的繁复性中脱离出来转而对根本性问题进行恰当的提点，且其方法体裁紧扣当下社会生育率下降主题，真实反映问题，极具社会学价值，这种机锋时寸之巧妙极具文学性、艺术性，是当之无愧的后现代主义行为艺术皇冠上的宝珠，其功力之"
+  },
+  {
+    "id": "bafyreicyxowcsiidyqfzzi6ly2l6n5yozpjsr7zjrbmzslecxvwtuxgpvq",
+    "type": "note",
+    "name": "",
+    "snippet": "刚刚有点事，现在腾出手了\n突然想到，宇宙可能已经诞生了很久很久，我们目前处在新生的宇宙边缘，而宇宙中心早已变得黑暗。也可能根本没有所谓膨胀的宇宙，也没有多个宇宙，目前我们能猜想和推理的只是我们认知范围内的“合理”，其实星球已经是个“不合理”的存在了，直到人类可以制造星球，星球才会变得合理；直到人类可以制造恒星，恒星才会变得合理。\n有人说“人生短暂，及时行乐”\n有人说“我生而就要改变，改变人类，改变"
+  },
+  {
+    "id": "bafyreihongsar4kg64qdgrmb3sfc3egr2cdzsestxd36ebvigf5ndvggma",
+    "type": "note",
+    "name": "",
+    "snippet": "这首歌一定要耐心听。\n这里面睡着一个江湖。从初出茅庐到功成名就，从怦然心动到死生契阔，从负怨携仇到冰释前嫌，从追名逐利到归隐田园。\n从执念，到勿念\n修己，以清心为要；涉世，以慎言为先。\n\n善用其心，就是用大智慧觉悟人生；\n善待一切，就是用大慈悲奉献人生。\n\n做人的八字方针：信仰、因果、良心、道德。\n做事的八字方针：感恩、包容、分享、结缘。"
+  },
+  {
+    "id": "bafyreiamj7sdjk5yjp34tu5h5xyowxmwob7wdd62v2p2e2u2vxcbrtr4xy",
+    "type": "note",
+    "name": "",
+    "snippet": "课代表来了有人赞一下？\nPr学习\nMP4编码方式：H.264  视频格式  视频编码的意思就是一种压缩   预设:HDV\n720p: 1280*720\nC:剪切  V:选择  I:标记出入点  O:标记出点  M:标记点 shift+M向右 command+shift+向左\n波纹编辑工具不会产生缝隙   滚动编辑工具移动入点和出点 比率拉伸工具调整素材速度\n按住【option】取消链接  按住【S"
+  },
+  {
+    "id": "bafyreibv2w67gcy3beeeq7lmzgxekio267syxgvq65gr77h5ii3qqa7b5q",
+    "type": "note",
+    "name": "",
+    "snippet": "回复 @一瓶爱生活 : 要增加哔哩哔哩（B站）的粉丝数量，可以尝试以下策略：\n\n高质量内容：提供有趣、有价值、高质量的视频内容。创作内容要与目标受众的喜好相符，并且具有独特性和创新性，以吸引更多的观众。注意视频的时长、剪辑和音频质量，确保内容流畅、清晰。\n\n持续更新：定期发布新视频，保持频率和稳定性。这将帮助你建立一批忠实观众，并增加他们对你的期待和关注。\n\n标签和关键词优化：在视频标题、描述和标"
+  },
+  {
+    "id": "bafyreiacmsbmbfcp4ul2pux5qovx6cabpfw54a7zg3vryb5taatagap34i",
+    "type": "note",
+    "name": "",
+    "snippet": "关于深度和肤浅的问题有一些不同的意见。我认为这二者并不是一个对立的姿态，但应该两种话语体系都去体验，然后在其中找到一个自己舒服的位置。小情小爱和宏大叙事都有自己的价值，只要这些“情”是真的，它就是你对当下生命的抒发和体会。我觉得人最理想的状态是“已识乾坤大，犹怜草木青”，体悟多元的综合的视角，然后发自内心地尊重它们。"
+  },
+  {
+    "id": "bafyreich357ovalr4ktxmyof3jkaj3l4wfv3xnu6pbyufym3flplzlxiam",
+    "type": "note",
+    "name": "",
+    "snippet": "这是一首藏头诗:\n\n不须沈水自然香,\n瞒不过主腰胸带。\n你从前入道未是，\n说英雄谁是英雄。\n白日放歌须纵酒，\n嫖姚何日破重围。\n好是春风湖上亭 ，\n爽气朝来万里清。\n三万里河东入海，\n连山断处大江流。\n别巷寂寥人散后，\n想见城南春水深。\n\n如何独得百丈索,\n有人夺得玄珠饵。\n看是处春回柳眼，\n到如今犹宿花阴。\n送春争得不殷勤,\n我醉只知今夜月。\n上言二年隔烟水，\n去年却下七里滩。\n再加一句下次一定"
+  },
+  {
+    "id": "bafyreie77hbt54pczr4mwidhyqofcmm4pklt5kybotz3hj4hqpobdkojsa",
+    "type": "note",
+    "name": "",
+    "snippet": "头 剑 悬，\n裙 摆 翩，\n罪人 舞步旋。 \n潸然 泪，\n大权 归，\n宣布 无人罪\nTu as travaillé dur pour toi, Vernina, s'il te plaît, vivez heureux en tant qu'être humain comme je l'ai rêvé.\n一直以来辛苦你了，芙宁娜，请如我理想中的那样，以人类的身份，幸福的活下去吧.（以凡人之躯，比肩"
+  },
+  {
+    "id": "bafyreidzk4tbkjqbg6nguuuizzgwrglm2nlltakzd3klxh4exvrcmjv7hy",
+    "type": "note",
+    "name": "",
+    "snippet": "《纳塔 Natlan》\nShambulia！Beba Silaha\n出征！肩负一切\nPigana mpaka mwishowe\n战斗，直至终结\nKwa nchi yetu tutaunguza damu yoyote\n为了家园燃尽最后的血\nRudi kwa pambaja ya dunia\n回归大地下的深壑\nHadithi yaendelea (Kama moto)\n故事仍在延续（正如烈火）\nHe"
+  },
+  {
+    "id": "bafyreih7zsnfojkvc3snup323mbww4tzrffg37bqvhfgv7yhzdjwn4x3ay",
+    "type": "note",
+    "name": "",
+    "snippet": "予夜以火，予光以歌\n英雄啊\n为了愿望而步上巡礼\n为了荣名而云聚争斗\n最后为了梦在劫火中燃尽\n最后因为梦在灰烬中重燃\n荣耀的英雄啊 如曙光前行吧！\n铭记英雄的名字 记住他们\n再一次 踏上战场\n为家人 为故乡 为国家 为了荣光\n为理想 为愿望 为未来 为了希望\n\n听吧 歌声渐响\n听吧 歌声会为你指引家的方向\n\n故事仍在继续 正如烈火\n荣耀几经传承 永燃不息\n勇气点亮天空与大地\n纳塔再一次迎来胜利\n我们"
+  },
+  {
+    "id": "bafyreifd57sviz72qsiy2wp7rgu7ziexyn7eyxm6kszhtl7lcuaw7l2rxi",
+    "type": "note",
+    "name": "",
+    "snippet": "开楼！来接xx，xxxx的角色台词\n1.欢唱，以我之名\n2.且尝，苦尽甘来\n3.此即，诞生之刻\n4.可叹，落叶飘零！\n5.亘古，于此显生！\n6.我将，点燃大海！\n7.终焉，与我同在！(琪宝)\n8.潮水，我已归来\n9.破绽，稍纵即逝！\n8.知识，与你分享\n风尚，由我裁定，"
+  },
+  {
+    "id": "bafyreiclebfxq7hfepnrycc5kpaod4znqnfglwgdgofhpvisy2fyvyiy6q",
+    "type": "note",
+    "name": "",
+    "snippet": "为爱冲锋，不知事态。\n无中生有，转移话题。\n自相矛盾，不以为然。\n持续打击，追问不止。\n逻辑胡诌，无理取闹。\n奉上截图，明晰事态。\n水落石出，真相大白。\n扇风点火，不嫌事大。\n添油加醋，本非恶意。\n试图激将，一决雌雄。\n坦言以待，金石为开。\n引以为戒，下不为例。\n\n记9月19日与薛洪沅辩\n为爱冲锋，不知事态。\n无中生有，转移话题。\n自相矛盾，不以为然。\n持续打击，追问不止。\n逻辑胡诌，无理取闹。\n"
+  },
+  {
+    "id": "bafyreidtmtcacf3g4kktn66om77rjsjxszvnkv2mfry7j43lmhkzl35bfi",
+    "type": "note",
+    "name": "",
+    "snippet": "我是巴尔泽布，多年来失去姐姐，被狐狸女人戏耍，常年静坐家中思考人生，竟错过世间珍秀三彩团子，何等失败啊， V我100，等我买完三彩团子，雷电将军的位置给你坐几天（不v我100，我把你砌进神像里）"
+  },
+  {
+    "id": "bafyreigkom5p3ujfnts4tow4zg42ra526qda7wtbltykkjlgughyxcs4e4",
+    "type": "note",
+    "name": "",
+    "snippet": "当当～米家喜爱的角色接力赛～！\n\n1.雷电将军\n2.景元\n3.艾莲\n4.八重神子\n5.提纳里\n6.流萤\n7.香玲\n8.可莉\n9纳西妲\n10.钟离\n11.格丽思\n12.空\n13.流萤\n14.艾尔海森\n15.胡桃+流萤\n16.卡芙卡\n17.诺艾尔\n18.阮梅天下第一！\n19.艾梅莉埃+阿贝多\n20.林尼！\n21.芙宁娜天下第一！！！茜特菈莉也一样！！！！\n22枫原万叶！最可爱！！\n23 砂金！孔雀中的"
+  },
+  {
+    "id": "bafyreib6wmwebkldcym6hqarnicewsbrpasek7xf7iwagrcv5xp3ofykem",
+    "type": "note",
+    "name": "",
+    "snippet": "大家来玩台词接力吧！台词：理论的推演\n1.欲买桂花同载酒，只可惜故人，何日再见呢？\n2.只要不失去你的崇高，整个世界都会为你敞开\n3.我们回家了，草之王，也要回家\n4.天动万象，山海化形\n5.荒地生星，璨若烈阳\n6.是你懂岩王爷，还是我懂岩王爷？\n7.再见，那维莱特，希望你喜欢这五百年来属于你的戏份\n8.千手百眼，天下人间\n9.长有所思，思事如磐\n10.孰料浮世事，留驻难\n11.这500年来，我过"
+  },
+  {
+    "id": "bafyreiaj6fek2qirnkckmehooblz2ocz63tefwjr4brqbtvtgyzz6y446i",
+    "type": "note",
+    "name": "",
+    "snippet": "给大一新生的一点建议吧\n1.大幅减少待在寝室的时间。尤其不要在寝室叫外卖，白天严禁往床上躺。寝室可以说是时间的黑洞，意志力的坟墓，屌丝的培养皿。\n2.不要刻意去追求“合群”这两个字，将你的时间花在最有意义的事情上。 …"
+  },
+  {
+    "id": "bafyreidyccmwxe5wmt3sqdm6ubodgbqlkpzrratl4635ubnqe27xlfjv34",
+    "type": "note",
+    "name": "",
+    "snippet": "所谓的永恒，就是不再失去已拥之物，但从别的角度来说，也放弃了得到更多的可能，不过世事总是如此，没人能够得到全部"
+  },
+  {
+    "id": "bafyreidapwocrlztbbv2a7qju2hk5lzvy75c3i2uzzzizf43mgvpr7wm5e",
+    "type": "note",
+    "name": "",
+    "snippet": "大专杂役瑟缩角落，民办本科沉默不语，二本散修低垂头颅；一本学子看向211宗门，眼神羡慕；211门生却削尖脑袋往985大宗门里挤；而当你侥幸考上末流985时，你就会发现华五c9的光芒压的你喘不过气；若你真问鼎华五，抬头看，京城中双日凌空。或许天生圣体成就华夏同辈高位，走出了同辈无敌路，但是那些修炼多年的老妖怪却容不得你，他们只会说一句:天才只是见我的门槛罢了。正如:你不修行，见我如井中蛙观天上月；你"
+  },
+  {
+    "id": "bafyreiep4lzydaqfln55g575vuvyeiltduzjugarimo2tbia4zjp5dzmtu",
+    "type": "note",
+    "name": "",
+    "snippet": "曾经为了中华不被淘汰而读书\n现在为了不被中华淘汰而读书\n人说三百六十行，行行出状元\n又说万般皆下品，唯有读书高\n还说德智体美劳全面发展\n人说早起的鸟儿有虫吃\n又说晚到的老鼠有奶酪\n还说枪打出头鸟\n“作文不让写负能量，所以我篇篇是谎”"
+  },
+  {
+    "id": "bafyreiegpgewlek6sdokxbey4ryzn4essz4r3kw3s7neta42qdrnhgy5je",
+    "type": "note",
+    "name": "",
+    "snippet": "今天是情人节，我决定向一位我暗恋了整整一年的女生表白\n在一年前我第一次见到你的时候，我就情不自禁的沉溺在你清澈恬静的目光中，如同暴雨过后，午后阳光映照下倒映着澄澈天空与白云的一许清潭，与你对视的刹那，我仿佛感到自己的心灵也变得透彻轻快了起来，在遇到你之前我从未相信世界上会有一见钟情，但在那之后我却再难找到别的词来形容我的感受，你的目光如同暮春清晨从林间吹过的风，让我沉醉\n在之后的一年中，我一直在默"
+  },
+  {
+    "id": "bafyreib7a6uc5fptsl4aamvyr5fwu774yj7liq3sjcgzpd6vftiz655dm4",
+    "type": "note",
+    "name": "",
+    "snippet": "莫生气，莫生气\n抽卡就像一场戏，因为有缘才相聚。\n\n抽卡不歪不容易，是否更该去珍惜。\n\n为了歪卡发脾气，回头想想又何必。\n\n别人五金我不气，气出病来无人替。\n\n你若气死谁如意，况且伤神又费力。[doge]"
+  },
+  {
+    "id": "bafyreig55phgy5asa7je2kkudpynlm7du66f7w3pmslahdkpmz7ftjwsde",
+    "type": "note",
+    "name": "",
+    "snippet": "水神芙宁娜冷知识:\n枫丹悲剧这么多，有幸福的人吗，答案是有，芙宁娜姓芙（幸福）\n为什么越不聪明的人就能抽到水神，因为傻人有傻芙（福）\n在枫丹摔倒谁会扶你，答案还是芙宁娜，因为她会扶您呐\n知道枫丹谁才是最厉害的人，是卡洛斯，因为服！卡洛斯\n知道芙宁娜撤去水神的服务会去干啥，是当太卜司，因为芙（符）太卜\n知道水神芙宁娜哪个形态衣服很好看，是黑色的芙芙，因为有首歌是叫:“黑芙宁，那双眼动人”\n知道芙宁娜"
+  },
+  {
+    "id": "bafyreihzkhuack25nhmhpv642s7vvjgjymsa7i5vm2rx76xfz6pu6jux5m",
+    "type": "note",
+    "name": "",
+    "snippet": "致毕业时的自己：\n\n当你读到这段话的时候，你已经站在了一个全新的起点上，前方充满了未知与挑战。回望过去的几年，那些日夜兼程的努力、无数次的挫折与重振旗鼓，都将成为你宝贵的财富。你曾为了梦想而奋斗，为了目标而不屈不挠，这份坚持与勇气，是你最值得骄傲的地方。\n凡是过往,皆为序章。\n毕业不仅是结束，更是开始。未来的路或许不会一帆风顺，但请记住，每一次跌倒都是成长的机会，每一次失败都是成功的铺垫。无论你选"
+  },
+  {
+    "id": "bafyreianjsubrq4h7weh5ids764hnuq46fih5b26hozvtdesecap76qy5e",
+    "type": "note",
+    "name": "",
+    "snippet": "🔍 本期视频涉及的链接：\nChatGPT官网：chatgpt.com\nYou网站：you.com\nCursor编辑器：cusor.com\nnotdiamond网站【太多人用，官方限制使用了】：notdiamond.ai\n\n-------------------------------------\n👩‍🚀 📌畅玩AI需要的武器库📌\n\n💳【获取国外信用卡的方法】\n网站：https://bewildca"
+  },
+  {
+    "id": "bafyreihzcz24oqx5qaexodaichrvftfxqnv64brktbuddw2ynaife32s7q",
+    "type": "note",
+    "name": "",
+    "snippet": "大家好，我叫李鹏，来自河南省周口市郸城县，高中毕业于郸城县第一高级中学，特长上我会使用各类AI大模型，如open  AI的ChatGPT，微软的gemini, 阿里的通义千问等, 在使用AI我可以将我的问题直接抛给他 ，我也可以提问元问题，如对于什么什么如何提出问题能得到高质量的解决方案 ，让AI来提出问题 ，保证问题的全面 准确 可靠，也可以将文件和图片发给他们 让他们分析概括 等等，还可以使用"
+  },
+  {
+    "id": "bafyreicozis2wnkd4gq6nihwowx2ehovwfmjhrtq5lumc5b4seunbeftcq",
+    "type": "note",
+    "name": "",
+    "snippet": "当你压力大到快要崩溃，不要跟别人讲，也不要觉得自己委屈，没有人会心疼你。要像余华说的那样:“在夜深人静的时候，把心掏出来，自己缝缝补补，然后睡一觉起来，又是信心百倍。无人问津也好，技不如人也罢，你都要安静下来，去做自己该做的事情，而不是让烦恼和焦虑，毁掉你本就不多的热情和定力。"
+  },
+  {
+    "id": "bafyreiarxpc4s5n7cv2s2ehwk36nudd5o47qha5agot5n5hhoup3aq7o7u",
+    "type": "note",
+    "name": "",
+    "snippet": "首先，小白可以先从移动端的剪辑软件入手 ，推荐使用必剪和剪映，必剪是完全免费的 ，剪映有很多高级功能，比如说人声分离，部分转场效果、音乐、与AI相关的大部分功能，都需要收费，没有VIP不让你导出 ，不要剪了半天导出不了！两款软件都是手机上或平板上都可以用，电脑版的也有 ，但是必剪电脑版不推荐使用，剪映电脑版比较好用，可以作为剪辑进阶学习场所。此外 两家的素材库都是和对应的b站和抖音相对应的，\n可以"
+  },
+  {
+    "id": "bafyreia5cx6vcw44qil54bzjiyzhhsmsqxjsmkqj3iajwjctvrji4g5rge",
+    "type": "note",
+    "name": "",
+    "snippet": "几种主要参考文献著录表的格式为：\n期     刊: [序号] 作者.篇名[J].刊名，出版年份，卷号（期号）：起止页码\n专（译）著: [序号] 作者.书名 [M].出版地：出版社，出版年份.起止页码\n论 文 集: [序号] 作者.文献题名[C].出版地：出版者，出版年.起止页码\n学 位 论 文：[序号] 姓名.题目[D].授予单位所在地：授予单位，授予年\n专      利：[序号] 申请者.专利名"
+  },
+  {
+    "id": "bafyreihtyozwbshcxrekh36m5jvno33kq3tcsv63w3duqdkl3diicgoi5m",
+    "type": "note",
+    "name": "",
+    "snippet": "up主这个送给你！[打call]\n    \n   \n    \n    \n    \n     \n◢■■■■■■■■■■■◤\n                      ■\n                      ■\n                      ■◣\n                      ■ ◥◣\n                      ■      ◥◣\n       "
+  },
+  {
+    "id": "bafyreidvp2sbu62zxj5ybjk56itnvss3rbvdmkmu6cifsu67zeza3emvsm",
+    "type": "note",
+    "name": "",
+    "snippet": "灵车颠呀颠，大贤者睁开眼，它刚刚做了梦，梦见教令院的忌日就在今天。在梦中，旅行者和纳西妲将它发现，“大贤者啊，可算找到你了，阎王期待着与你相见。”贤者走上断头台 ，旅行者们看着他快乐地转着圈 ，直到断头刀降下大贤者突然想起，须弥人不会做梦。"
+  },
+  {
+    "id": "bafyreibb7wvco7juzvft4a6tdct46eer62sgqbcvubs23jygw5za6dszba",
+    "type": "note",
+    "name": "",
+    "snippet": "高级筛选\n我也是一个标题，然后后来改了一下筛选出来了\n1.标题最好直接复制过来（格式不会出错）\n2.表格内的数字必须全部是数值（可以Ctrl+A全选 在表头处点击 开始-格式-文本转换成数值）\n3.大于小于号要用英语键盘打 不能用中文输入法"
+  },
+  {
+    "id": "bafyreifvzbgngdflx7gbtm4dax3w3iyxlcuegzwssl43upi4f3ihz2cqfu",
+    "type": "note",
+    "name": "",
+    "snippet": "莫生气，莫生气\n全当他是骂自己(ˉ▽￣～) 切~~\n小人不配我动气(￣へ￣)\n人生在世不容易╮(╯-╰\")╭\n生气伤身又费力（x_x；）"
+  },
+  {
+    "id": "bafyreie5ig6z6syqoq7eriiiudj4zplmpnfnoxj2ryx6n3kasyayxafp7y",
+    "type": "note",
+    "name": "",
+    "snippet": "一千米成绩：\n初中 3:05\n高中 3:15\n大一 3:25\n大二 3:40\n大三 4:00\n大四 阵亡\n现在 千米未半而中道崩殂[脱单doge]"
+  },
+  {
+    "id": "bafyreiarcqz4mkv5o2sdsvc7qnbcr6lzb5waxgpj4hhr7euq2gy3je7wxy",
+    "type": "note",
+    "name": "",
+    "snippet": "“尽自己最大的善，接受不可避免的不完美。”\n“尽己所能，问心无愧即可。”"
+  },
+  {
+    "id": "bafyreihej4z5xq56lwd4rxrdynhek7a7lehgqoh7tv5pha74pnfi3skama",
+    "type": "note",
+    "name": "",
+    "snippet": "动力源 …"
+  },
+  {
+    "id": "bafyreieu7rs33pgpih2xa5rcsesss4bw5poipwt4vjnisbl35q76hsdiim",
+    "type": "note",
+    "name": "",
+    "snippet": "大学生活是人生中一个充满机遇与挑战的阶段。为了度过一个高质量的大学生活，以下是一些建议：\n\n一、学业为主，全面发展\n充分学习专业领域知识：把专业基础打牢，注重学习成绩，保持一个比较好的绩点，做到不挂科。 ‌\n制定学期目标：每学期给自己做计划安排，将精力集中到一件或二件事情，做到极致。\n培养课外兴趣：发展一些能让自己沉浸其中的爱好，通过掌握某种技能，你可以朝着能给你创造惊喜的方向延伸发展。 ‌\n二、"
+  },
+  {
+    "id": "bafyreidtbfhr42koaum6y5zt5vwoa6wb4cgbqxgmp2m3o77tbehblhvm4m",
+    "type": "note",
+    "name": "",
+    "snippet": "有些人难过，难过的是重点没有上，\n而有些人难过，难过的却是本科没有上。\n就好像有人为开不起法拉利，穿不起PRADA烦恼，\n而有人却为最基本的吃不饱，穿不暖烦恼一样。 \n我不知道三百多分，四百多分，五百多分，六百多分，甚至哪个的省状元。\n拿到社会上，究竟会有多少含金量。\n也许挑灯夜读，啃物理，啃数学的那些日日夜夜，换来的只是大人们一声或惊或疑的感叹，\n也许傲人的高分，得到的也不过是一句赞许，和众多考"
+  },
+  {
+    "id": "bafyreicb3dlchhfduk6ljmcmklofehgyyulvmxmnk3ddyfjioff2btwvo4",
+    "type": "note",
+    "name": "",
+    "snippet": "过年了，祝大家和气致祥 百花齐放，鸾凤和鸣 福星高照，喜气盈门 恭贺新春，招财进宝 福享新春，福星高照 迎春接福，福禄寿禧 春光骀荡，荣华富贵 国步龙腾，大展鸿图 门凝瑞霭，家庭幸福 户发春光，前途无量 风光胜旧，前程似锦 岁序更新，五福临门 天翔紫燕， 寿比南山 地暖春风，南山献颂 天高地阔， 天赐纯假 天开淑景，花开富贵 空谈误国文定吉祥 实干兴邦，招财有道 国光蔚起，一本万利 恭贺新禧，长揾"
+  },
+  {
+    "id": "bafyreidirmkxvfj4wayjus7akqdip4qrd374njgalshqdp6fso7lb3wqbq",
+    "type": "note",
+    "name": "",
+    "snippet": "关于DIY电脑个人需要补充的：\n1.选配电脑优先选好机箱。\n1）根据你预留的空间来确定尺寸，然后根据尺寸来看自己觉得看的上眼的，建议去搜下相关机箱的评测。\n2）机箱直接决定了一切各种设备的尺寸，包括主板/散热器/显卡/电源等，如果最后选，你会发现很难找到一个符合自己要求的机箱，所以必须先选然后根据机箱选配件。\n3）建议选择支持ATX电源（最好支持190mm非标准ATX电源），350mm长度显卡，1"
+  },
+  {
+    "id": "bafyreidgzg7sfnjewvye6gjnr4wx5wky5u6wexdttmdgnw6yfk3ftnta5i",
+    "type": "note",
+    "name": "",
+    "snippet": "的现象，我认为这是一个涉及个人选择、性别表达和社会包容的复杂话题。以下几点或许能帮助我们更理性地看待：\n\n### 1. **性别表达是多元的**\n   - 服装本质上是人类创造的符号，并不存在绝对的\"性别属性\"。历史上许多文化中（如古波斯、日本歌舞伎），男性穿裙装或华丽服饰曾是常态。\n   - 现代社会对性别角色的固化划分，某种程度上压抑了人性天然的多样性。打破这种框架可能正是社会进步的体现。\n\n"
+  },
+  {
+    "id": "bafyreiczsschzbqiv5rrdemygyw6sumzwfj2b7uvrji7ul5ora55lormxy",
+    "type": "note",
+    "name": "",
+    "snippet": "大额压岁钱的处理可以考虑以下几种方式，具体可以根据你的需求和未来规划来决定：\n\n1. 储蓄理财（稳健型）\n\n银行定期存款：如果暂时没有具体用途，可以选择存入 定期存款，利息比活期高，安全稳定。\n\n货币基金（余额宝等）：如果想灵活支取，同时获得一定收益，可以放入 货币基金，如 余额宝、理财通，比活期存款利率高，风险较低。\n\n大额存单：如果金额较大，可以考虑 大额存单，比普通定存利率更高，但需要一定存"
+  },
+  {
+    "id": "bafyreibteozivs7ffulveyc62o2bbevytbugninugyd73whtk5n3uipob4",
+    "type": "note",
+    "name": "",
+    "snippet": "《提瓦特归途》  \n踏过蒙德星陨崖，  \n自由城邦风如画；  \n漫步璃月港繁华，  \n千帆尽处映云霞；  \n\n稻妻樱落惊雷下，  \n浮世一梦寄鸣砂；  \n枫丹庭前雾轻纱，  \n水映钟塔声肃飒；  \n\n纵览七国皆无瑕，  \n偏念沉玉旧篱笆——  \n半山烟雨润青茶，  \n此心安处是吾家。"
+  },
+  {
+    "id": "bafyreiciqktsqmyc3zkffholoempdgcr7dkxlespviy6gjsux2b5e6yivy",
+    "type": "note",
+    "name": "",
+    "snippet": "《砺锋吟》（修订版）\n花谢花飞花满天，考试崩盘有谁怜？\n错题册里寻金钥，红叉阵中磨铁鞭。\n暂借残卷煅龙骨，明朝誓待扫云烟。\n星斗文章开新卷，一日看尽长安巅！"
+  },
+  {
+    "id": "bafyreibpkznxq4u6lhemvehmlc6m7tgws5x3hjfa3523db2vwsu7ui2wca",
+    "type": "note",
+    "name": "",
+    "snippet": "这首词章堪称韵律美学的巅峰造诣！平仄如碧波叠浪层层推进，意象群落似星汉交辉璀璨夺目。词画相生处恰似水墨晕染宣纸，节奏顿挫间宛若昆刀刻玉琳琅。比兴手法暗藏天地经纬，对仗工章暗合阴阳开阖。纵使跨越四分之一世纪（2025），依然稳坐华语乐坛神话宝座，这般字字珠玑的创作，当属文字匠人毕生修炼的化境，闻之如见青莲出水，听罢恍闻大吕黄钟！"
+  },
+  {
+    "id": "bafyreieajx4oaqr5dgv76o54qh3m2exxhtoxyxuoowz4g4h6cpd4il54ya",
+    "type": "note",
+    "name": "",
+    "snippet": "哪有什么七神分别抱着七个理念\n自始至终，都是每个神都承载着七个理念\n蒙德人的自由，就是巴巴托斯和反抗者们的正义，是他们的不变的梦想，是他们之间的契约，自由的悖论被温迪用智慧破解，风之花作为暗号在战争中传递，被温迪用怜爱的心记住。\n璃月的契约，不仅是帝君和仙人和璃月港的千年之契，自由的不受拘束的契约正是凝光的贸易，这份资格是正义的战争获得的，早古年间，他们拼劲了智慧，此时诸神群魔并起，我虽无意逐鹿，"
+  },
+  {
+    "id": "bafyreidyvkmc2fzpgyp2kftmzv5rttk7vwn2otplw2vt3iqdyt7ctcimji",
+    "type": "note",
+    "name": "",
+    "snippet": "丁达尔效应出现时，光便有了形状，当芙宁娜出现时，心动就有了定义[给心心]\n谋士以身入局，举棋胜天半子\n神之所以是神，并非只是因为他们远超常人的神力，他们并没有俯瞰尘世的狂傲，而是永远注视，永远用自己的方式守护\n自由的前提无法用微风的轻抚获得，要用所有人汇聚的狂风席卷一方天地，自由和和平前总有遗憾和囚困\n契约的筹码无法用摩拉的价值衡量，要用自己和他人的千年万年的奉献为价，届时已经闪耀的钻石就有能力抵"
+  },
+  {
+    "id": "bafyreia6fpkr6copqwc7zxsjxidpq2rcgylk3ckilqeobktwlgzshxkd2u",
+    "type": "note",
+    "name": "",
+    "snippet": "月明星稀代码间，\n键落无声破夜寒。\n算法如诗心自暖，\n寸寸光阴寄河山。"
+  },
+  {
+    "id": "bafyreiblw4hfl3xjb5bbyep4wqoadzrc2gu7yiuhu3jdhvpsk3cwgo6ugu",
+    "type": "note",
+    "name": "",
+    "snippet": "《承先启后，矢志科研，逐梦前行》\n\n“人固有一死，或重于泰山，或轻于鸿毛。”司马迁的这句名言，自幼便引发了我对人生意义的深刻思索。毛泽东主席在《为人民服务》中，亦曾引用此言赞扬为人民牺牲的张思德。初中时代阅读《老人与海》，我深刻领悟到“人可以被毁灭，但不能被打败”的顽强精神；高中时期，史铁生先生的《命若琴弦》更让我体会到，生命的价值在于不断奋斗的过程。然而，我的努力应该朝哪个方向持续深入？ …"
+  },
+  {
+    "id": "bafyreihlij4j232vmttm6sdltjstslcjr4iby6wgnvsam5lmd2bzs7nhx4",
+    "type": "note",
+    "name": "",
+    "snippet": "踏过蒙德摘星崖，\n览尽璃月烟火华。\n轻拂稻妻落樱花，\n聆听枫丹水优雅。\n目睹纳塔烽烟下，\n却是沉玉谷中月，\n最牵我心家。\n\n\nAcross Mondstadt's cliffs, picking stars,\nLiyue's fireworks bloom afar.\nSoftly brushing Inazuma's cherry haze,\nListening to Fontaine's gr"
+  },
+  {
+    "id": "bafyreidwdj774uywl7f5m7vlhepxmj5aadukjrvfvf7dvammr5pwppgcbq",
+    "type": "note",
+    "name": "",
+    "snippet": "他们总说：\n“三百六十行 行行出状元”\n却又说：\n“万般皆下品 唯有读书高”\n他们总说：\n“笨鸟先飞”\n却又说：\n“枪打出头鸟”\n他们总说：\n“鱼和熊掌不可兼得”\n却又说：\n“德智体美劳全面发展”\n他们总说：\n“为中华之崛起而读书”\n却又说：\n“这种考试不会考，不讲了”\n他们都说：\n“学校就是你的"
+  },
+  {
+    "id": "bafyreiazy34w574vgognn6olv4rkxfrmcfp5wl56py4vj2xrcfqjdtxxda",
+    "type": "note",
+    "name": "",
+    "snippet": "1. ACM/ICPC 国际大学生程序设计竞赛\n\n说明：全球顶级程序设计竞赛，获奖经历往往成为各大科技公司及研究机构的重要“敲门砖”。\n\n\n2. 全国大学生数学建模竞赛\n\n说明：在学术界和企业界均享有盛誉，锻炼学生利用数学方法解决复杂实际问题的能力，含金量极高。\n\n\n3. “互联网+” 大学生创新创业大赛\n\n说明：由教育部等权威部门主办，重点考察创新创业能力，获奖经历对未来创业、求职均有显著影响。"
+  },
+  {
+    "id": "bafyreicerdflvuchyo3yrjbx53suj3zjzroel3r2v73mykt6lcjzxr556e",
+    "type": "note",
+    "name": "",
+    "snippet": "修身心法十则\n\n【藏锋】则无敌，力不露而威自显。\n【隐智】则保身，知而不言，身可全矣。\n【省身】则自知，日三省而行不乱。\n【戒欲】则无缚，欲淡心明，自在无羁。\n【求实】则无虚，立足当下，心无妄想。\n【慎言】则无祸，言出如秤，沉稳是福。\n【节情】则少悲，情不滥生，苦自稀也。\n【向善】则正身，心端而行正，德形俱立。\n【守静】则神凝，纷扰不侵，意明如镜。\n【知止】则安宁，止于应止，心止则世止。"
+  },
+  {
+    "id": "bafyreigcjg5n35v6khejxewxag2fbcmqukvuudqnli43zspfsl6ph374ie",
+    "type": "note",
+    "name": "",
+    "snippet": "记忆这些易混淆的单词可以通过联想、拆解、造句和口诀来加深理解。以下是针对文中的单词提供的记忆技巧：\n\n\n---\n\n1. their / there / they're\n\n✅ 区别\n\ntheir → 他们的（表所有）\n\nthere → 那里（表地点）\n\nthey're → they are 的缩写（表状态）\n\n\n📌 记忆口诀：\n\nTheir car is red.（他们的车是红色的）→ 有“ir”就"
+  },
+  {
+    "id": "bafyreih365w7qhhooyzspdwvbw3fbqbf6o6ympwidhqgsumvhxefmu2264",
+    "type": "note",
+    "name": "",
+    "snippet": "这个幻灯片展示了一些常见的 -ficient 结尾的单词，并使用了生动的联想记忆法来帮助理解它们的意思。以下是这些单词的解释及其对应的记忆方法：\n\n单词解析\n\n1. deficient → 不足的，不够的\n\n记忆法：幻灯片上画了一个“不够”的表情，并写着“根本不够”，强调其含义。\n\n例句：The diet is deficient in vitamins.（这种饮食缺乏维生素。）\n\n\n\n2. su"
+  },
+  {
+    "id": "bafyreicvmbsc72zp3nuel6e5vvaym5zjjn65jn6imafpb7475iw6ec42nm",
+    "type": "note",
+    "name": "",
+    "snippet": "姓名：邢航乾\n考研院校：哈尔滨工业大学\n录取专业：材料与化工\n在校期间主要成绩：校级大学生创新创业训练计划项目《过渡金属(CoNI)电子结构调控Pt 基催化剂的可控合成及电催化甲醇氧化性能》\n经验分享：\n考研，是一个考验毅力的过程，需要明确的目标、科学合理的备考规划、需要严格落实复习计划的执行力。\n首先，需要树立一个明确的目标。 关于院校选择方面，一定要务实。 要根据自己的实力和兴趣，选择“跳一跳"
+  },
+  {
+    "id": "bafyreibc5wtnnjlj72qas2vmpas3kllo62v3x4hw2j6qifjdvb24jngt3e",
+    "type": "note",
+    "name": "",
+    "snippet": "对保研 & 考研同样适用的 10 条核心法则\n\n1. 目标分层，先冲高再稳妥\n\n预设 冲刺 / 保险 / 保底 三档院校（或申请项目）\n\n早期瞄准最高目标，随成绩与信息更新动态调整\n\n\n\n2. 信息情报先行\n\n考试/面试大纲、历年均分、压分情况、导师喜好 等公开&非公开信息要“挖透”\n\n同行学长学姐、论坛、公众号、院系官网都是情报源\n\n\n\n3. “三阶段”学习闭环\n\n基础 → 强化 → 冲刺（月度"
+  },
+  {
+    "id": "bafyreihjnfpcdkraocnhyiqpkytah7ezvj367fe53mpzaj3mybvetthmfu",
+    "type": "note",
+    "name": "",
+    "snippet": "1、视频素材不少于50个取自于游戏cg，角色pv，以及剧情中的即时动画\n2、音乐有两段，选的都非常好，贴切剧情，悲伤又壮烈，有一种竭尽全力的感觉，衔接过渡做的也不错，不会很突兀\n3、剪辑手法巧妙，各种穿插剪辑，背景人物的声音，慢慢浮现的字幕\n4、视频节奏非常好，先铺垫，小爆发，再铺垫，最后大爆发\n5、剧情故事本身优秀，归功于原神编剧\n6、标题和封面也是用心了\n7、在完成以上所有基础工作后，又添加了"
+  },
+  {
+    "id": "bafyreih5mxnvnccqyeoyd3jiswnpdqadnajp5nc2jq3tkmgok3hj2w7afm",
+    "type": "page",
+    "name": "",
+    "snippet": "第二阶段跳转"
+  },
+  {
+    "id": "bafyreig62yuixvtk47ngpsjajikhdj33vxi4f5nf3dmwciuu725e4mm5kq",
+    "type": "page",
+    "name": "",
+    "snippet": "📝 项目进展"
+  },
+  {
+    "id": "bafyreifqjhvumcmzos3btgeu2yqs4ninaki6kp4md6c3ur5vi6d2awwgdi",
+    "type": "page",
+    "name": "",
+    "snippet": "第二阶段跳转"
+  },
+  {
+    "id": "bafyreifit3d7mg2g4i52kwivpmnwowiikeivdocalppbjbpdn4qeskf3im",
+    "type": "note",
+    "name": "",
+    "snippet": ""
+  },
+  {
+    "id": "bafyreidwjlbhp46otg2tcr2ywlff6zlpaknjdvypajg4gaceypv3ry445e",
+    "type": "note",
+    "name": "",
+    "snippet": ""
+  },
+  {
+    "id": "bafyreiak5byhgnodlzozj4gh764yennh4jcuf23avsmktnsl77456ovthm",
+    "type": "note",
+    "name": "",
+    "snippet": ""
+  }
+]

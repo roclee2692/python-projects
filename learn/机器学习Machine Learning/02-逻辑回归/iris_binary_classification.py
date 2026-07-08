@@ -1,17 +1,23 @@
 """
 鸢尾花（Iris）数据集 - 二分类示例
 ===========================================
-目标：区分 Setosa 和非 Setosa（二分类）
+目标：区分 Setosa 和非 Setosa（二分类）  有刚毛和无刚毛
 使用：逻辑回归（区分性模型）
 
 区分性模型特点：
   - 直接学习决策边界 P(y|x)
   - 不需要对数据分布做假设
   - 专注分类边界的区分能力
+  
+  萼片长度原始值：4.7 cm ~ 7.9 cm
+标准化后：-2.0 ~ +2.5（包含负数！）
+为什么有负数？因为减去了均值，所以比均值小的都变成负数
 """
 
 import numpy as np
 import pandas as pd
+import matplotlib
+matplotlib.use('TkAgg')  # 使用 TkAgg 后端确保窗口显示
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -32,7 +38,7 @@ print("=" * 60)
 # 加载数据
 iris = load_iris()
 X = iris.data  # 特征：(150, 4)
-y = iris.target  # 标签：0=Setosa, 1=Versicolor, 2=Virginica
+y = iris.target  # 标签：0=Setosa有刚毛的  山鸢尾, 1=Versicolor 变色鸢尾 色彩斑斓的, 2=Virginica  弗吉尼亚鸢尾（一种花的品种）
 
 # 转成二分类：Setosa(0) vs 非Setosa(1)
 y_binary = (y != 0).astype(int)
@@ -79,8 +85,34 @@ print(f"  - 决策函数: P(Setosa|x) = σ(w·x + b)")
 y_pred_train = model.predict(X_train)
 y_pred_test = model.predict(X_test)
 
-train_acc = accuracy_score(y_train, y_pred_train)
+train_acc = accuracy_score(y_train, y_pred_train) #精度
 test_acc = accuracy_score(y_test, y_pred_test)
+''''国际通用的区分：
+
+术语	中文最好翻译	代码函数
+Accuracy	准确率/精度	accuracy_score()
+Precision	精确率	precision_score()  书上也叫准确率
+Recall	召回率/灵敏度	recall_score() 查全率  
+精度 (Accuracy)     = 全对/总数      ← 全体评价
+精确率 (Precision)  = 预测对/预测总数 ← 预测质量
+召回率 (Recall)     = 预测对/真实总数 ← 捕捉能力
+
+accuracy_score = 整体对不对 ✅❌
+precision = 你说对了的里有多少真的对
+recall = 真正对的里有多少你说出来了
+f1_score = (2 * precision * recall) / (precision + recall)
+
+
+
+标准化 vs 正则化（完全不同的东西！）
+特点	标准化 (Standardization)	正则化 (Regularization)
+是什么	数据预处理方法	防止过拟合的技术
+目的	改变数据范围	限制模型复杂度
+公式	x_scaled = (x - 均值) / 标准差	Loss + λ·∑w²
+结果	可能有负数	参数变小
+阶段	训练前	训练时
+
+''' 
 
 print(f"\n性能评估:")
 print(f"  - 训练集准确率: {train_acc:.4f}")
@@ -116,7 +148,7 @@ xx, yy = np.meshgrid(np.arange(x_min, x_max, h),
 Z = model.predict(np.c_[xx.ravel(), yy.ravel()])
 Z = Z.reshape(xx.shape)
 
-# 绘图
+# 绘图  axes = 坐标轴/子图（绘图对象）
 fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
 # 左图：决策边界

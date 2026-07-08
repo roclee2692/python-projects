@@ -176,8 +176,8 @@ ax.grid(alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('discriminative_vs_generative.png', dpi=150, bbox_inches='tight')
-print("✓ 已保存：discriminative_vs_generative.png")
-plt.close()
+print("[OK] 已保存：discriminative_vs_generative.png")
+plt.show()  # 用户关闭窗口后继续
 
 # ==================== 5. 混淆矩阵对比 ====================
 print("\n生成混淆矩阵对比图...")
@@ -202,8 +202,8 @@ axes[1].set_title(f'Naive Bayes\n朴素贝叶斯 (Accuracy: {nb_test_acc:.2%})',
 
 plt.tight_layout()
 plt.savefig('confusion_matrix_comparison.png', dpi=150, bbox_inches='tight')
-print("✓ 已保存：confusion_matrix_comparison.png")
-plt.close()
+print("[OK] 已保存：confusion_matrix_comparison.png")
+plt.show()
 
 # ==================== 6. 预测概率分布对比 ====================
 print("\n生成预测概率分布对比图...")
@@ -236,8 +236,8 @@ ax.grid(alpha=0.3, axis='y')
 
 plt.tight_layout()
 plt.savefig('probability_distribution_comparison.png', dpi=150, bbox_inches='tight')
-print("✓ 已保存：probability_distribution_comparison.png")
-plt.close()
+print("[OK] 已保存：probability_distribution_comparison.png")
+plt.show()
 
 # ==================== 7. 概率热力图对比 ====================
 print("\n生成概率热力图对比...")
@@ -278,8 +278,8 @@ cbar.set_label('Probability / 概率', fontsize=10)
 
 plt.tight_layout()
 plt.savefig('probability_heatmap_comparison.png', dpi=150, bbox_inches='tight')
-print("✓ 已保存：probability_heatmap_comparison.png")
-plt.close()
+print("[OK] 已保存：probability_heatmap_comparison.png")
+plt.show()
 
 # ==================== 8. 详细分类报告 ====================
 print("\n" + "=" * 70)
